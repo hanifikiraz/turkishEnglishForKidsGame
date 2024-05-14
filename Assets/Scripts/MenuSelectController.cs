@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class MenuSelectController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  [SerializeField] private GameObject mainMenuCanvas;
+  [SerializeField] private GameObject openCanvas;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public void OpenStudentCanvas()
+  {
+    openCanvas.SetActive(true);
+    mainMenuCanvas.SetActive(false);
+  }
+
+  public void BackToMainMenu()
+  {
+    mainMenuCanvas.SetActive(true);
+    openCanvas.SetActive(false);
+  }
+  
 }

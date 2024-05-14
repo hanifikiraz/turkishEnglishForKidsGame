@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 2846494933269276443}
   - component: {fileID: 2099603919535245456}
   - component: {fileID: 2417298520492645671}
+  - component: {fileID: 1824204807117320972}
   m_Layer: 0
   m_Name: Student1
   m_TagString: Untagged
@@ -292,7 +293,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2099603919535245456}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1824204807117320972}
+        m_TargetAssemblyTypeName: MenuSelectController, Assembly-CSharp
+        m_MethodName: OpenStudentCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1824204807117320972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2526252279057523446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9d8f089a6ae6c4da53b8aed468ce29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 3142286809473957508}
+  openCanvas: {fileID: 0}
 --- !u!1 &3065266440584207851
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +568,7 @@ GameObject:
   - component: {fileID: 3822278410375594580}
   - component: {fileID: 6163041672724677921}
   - component: {fileID: 7522547153915989053}
+  - component: {fileID: 8758566597237743620}
   m_Layer: 0
   m_Name: Student3
   m_TagString: Untagged
@@ -649,7 +677,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6163041672724677921}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1824204807117320972}
+        m_TargetAssemblyTypeName: MenuSelectController, Assembly-CSharp
+        m_MethodName: OpenStudentCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8758566597237743620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3885453608382499290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9d8f089a6ae6c4da53b8aed468ce29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 3142286809473957508}
+  openCanvas: {fileID: 0}
 --- !u!1 &6677024521150288263
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,6 +716,7 @@ GameObject:
   - component: {fileID: 7102720412998482729}
   - component: {fileID: 7423660651661485455}
   - component: {fileID: 2763907485357359399}
+  - component: {fileID: 2685220049190833585}
   m_Layer: 0
   m_Name: Student2
   m_TagString: Untagged
@@ -770,7 +825,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7423660651661485455}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1824204807117320972}
+        m_TargetAssemblyTypeName: MenuSelectController, Assembly-CSharp
+        m_MethodName: OpenStudentCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2685220049190833585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677024521150288263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9d8f089a6ae6c4da53b8aed468ce29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 3142286809473957508}
+  openCanvas: {fileID: 0}
 --- !u!1 &7636851699734361999
 GameObject:
   m_ObjectHideFlags: 0
