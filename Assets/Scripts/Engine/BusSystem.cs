@@ -63,6 +63,14 @@ public static class BusSystem
     {
         OnWrongAnswer?.Invoke(value);
     }
+    
+    public static Action<PairingButtons> OnPairingButtons;
+
+    public static void CallPairingButtons(PairingButtons value)
+    {
+        OnPairingButtons?.Invoke(value);
+    }
+    
     public static Action<int> OnPlayerSetAnim;
 
     public static void CallPlayerSetAnim(int value)
