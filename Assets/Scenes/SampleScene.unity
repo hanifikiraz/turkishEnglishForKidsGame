@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &57640132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270808763485170172, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+  m_PrefabInstance: {fileID: 914459040239508217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &358687006
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +880,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &968707865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7936019159951637070, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+  m_PrefabInstance: {fileID: 914459040239508217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1109356596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,10 +1906,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 126475957543174558, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 126475957543174558, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: buttonTextAnswer
+      value: ARMUT
+      objectReference: {fileID: 0}
     - target: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
       propertyPath: m_Name
       value: LevelScene
       objectReference: {fileID: 0}
+    - target: {fileID: 2100052814047334956, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2100052814047334956, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: buttonTextAnswer
+      value: MUZ
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461689876618536204, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 57640132}
+    - target: {fileID: 2461689876618536204, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 968707865}
     - target: {fileID: 6299542454138151540, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
       propertyPath: m_Camera
       value: 
