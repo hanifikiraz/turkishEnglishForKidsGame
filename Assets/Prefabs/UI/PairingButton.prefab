@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.8, y: 1.67}
+  m_AnchoredPosition: {x: 0.8000488, y: 1.67}
   m_SizeDelta: {x: 1, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2485778737137255099
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 13085fb2478384ff1b492ef554bdf75e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d82cf495b3554b579cfd4a4adf81fe6, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -146,6 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d146434e08a408e48a9a1559bded3d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultImage: {fileID: 2937794166287816101}
+  clickImage: {fileID: 21300000, guid: 196d243356f044f4297eb2ab5a2cdcfb, type: 3}
+  wrongImage: {fileID: 21300000, guid: 9af9ec3401f7a4d4b9ef3b7169554431, type: 3}
+  correctImage: {fileID: 21300000, guid: 13085fb2478384ff1b492ef554bdf75e, type: 3}
+  defaultSprite: {fileID: 21300000, guid: 6d82cf495b3554b579cfd4a4adf81fe6, type: 3}
   objectName: APPLE
   objectText: {fileID: 1790628395410716172}
   objectID: 0

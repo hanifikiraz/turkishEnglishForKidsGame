@@ -36,16 +36,33 @@ public class PairingLevelSystem : MonoBehaviour
                 BusSystem.CallPlayerSetAnim(2);
                 foreach (var VARIABLE in pairingButtons)
                 {
-                    VARIABLE.transform.DOScale(Vector3.zero, 0.3f).OnComplete(LevelEndController);
+                    VARIABLE.GetComponent<PairingButtons>().SetImage(3);
+                    VARIABLE.transform.DOScale(Vector3.zero, 0.5f).OnComplete(LevelEndController);
                 }
             }
             else
             {
+                foreach (var VARIABLE in pairingButtons)
+                {
+                    VARIABLE.GetComponent<PairingButtons>().SetImage(2);
+                }
                 Debug.Log("FALSE");
                 BusSystem.CallPlayerSetAnim(3);
+              
             }
             pairingButtons.Clear();
+            StartCoroutine(SpriteChange());
+
         }   
+    }
+
+    private IEnumerator SpriteChange()
+    {
+        yield return new WaitForSecondsRealtime(0.3f);
+        foreach (var VARIABLE in this.buttons)
+        {
+            VARIABLE.GetComponent<PairingButtons>().SetImage(0);
+        }
     }
 
     private void LevelEndController()
