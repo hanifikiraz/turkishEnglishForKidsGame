@@ -11,6 +11,8 @@ public class AnswerController : MonoBehaviour
     [SerializeField] private List<GameObject> buttons;
     [SerializeField] private GameObject buttonsBackGround;
     [SerializeField] private GameObject congText;
+    [SerializeField] private GameObject particlesForWin;
+    [SerializeField] private List<ParticleSystem> partic;
 
     private void OnEnable()
     {
@@ -57,11 +59,16 @@ public class AnswerController : MonoBehaviour
         foreach (var VARIABLE in buttons)
         {
             VARIABLE.GetComponent<ButtonSelection>().CloseAnimButtons();
-            VARIABLE.gameObject.transform.DOScale(Vector3.zero, 0.2f);
-            yield return new WaitForSecondsRealtime(0.1f);
+            VARIABLE.gameObject.transform.DOScale(Vector3.zero, 0.3f);
+            yield return new WaitForSecondsRealtime(0.3f);
         }
+        particlesForWin.SetActive(true);
         congText.SetActive(true);
         congText.gameObject.transform.DOScale(Vector3.zero, 0.7f).From();
+        foreach (var VARIABLE in partic)
+        {
+            VARIABLE.Play();
+        }
     }
 }
 
