@@ -23,6 +23,7 @@ public class ButtonSelection : MonoBehaviour
         buttonText.text = buttonTextAnswer;
         TweenAnimationLittle();
     }
+    
 
     private void TweenAnimationBig()
     {
@@ -45,10 +46,12 @@ public class ButtonSelection : MonoBehaviour
             case Answer.True:
                 Debug.Log("True");
                 BusSystem.CallPlayerSetAnim(2);
+                BusSystem.CallWrongAnswer(true);
                 break;
             case Answer.False:
                 Debug.Log("False");
                 BusSystem.CallPlayerSetAnim(3);
+                BusSystem.CallWrongAnswer(false);
                 break;
         }
     }

@@ -57,7 +57,12 @@ public static class BusSystem
 
 
     //Gameplay actions
+    public static Action<bool> OnWrongAnswer;
 
+    public static void CallWrongAnswer(bool value)
+    {
+        OnWrongAnswer?.Invoke(value);
+    }
     public static Action<int> OnPlayerSetAnim;
 
     public static void CallPlayerSetAnim(int value)
