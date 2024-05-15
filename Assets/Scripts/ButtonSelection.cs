@@ -16,6 +16,7 @@ public class ButtonSelection : MonoBehaviour
     [SerializeField] private Answer answerType;
     [SerializeField] private string buttonTextAnswer;
     [SerializeField] private TextMeshProUGUI buttonText;
+    private Tween scaleTween;
 
     private void Start()
     {
@@ -25,11 +26,16 @@ public class ButtonSelection : MonoBehaviour
 
     private void TweenAnimationBig()
     {
-        gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
+        scaleTween =  gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
     }
     private void TweenAnimationLittle()
     {
-        gameObject.transform.DOScale(new Vector3(0.9f,0.9f,0.9f), 0.8f).OnComplete(TweenAnimationBig);
+        scaleTween = gameObject.transform.DOScale(new Vector3(0.9f,0.9f,0.9f), 0.8f).OnComplete(TweenAnimationBig);
+    }
+
+    public void CloseAnimButtons()
+    {
+        scaleTween.Kill();
     }
 
     public void AnswerController()

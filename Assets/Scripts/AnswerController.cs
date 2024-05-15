@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
 public class AnswerController : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI answerText;
+    [SerializeField] private List<GameObject> buttons;
+    [SerializeField] private GameObject buttonsBackGround;
 
     private void Update()
     {
@@ -18,39 +21,23 @@ public class AnswerController : MonoBehaviour
 
     private void SetTextAnim()
     {
-        if (answerText != null)
+        answerText.gameObject.transform.DOScale(new Vector3(1.5f,1.5f,1.5f), 1f).OnComplete(() =>
         {
-            // Metni al
-            string text = answerText.text;
-
-            // Her harfin boyutunu 12 yap
-            answerText.fontSize = 0.35f;
-
-            // Metindeki her harfi döngüyle işle
-            StartCoroutine(TextAnim(text));
-
-        }
-        else
-        {
-            Debug.LogError("TextMeshProUGUI nesnesi atanmamış!");
-        }
+            StartCoroutine(TextAnim());
+        });
+        
     }
-
-    private IEnumerator TextAnim(string text)
+    private IEnumerator TextAnim()
     {
-        for (int i = 0; i < text.Length; i++)
+        buttonsBackGround.transform.DOMoveY(-5, 1f);
+        yield return new WaitForSecondsRealtime(0.4f);
+        
+        foreach (var VARIABLE in buttons)
         {
-            // Metindeki i. harfi seç
-            int charIndex = answerText.textInfo.characterInfo[i].index;
-
-            // Harfin font boyutunu 15 yap
-            answerText.fontSize = 0.27f;
-
-            // Tekrar meshi güncelle
-            answerText.ForceMeshUpdate();
+            VARIABLE.GetComponent<ButtonSelection>().CloseAnimButtons();
+            VARIABLE.gameObject.transform.DOScale(Vector3.zero, 0.2f);
+            yield return new WaitForSecondsRealtime(0.1f);
         }
-
-        yield return new WaitForSecondsRealtime(0.1f);
     }
 }
 
