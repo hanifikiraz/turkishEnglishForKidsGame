@@ -71,6 +71,13 @@ public static class BusSystem
         OnPairingButtons?.Invoke(value);
     }
     
+    public static Action<DoubleSideObject> OnDoubleSideObject;
+
+    public static void CallDoubleSideObject(DoubleSideObject value)
+    {
+        OnDoubleSideObject?.Invoke(value);
+    }
+    
     public static Action<int> OnPlayerSetAnim;
 
     public static void CallPlayerSetAnim(int value)
