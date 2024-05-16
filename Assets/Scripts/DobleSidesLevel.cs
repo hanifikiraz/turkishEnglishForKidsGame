@@ -22,10 +22,7 @@ public class DobleSidesLevel : MonoBehaviour
             {
                 Debug.Log("TRUE");
                 BusSystem.CallPlayerSetAnim(2);
-                foreach (var VARIABLE in doubleSidesObject)
-                {
-                    VARIABLE.transform.DOScale(Vector3.zero, 0.5f).OnComplete(LevelEndController);
-                }
+                StartCoroutine(CollectObject());
             }
             else
             {
@@ -33,10 +30,21 @@ public class DobleSidesLevel : MonoBehaviour
                 
                 BusSystem.CallPlayerSetAnim(3);
                 StartCoroutine(RotateDefault());
+                
 
             }
-            doubleSidesObject.Clear();
+            
         }   
+    }
+
+    private IEnumerator CollectObject()
+    {
+        yield return new WaitForSecondsRealtime(0.4f);
+        foreach (var VARIABLE in doubleSidesObject)
+        {
+            VARIABLE.transform.DOScale(Vector3.zero, 0.8f).OnComplete(LevelEndController);
+        }
+        doubleSidesObject.Clear();
     }
 
     private IEnumerator RotateDefault()
@@ -46,6 +54,7 @@ public class DobleSidesLevel : MonoBehaviour
         {
             VARIABLE.transform.DOLocalRotate(Vector3.zero, 0.5f);
         }
+        doubleSidesObject.Clear();
     }
     private void LevelEndController()
     {
@@ -92,10 +101,13 @@ public class DobleSidesLevel : MonoBehaviour
             {
                 // Eğer temas edilen obje varsa, objenin adı yazdırılıyor.
                 Debug.Log("Tıklanan obje adı: " + hit.transform.name);
-                if (hit.transform.gameObject.name == "DoubleSideObject")
+                if (doubleSidesObject.Count<2)
                 {
-                    SetDoubleSidesButtons(hit.transform.parent.transform.gameObject.GetComponent<DoubleSideObject>());
-                    hit.transform.parent.transform.DOLocalRotate(new Vector3(0,180,0),0.5f);
+                    if (hit.transform.gameObject.name == "DoubleSideObject")
+                    {
+                        SetDoubleSidesButtons(hit.transform.parent.transform.gameObject.GetComponent<DoubleSideObject>());
+                        hit.transform.parent.transform.DOLocalRotate(new Vector3(0,180,0),0.5f);
+                    }
                 }
             }
         }
