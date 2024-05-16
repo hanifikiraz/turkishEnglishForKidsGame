@@ -84,4 +84,19 @@ public static class BusSystem
     {
         OnPlayerSetAnim?.Invoke(value);
     }
+    
+    // Jump Level Controller
+
+    public static Action OnPlayerJump;
+
+    public static void CallPlayerJump()
+    {
+        OnPlayerJump?.Invoke();
+    }
+
+    public static Action OnJumpLevelDone;
+    public static void CallJumpLevelDone()
+    {
+        OnJumpLevelDone?.Invoke();
+    }
 }
