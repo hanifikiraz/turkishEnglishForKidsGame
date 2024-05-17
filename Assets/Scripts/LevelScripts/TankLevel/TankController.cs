@@ -8,6 +8,7 @@ namespace LevelScripts.TankLevel
         [SerializeField] private GameObject turret;
         [SerializeField] private GameObject bullet;
         [SerializeField] private Transform shotPos;
+        [SerializeField] private ParticleSystem bombPartic;
         public float minRotationX = -45f;  // Minimum Z rotasyonu
         public float maxRotationX = 45f;   // Maksimum Z rotasyonu
         public float turretSpeed = 100f;  // Rotasyon hızı
@@ -65,6 +66,7 @@ namespace LevelScripts.TankLevel
         public void ShotBullet()
         {
             GameObject instBullet =  Instantiate(bullet, shotPos.position, shotPos.rotation);
+            bombPartic.Play();
         }
         
     }
