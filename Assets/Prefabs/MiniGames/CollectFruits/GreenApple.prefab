@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 272726840287920403}
   - component: {fileID: 2229721551760432639}
   - component: {fileID: 3534474388855511707}
+  - component: {fileID: -7470698658771090770}
   m_Layer: 0
   m_Name: GreenApple
   m_TagString: FruitCollect
@@ -105,3 +106,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.64966774
   m_Center: {x: -0.000000029802322, y: 0.000000029802317, z: 0.186022}
+--- !u!114 &-7470698658771090770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4539460656606772865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3a769bdca3dbb4a8c302cf3e9138c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPos: -3
+  yPosDuration: 5
+  point: 10

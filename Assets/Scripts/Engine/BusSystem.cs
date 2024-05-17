@@ -99,4 +99,18 @@ public static class BusSystem
     {
         OnJumpLevelDone?.Invoke();
     }
+
+    public static Action<int> OnBasketMove;
+
+    public static void CallBasketMove(int value)
+    {
+        OnBasketMove?.Invoke(value);
+    }
+
+    public static Action<float> OnSetFruitScore;
+
+    public static void CallSetFruitScore(float value)
+    {
+        OnSetFruitScore?.Invoke(value);
+    }
 }

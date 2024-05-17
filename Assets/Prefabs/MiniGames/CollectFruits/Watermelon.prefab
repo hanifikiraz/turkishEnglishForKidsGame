@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 762613357628360302}
   - component: {fileID: 1578895035976614412}
   - component: {fileID: 6769181039622471916}
+  - component: {fileID: 5307930482327400417}
+  - component: {fileID: 7694272540362651847}
   m_Layer: 0
   m_Name: Watermelon
   m_TagString: FruitCollect
@@ -83,3 +85,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5307930482327400417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077581192672603860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3a769bdca3dbb4a8c302cf3e9138c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPos: -3
+  yPosDuration: 5
+  point: 10
+--- !u!135 &7694272540362651847
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077581192672603860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.1594805
+  m_Center: {x: 0, y: 0, z: 0}
