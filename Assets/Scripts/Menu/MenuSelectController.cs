@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuSelectController : MonoBehaviour
+namespace Menu
 {
-  [SerializeField] private GameObject mainMenuCanvas;
-  [SerializeField] private GameObject openCanvas;
-
-  public void OpenStudentCanvas()
+  public class MenuSelectController : MonoBehaviour
   {
-    openCanvas.SetActive(true);
-    mainMenuCanvas.SetActive(false);
-  }
+    [SerializeField] private GameObject mainMenuCanvas;
+    [SerializeField] private GameObject openCanvas;
+    public void OpenStudentCanvas()
+    {
+      openCanvas.SetActive(true);
+      mainMenuCanvas.SetActive(false);
+    }
 
-  public void BackToMainMenu()
-  {
-    mainMenuCanvas.SetActive(true);
-    openCanvas.SetActive(false);
-  }
+    public void BackToMainMenu()
+    {
+      mainMenuCanvas.SetActive(true);
+      openCanvas.SetActive(false);
+    }
   
+  }
 }
