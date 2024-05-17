@@ -106,6 +106,13 @@ public static class BusSystem
     {
         OnBasketMove?.Invoke(value);
     }
+    
+    public static Action<int> OnTankMove;
+
+    public static void CallTankMove(int value)
+    {
+        OnTankMove?.Invoke(value);
+    }
 
     public static Action<float> OnSetFruitScore;
 
