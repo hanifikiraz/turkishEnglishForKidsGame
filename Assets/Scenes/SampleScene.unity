@@ -131,9 +131,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: ANIMALS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 865b1bdee04f84f4aac32fc449ce2867, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: ANIMALS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -264,9 +280,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: BODYPARTS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b51a687d1295cef4889e814e9db7f231, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: BODYPARTS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -468,9 +500,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: PLAYGROUND
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fa03825ca1224b34b97db130dfd90802, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: PLAYGROUND
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -570,9 +618,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: NUMBERS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9da03f84b6ab47a459acff9104fc0da1, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: NUMBERS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -917,9 +981,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: PETS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 945d14b6ad70362408341635d7e06170, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: PETS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -1048,8 +1128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -180, y: 115}
-  m_SizeDelta: {x: 360, y: 230}
+  m_AnchoredPosition: {x: -321, y: 153}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &904926166
 MonoBehaviour:
@@ -1120,15 +1200,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9490197, g: 0.18823531, b: 0.011764707, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300020, guid: 26c8d568e8a51bd4fa3c85e2667f9194, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1294,9 +1374,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: FRIENDS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 60f5c23e61030aa429e86ce127a90f5f, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: FRIENDS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -1401,9 +1497,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: CLASSROOM
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a0bc84b141170d47819056834bf42ab, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: CLASSROOM
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -1503,9 +1615,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: FRUIT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecca70d9014b8b542a0875672e78f3cb, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: FRUIT
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x
@@ -1717,7 +1845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1407852226
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1759,15 +1887,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
+  m_sharedMaterial: {fileID: -2611141533632081297, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2006,9 +2134,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1519059324}
     m_Modifications:
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819818456556022194, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: unitTextString
+      value: COLOURS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493437818917872210, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4cc47fda4f52a6743953458da405a203, type: 3}
     - target: {fileID: 5903319964100137051, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Name
       value: Fruit (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082646479010856384, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
+      propertyPath: m_text
+      value: COLOURS
       objectReference: {fileID: 0}
     - target: {fileID: 8878254932118061451, guid: 5de42f852c0f9644f8a1d925cd4d54a6, type: 3}
       propertyPath: m_Pivot.x

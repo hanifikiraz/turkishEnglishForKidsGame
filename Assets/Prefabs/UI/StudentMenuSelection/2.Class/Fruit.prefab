@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7596245904544741337}
   - component: {fileID: 1884985841650309109}
   - component: {fileID: 8765798887174469175}
+  - component: {fileID: 2819818456556022194}
   m_Layer: 0
   m_Name: Fruit
   m_TagString: Untagged
@@ -122,6 +123,33 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2819818456556022194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903319964100137051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09efd41f9fb58e84a8b9ae4702b7c049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType: 0
+  unitImages:
+  - {fileID: 21300000, guid: 1225f2754c5aa8a4a974c8f82a6d6ddf, type: 3}
+  - {fileID: 21300000, guid: 60f5c23e61030aa429e86ce127a90f5f, type: 3}
+  - {fileID: 21300000, guid: 8a0bc84b141170d47819056834bf42ab, type: 3}
+  - {fileID: 21300000, guid: 9da03f84b6ab47a459acff9104fc0da1, type: 3}
+  - {fileID: 21300000, guid: 4cc47fda4f52a6743953458da405a203, type: 3}
+  - {fileID: 21300000, guid: fa03825ca1224b34b97db130dfd90802, type: 3}
+  - {fileID: 21300000, guid: b51a687d1295cef4889e814e9db7f231, type: 3}
+  - {fileID: 21300000, guid: 945d14b6ad70362408341635d7e06170, type: 3}
+  - {fileID: 21300000, guid: ecca70d9014b8b542a0875672e78f3cb, type: 3}
+  - {fileID: 21300000, guid: 865b1bdee04f84f4aac32fc449ce2867, type: 3}
+  defaultImage: {fileID: 4493437818917872210}
+  unitText: {fileID: 7082646479010856384}
+  unitTextString: WORDS
 --- !u!1 &6268194863873078673
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FRUIT
+  m_text: WORDS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
   m_sharedMaterial: {fileID: -2611141533632081297, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
@@ -214,12 +242,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 61.44
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 61.44
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -366,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.344, y: 37.9081}
+  m_AnchoredPosition: {x: 1.344, y: 50}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5870959366859059219
@@ -397,7 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 009dd4720ace818469b8185dd494a140, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1225f2754c5aa8a4a974c8f82a6d6ddf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
