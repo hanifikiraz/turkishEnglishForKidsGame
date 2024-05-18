@@ -21,7 +21,7 @@ namespace LevelScripts.TankLevel
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "Finish")
+            if (other.gameObject.tag == "MovingParent")
             {
                 Destroy(gameObject);
             }

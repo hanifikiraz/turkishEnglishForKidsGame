@@ -120,4 +120,11 @@ public static class BusSystem
     {
         OnSetFruitScore?.Invoke(value);
     }
+
+    public static Action OnMovingObjectBomb;
+
+    public static void CallMovingObjectBomb()
+    {
+        OnMovingObjectBomb?.Invoke();
+    }
 }
