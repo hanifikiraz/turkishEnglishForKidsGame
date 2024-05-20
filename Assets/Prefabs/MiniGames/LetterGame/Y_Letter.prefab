@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6130533541232096117}
   - component: {fileID: 7064402438439183322}
   - component: {fileID: 3516509326472802798}
+  - component: {fileID: -5645844755443855188}
   m_Layer: 0
   m_Name: Y_Letter
-  m_TagString: Untagged
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,3 +106,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.008826875, y: 0.010969947, z: 0.004725667}
   m_Center: {x: -0.00008536527, y: 0.00551941, z: -2.7757576e-21}
+--- !u!114 &-5645844755443855188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381620606198861543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50037be09fc26cd45a090e81c99e4e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterType: 1
+  letters: 19
