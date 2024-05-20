@@ -127,4 +127,11 @@ public static class BusSystem
     {
         OnMovingObjectBomb?.Invoke();
     }
+    
+    public static Action OnAAGameLevelEnd;
+
+    public static void CallAAGameLevelEnd()
+    {
+        OnAAGameLevelEnd?.Invoke();
+    }
 }
