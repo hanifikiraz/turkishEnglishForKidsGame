@@ -6,6 +6,7 @@ namespace LevelScripts.RecyleGame
 {
     public class ArrowUpController : MonoBehaviour
     {
+        [SerializeField] private GameObject arrow;
         [SerializeField] private float startPos;
         [SerializeField] private float endPos;
         [SerializeField] private float duration;
@@ -23,11 +24,11 @@ namespace LevelScripts.RecyleGame
 
         private void UpTweenArrow()
         {
-            upTween = transform.DOLocalMoveY(endPos, duration).OnComplete(DownTweenArrow);
+            upTween = arrow.transform.DOLocalMoveY(endPos, duration).OnComplete(DownTweenArrow);
         }
         private void DownTweenArrow()
         {
-            upTween = transform.DOLocalMoveY(startPos, duration).OnComplete(UpTweenArrow);
+            upTween = arrow.transform.DOLocalMoveY(startPos, duration).OnComplete(UpTweenArrow);
         }
 
     }

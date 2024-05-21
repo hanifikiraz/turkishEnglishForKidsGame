@@ -8,6 +8,16 @@ namespace LevelScripts.RecyleGame
     {
         [SerializeField] private List<GameObject> inAreas;
 
+        private void OnEnable()
+        {
+            BusSystem.OnGoAreaValue += InAreasController;
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnGoAreaValue -= InAreasController;
+        }
+
         private void Start()
         {
             InAreasController(0);
@@ -15,11 +25,15 @@ namespace LevelScripts.RecyleGame
 
         private void InAreasController(int value)
         {
+           
             foreach (var VARIABLE in inAreas)
             {
                 VARIABLE.SetActive(false);
             }
-            inAreas[value].SetActive(true);
+            if (value <5)
+            {
+                inAreas[value].SetActive(true);
+            }
         }
     }
 }

@@ -148,4 +148,11 @@ public static class BusSystem
     {
         OnLetterCompletedControl?.Invoke();
     }
+
+    public static Action<int> OnGoAreaValue;
+
+    public static void CallGoAreValue(int value)
+    {
+        OnGoAreaValue?.Invoke(value);
+    }
 }
