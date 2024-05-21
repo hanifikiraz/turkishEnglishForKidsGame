@@ -141,4 +141,11 @@ public static class BusSystem
     {
         OnMaterialControlLetter?.Invoke();
     }
+    
+    public static Action OnLetterCompletedControl;
+
+    public static void CallLetterCompletedControl()
+    {
+        OnLetterCompletedControl?.Invoke();
+    }
 }
