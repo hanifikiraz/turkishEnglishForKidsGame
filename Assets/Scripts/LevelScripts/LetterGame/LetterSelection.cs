@@ -18,8 +18,6 @@ namespace LevelScripts.LetterGame
         public LetterType letterType;
         public Letters letters;
         public bool isTaked;
-        
-
-
+        public bool isCompleted;
     }
 }

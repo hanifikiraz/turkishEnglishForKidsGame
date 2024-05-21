@@ -123,10 +123,15 @@ namespace LevelScripts.LetterGame
                         isTakeLetter = false;
                         letter.transform.position = other.gameObject.transform.position;
                         letter.transform.rotation = other.gameObject.transform.rotation;
-                        other.gameObject.SetActive(false);
+                        other.gameObject.GetComponent<MeshRenderer>().material =
+                            letter.GetComponent<MeshRenderer>().material;
+                        other.gameObject.GetComponent<BoxCollider>().enabled = false;
+                        other.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                        other.gameObject.GetComponent<LetterSelection>().isCompleted = true;
                         letter.GetComponent<LetterSelection>().isTaked = true;
                         letter.transform.parent = other.gameObject.transform.parent;
                         letter = null;
+                        BusSystem.CallMaterialControlLetter();
                     }
                 }
             }

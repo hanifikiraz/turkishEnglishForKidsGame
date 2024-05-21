@@ -134,4 +134,11 @@ public static class BusSystem
     {
         OnAAGameLevelEnd?.Invoke();
     }
+    
+    public static Action OnMaterialControlLetter;
+
+    public static void CallMaterialControlLetter()
+    {
+        OnMaterialControlLetter?.Invoke();
+    }
 }
