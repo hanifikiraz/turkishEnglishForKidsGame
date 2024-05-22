@@ -8,6 +8,9 @@ namespace LevelScripts.RecyleGame
     public class BoxController : MonoBehaviour
     {
         [SerializeField] private List<Transform> boxPosition;
+        [SerializeField] private GameObject box;
+        [SerializeField] private GameObject boxTwo;
+        [SerializeField] private GameObject letter;
         private bool isStart;
 
         private void Update()
@@ -27,6 +30,9 @@ namespace LevelScripts.RecyleGame
                 {
                     gameObject.transform.DOLocalMove(boxPosition[2].localPosition, 3f).OnComplete((() =>
                     {
+                        box.SetActive(false);
+                        boxTwo.SetActive(false);
+                        letter.SetActive(true);
                         gameObject.transform.DOLocalMove(boxPosition[3].localPosition, 2f).OnComplete((() =>
                         {
                             BusSystem.CallGoAreValue(2);

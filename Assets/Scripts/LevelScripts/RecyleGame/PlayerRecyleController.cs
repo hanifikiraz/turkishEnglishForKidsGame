@@ -24,17 +24,20 @@ namespace LevelScripts.RecyleGame
         {
             if (other.gameObject.tag == "GoArea1" && isTriggerArea == false)
             {
-                StartCoroutine(SetTriggerArea());
-                currentBox = other.gameObject.GetComponent<StandsController>().boxes[0];
-                currentBox.transform.position =
-                    boxPos.transform.position;
+                if (other.gameObject.GetComponent<StandsController>().boxes.Count>=1)
+                {
+                    StartCoroutine(SetTriggerArea());
+                    currentBox = other.gameObject.GetComponent<StandsController>().boxes[0];
+                    currentBox.transform.position =
+                        boxPos.transform.position;
 
-                currentBox.transform.rotation =
-                    boxPos.transform.rotation;
+                    currentBox.transform.rotation =
+                        boxPos.transform.rotation;
 
-                currentBox.transform.SetParent(boxPos.transform);
-                other.gameObject.GetComponent<StandsController>().boxes.Remove(currentBox);
-                BusSystem.CallGoAreValue(1);
+                    currentBox.transform.SetParent(boxPos.transform);
+                    other.gameObject.GetComponent<StandsController>().boxes.Remove(currentBox);
+                    BusSystem.CallGoAreValue(1);
+                }
             }
 
             if (other.gameObject.tag == "GoArea2" && isTriggerArea == false)
