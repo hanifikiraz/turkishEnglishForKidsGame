@@ -122,7 +122,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1884985841650309109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2819818456556022194}
+        m_TargetAssemblyTypeName: Menu.ClassMenuController.ClassMenuControllerTwoClass,
+          Assembly-CSharp
+        m_MethodName: OpenUnit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2819818456556022194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +163,8 @@ MonoBehaviour:
   defaultImage: {fileID: 4493437818917872210}
   unitText: {fileID: 7082646479010856384}
   unitTextString: WORDS
+  canvasParent: {fileID: 0}
+  instantiateCanvasObject: {fileID: 0}
 --- !u!1 &6268194863873078673
 GameObject:
   m_ObjectHideFlags: 0

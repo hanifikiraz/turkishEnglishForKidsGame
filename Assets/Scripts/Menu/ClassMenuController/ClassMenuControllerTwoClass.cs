@@ -27,13 +27,20 @@ namespace Menu.ClassMenuController
        [SerializeField] private Image defaultImage;
        [SerializeField] private TextMeshProUGUI unitText;
        [SerializeField] private string unitTextString;
-
+       [SerializeField] private GameObject myCanvas;
+       [SerializeField] private GameObject unitCanvas;
        private void OnValidate()
        {
            UnitSelection();
            unitText.text = unitTextString;
        }
 
+       public void OpenUnit()
+       {
+           unitCanvas.SetActive(true);
+           myCanvas.SetActive(false);
+       }
+        
        private void SpriteSelection(int value)
        {
            defaultImage.sprite = unitImages[value];
