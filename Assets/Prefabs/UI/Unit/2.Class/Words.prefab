@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5679038661819484530}
   - component: {fileID: 3245820316470082505}
   - component: {fileID: 5112616687573976639}
+  - component: {fileID: 5847117727389466337}
   m_Layer: 0
   m_Name: Words
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.4392157}
+  m_Color: {r: 1, g: 0.082352936, b: 0.49884087, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -77,6 +78,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5847117727389466337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2593857290265513663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5fa2a0d76df434fbd7725a867ada68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordTextStr: 
+  wordTextMesh: {fileID: 2325546920800261391}
 --- !u!1 &7252615696041375193
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,8 +201,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50.59401, y: 0}
-  m_SizeDelta: {x: 504.006, y: 74.1716}
+  m_AnchoredPosition: {x: -32.5, y: 0}
+  m_SizeDelta: {x: 540.2, y: 74.1716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5330555431794117412
 CanvasRenderer:
@@ -217,7 +232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AMBULANCE - AMBULANS
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
   m_sharedMaterial: {fileID: -2611141533632081297, guid: 87993bfe45a20784e9e71e62e7220bed, type: 2}
@@ -346,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.89546585, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.7893152, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

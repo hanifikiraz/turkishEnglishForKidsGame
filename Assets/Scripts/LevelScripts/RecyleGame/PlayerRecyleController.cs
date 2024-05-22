@@ -10,8 +10,11 @@ namespace LevelScripts.RecyleGame
         [SerializeField] private GameObject boxPos;
         [SerializeField] private GameObject boxParent;
         [SerializeField] private List<GameObject> endBoxes;
+        [SerializeField] private int endCount; 
         private GameObject currentBox;
         private bool isTriggerArea;
+        private int currentEndValue = 0;
+        
 
         private IEnumerator SetTriggerArea()
         {
@@ -72,7 +75,17 @@ namespace LevelScripts.RecyleGame
                         currentBox.transform.rotation = VARIABLE.gameObject.transform.rotation;
                         currentBox.transform.SetParent(boxParent.transform);
                         currentBox = null;
-                        BusSystem.CallGoAreValue(0);
+                        currentEndValue++;
+                        if (currentEndValue==endCount)
+                        {
+                            Debug.Log("LevelBitti");
+                            BusSystem.CallGoAreValue(5);
+                            BusSystem.CallRecyleLevelEnd();
+                        }
+                        else
+                        {
+                            BusSystem.CallGoAreValue(0);
+                        }
                         break; // Döngüden çık
                     }
                 }

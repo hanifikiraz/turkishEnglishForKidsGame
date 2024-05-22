@@ -155,4 +155,11 @@ public static class BusSystem
     {
         OnGoAreaValue?.Invoke(value);
     }
+
+    public static Action OnRecyleLevelEnd;
+
+    public static void CallRecyleLevelEnd()
+    {
+        OnRecyleLevelEnd?.Invoke();
+    }
 }
