@@ -1567,6 +1567,14 @@ PrefabInstance:
       propertyPath: _joystick
       value: 
       objectReference: {fileID: 680836150137585450}
+    - target: {fileID: 2308634692925353212, guid: bc3fb1e64e1c6184abcb7109a0bf81ee, type: 3}
+      propertyPath: _moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308634692925353212, guid: bc3fb1e64e1c6184abcb7109a0bf81ee, type: 3}
+      propertyPath: _rotateSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3221741013264510703, guid: bc3fb1e64e1c6184abcb7109a0bf81ee, type: 3}
       propertyPath: m_Name
       value: Idle (1)
