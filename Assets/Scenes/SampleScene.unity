@@ -2604,7 +2604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467466089313437468, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 909636878471834148, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
       propertyPath: myCanvas
@@ -2618,6 +2618,10 @@ PrefabInstance:
       propertyPath: unitCanvas
       value: 
       objectReference: {fileID: 6228034746469500781}
+    - target: {fileID: 909696748762285968, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.5373535
+      objectReference: {fileID: 0}
     - target: {fileID: 1578030058689520068, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2645,6 +2649,14 @@ PrefabInstance:
     - target: {fileID: 3833743085246128347, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
       propertyPath: unitType
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221760408748922955, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221760408748922955, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.36834717
       objectReference: {fileID: 0}
     - target: {fileID: 4417418901094716501, guid: aa07a23f359f88d4294691b8ab1a520f, type: 3}
       propertyPath: m_Sprite
@@ -13421,7 +13433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3142286809473957508, guid: 0945b35a759d36d449ed2e9da4c26afd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7522547153915989053, guid: 0945b35a759d36d449ed2e9da4c26afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
