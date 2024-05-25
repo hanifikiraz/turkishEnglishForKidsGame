@@ -475,13 +475,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9130421969129636442}
     m_Modifications:
+    - target: {fileID: 224773890200167662, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.555
+      objectReference: {fileID: 0}
     - target: {fileID: 903901583776880289, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
       propertyPath: m_Name
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 1501755910770021026, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2224081115432753653, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304498819591386972, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.935
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506389524987738962, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 6416130785162960480, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
       propertyPath: m_IsActive
