@@ -288,7 +288,7 @@ MonoBehaviour:
   - {fileID: 5985607058671941184}
   - {fileID: 8270808763485170172}
   - {fileID: 7936019159951637070}
-  buttonsBackGround: {fileID: 6823389519411510320}
+  buttonsBackGround: {fileID: 7911210042969281248}
   congText: {fileID: 7584212111910511114}
   particlesForWin: {fileID: 7669358640301109525}
   partic:
@@ -479,6 +479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 2224081115432753653, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6416130785162960480, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8706867995895065894, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -585,14 +593,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7480983116699400896, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
   m_PrefabInstance: {fileID: 3801301324461100160}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6823389519411510320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7670021555784298672, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
-  m_PrefabInstance: {fileID: 3801301324461100160}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7584212111910511114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6737499192158973578, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
+  m_PrefabInstance: {fileID: 3801301324461100160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7911210042969281248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6416130785162960480, guid: bfe905521c2a5aa4db9cf02f6588bf01, type: 3}
   m_PrefabInstance: {fileID: 3801301324461100160}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &7936019159951637070 stripped

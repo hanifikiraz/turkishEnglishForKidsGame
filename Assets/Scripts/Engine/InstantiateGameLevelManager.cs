@@ -11,6 +11,7 @@ namespace Engine
         [SerializeField] private GameObject gameLevelPrefabParent;
         [SerializeField] private GameObject gameWinCanvas;
         [SerializeField] private GameObject gameLoseCanvas;
+        [SerializeField] private GameObject gameLoseWinCanvasBG;
         private GameObject playingGame;
         private GameObject playingGameForRetry;
 
@@ -38,6 +39,7 @@ namespace Engine
 
         private void LevelWinStatusCanvas(bool isWin)
         {
+            gameLoseWinCanvasBG.SetActive(true);
             if (isWin)
             {
                 gameWinCanvas.SetActive(true);
@@ -53,6 +55,7 @@ namespace Engine
         {
             gameWinCanvas.SetActive(false);
             gameLoseCanvas.SetActive(false);
+            gameLoseWinCanvasBG.SetActive(false);
         }
         public void HomeMenuButton()
         {
