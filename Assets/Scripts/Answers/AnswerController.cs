@@ -64,11 +64,19 @@ public class AnswerController : MonoBehaviour
         }
         particlesForWin.SetActive(true);
         congText.SetActive(true);
-        congText.gameObject.transform.DOScale(Vector3.zero, 0.7f).From();
+        congText.gameObject.transform.DOScale(Vector3.zero, 0.7f).From().OnComplete((() =>
+        {
+            BusSystem.CallLevelWinStatusForCanvas(true);
+        }));
         foreach (var VARIABLE in partic)
         {
             VARIABLE.Play();
         }
+    }
+
+    public void CloseCanvas()
+    {
+        
     }
 }
 

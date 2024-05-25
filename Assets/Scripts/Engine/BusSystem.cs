@@ -162,4 +162,18 @@ public static class BusSystem
     {
         OnRecyleLevelEnd?.Invoke();
     }
+    
+    public static Action<bool>OnLevelWinStatusForCanvas;
+
+    public static void CallLevelWinStatusForCanvas(bool value)
+    {
+        OnLevelWinStatusForCanvas?.Invoke(value);
+    }
+    public static Action OnCloseWinOrLoseCanvas;
+
+    public static void CallCloseWinOrLoseCanvas()
+    {
+        OnCloseWinOrLoseCanvas?.Invoke();
+    }
+    
 }
