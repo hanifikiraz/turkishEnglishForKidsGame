@@ -13,6 +13,7 @@ public class AnswerController : MonoBehaviour
     [SerializeField] private GameObject congText;
     [SerializeField] private GameObject particlesForWin;
     [SerializeField] private List<ParticleSystem> partic;
+    public List<List<GameObject>> objectss;
 
     private void OnEnable()
     {
