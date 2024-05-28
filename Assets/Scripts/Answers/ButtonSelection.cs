@@ -1,58 +1,59 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
-public class ButtonSelection : MonoBehaviour
+namespace Answers
 {
-    public enum Answer
+    public class ButtonSelection : MonoBehaviour
     {
-        False,
-        True
-    }
+        public enum Answer
+        {
+            False,
+            True
+        }
 
-    [SerializeField] private Answer answerType;
-    [SerializeField] private string buttonTextAnswer;
-    [SerializeField] private TextMeshProUGUI buttonText;
-    private Tween scaleTween;
-
-    private void Start()
-    {
-        buttonText.text = buttonTextAnswer;
-        //TweenAnimationLittle();
-    }
+        [SerializeField] private Answer answerType;
+        [SerializeField] private string buttonTextAnswer;
+        [SerializeField] private TextMeshProUGUI buttonText;
+        private Tween scaleTween;
+        
+        private void Start()
+        {
+            buttonText.text = buttonTextAnswer;
+            //TweenAnimationLittle();
+        }
     
 
-    public void TweenAnimationBig()
-    {
-        scaleTween =  gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
-    }
-    public void TweenAnimationLittle()
-    {
-        scaleTween = gameObject.transform.DOScale(new Vector3(0.9f,0.9f,0.9f), 0.8f).OnComplete(TweenAnimationBig);
-    }
-
-    public void CloseAnimButtons()
-    {
-        scaleTween.Kill();
-    }
-
-    public void AnswerController()
-    {
-        switch (answerType)
+        public void TweenAnimationBig()
         {
-            case Answer.True:
-                Debug.Log("True");
-                BusSystem.CallPlayerSetAnim(2);
-                BusSystem.CallWrongAnswer(true);
-                break;
-            case Answer.False:
-                Debug.Log("False");
-                BusSystem.CallPlayerSetAnim(3);
-                BusSystem.CallWrongAnswer(false);
-                break;
+            scaleTween =  gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
+        }
+        public void TweenAnimationLittle()
+        {
+            scaleTween = gameObject.transform.DOScale(new Vector3(0.9f,0.9f,0.9f), 0.8f).OnComplete(TweenAnimationBig);
+        }
+
+        public void CloseAnimButtons()
+        {
+            scaleTween.Kill();
+        }
+
+        public void AnswerController()
+        {
+            switch (answerType)
+            {
+                case Answer.True:
+                    Debug.Log("True");
+                    BusSystem.CallPlayerSetAnim(2);
+                    BusSystem.CallWrongAnswer(true);
+                    break;
+                case Answer.False:
+                    Debug.Log("False");
+                    BusSystem.CallPlayerSetAnim(3);
+                    BusSystem.CallWrongAnswer(false);
+                    break;
+            }
         }
     }
 }

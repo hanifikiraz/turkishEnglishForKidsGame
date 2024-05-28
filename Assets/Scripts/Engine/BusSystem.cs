@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Answers;
 using UnityEngine;
 
 public static class BusSystem
@@ -175,5 +176,12 @@ public static class BusSystem
     {
         OnCloseWinOrLoseCanvas?.Invoke();
     }
-    
+
+    public static Action OnFillingObjectWorked;
+
+    public static void CallFillingObjectWorked()
+    {
+        OnFillingObjectWorked?.Invoke();
+    }
+
 }
