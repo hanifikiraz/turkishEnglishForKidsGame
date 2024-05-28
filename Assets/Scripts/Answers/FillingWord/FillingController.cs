@@ -20,13 +20,23 @@ namespace Answers.FillingWord
         private void OnEnable()
         {
             BusSystem.OnFillingObjectWorked += FillingObjectController;
+            BusSystem.OnCloseTweenButton += CloseTween;
         }
 
         private void OnDisable()
         {
             BusSystem.OnFillingObjectWorked -= FillingObjectController;
+            BusSystem.OnCloseTweenButton -= CloseTween;
         }
 
+        private void CloseTween()
+        {
+            foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
+            {
+                GameObject childGameObject = childTransform.gameObject;
+                childGameObject.GetComponent<FiilingButton>().CloseAnimButtons();
+            }
+        }
         private void Start()
         {
             maxAnswerCount = answerButtons.Count;
@@ -51,13 +61,19 @@ namespace Answers.FillingWord
             {
                 answerButtons[currentAnswerCount].SetActive(true);
                 answerText[currentAnswerCount].SetActive(true);
+               
                 StartCoroutine(ButtonsAnimTwo(answerButtons[currentAnswerCount].transform));
             }
         }
         
         private IEnumerator ButtonsAnimTwo(Transform but)
         {
-                yield return new WaitForSecondsRealtime(0.7f);
+            foreach (Transform VARIABLE in but)
+            {
+                GameObject childGameObject = VARIABLE.gameObject;
+                childGameObject.transform.localScale = Vector3.zero;
+            }
+                yield return new WaitForSecondsRealtime(0.2f);
                 but.transform.gameObject.SetActive(true);
                 foreach (Transform VARIABLE in but)
                 {

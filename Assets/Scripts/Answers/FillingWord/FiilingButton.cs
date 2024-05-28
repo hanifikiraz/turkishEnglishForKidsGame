@@ -13,7 +13,7 @@ namespace Answers.FillingWord
             False,
             True
         }
-
+        
         [SerializeField] private Answer answerType;
         [SerializeField] private string buttonTextAnswer;
         [SerializeField] private TextMeshProUGUI buttonText;
@@ -39,8 +39,6 @@ namespace Answers.FillingWord
             fillingText.SetActive(false);
             buttonText.text = buttonTextAnswer; 
         }
-
-
         public void TweenAnimationBig()
         {
             scaleTween = gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
@@ -61,7 +59,8 @@ namespace Answers.FillingWord
         {
             emptyText.SetActive(false);
             fillingText.SetActive(true);
-            CloseAnimButtons();
+            BusSystem.CallCloseTweenButton();
+            //CloseAnimButtons();
             fillingText.transform.DOScale(Vector3.zero, 0.5f).From().OnComplete((() =>
             {
                 StartCoroutine(MyObjectClose());
@@ -69,11 +68,15 @@ namespace Answers.FillingWord
         }
         private IEnumerator MyObjectClose()
         {
-            yield return new WaitForSecondsRealtime(2f);
-            foreach (var VARIABLE in myObjects)
+            yield return new WaitForSecondsRealtime(0.3f); 
+            for (int i = 0; i < myObjects.Count; i++)
             {
-                VARIABLE.transform.DOScale(new Vector3(0,0,0),1f);
+                var VARIABLE = myObjects[i];
+                VARIABLE.transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+                yield return new WaitForSecondsRealtime(0.3f); 
+               // Her objeden sonra 1 saniye bekle
             }
+           // yield return new WaitForSecondsRealtime(0.3f); 
             BusSystem.CallFillingObjectWorked();
         }
 
@@ -85,12 +88,10 @@ namespace Answers.FillingWord
                     Debug.Log("True");
                     BusSystem.CallPlayerSetAnim(2);
                     SetText();
-                   // BusSystem.CallWrongAnswer(true);
                     break;
                 case Answer.False:
                     Debug.Log("False");
                     BusSystem.CallPlayerSetAnim(3);
-                    //BusSystem.CallWrongAnswer(false);
                     break;
             }
         }

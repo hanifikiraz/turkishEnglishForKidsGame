@@ -183,5 +183,12 @@ public static class BusSystem
     {
         OnFillingObjectWorked?.Invoke();
     }
+    
+    public static Action OnCloseTweenButton;
+
+    public static void CallCloseTweenButton()
+    {
+        OnCloseTweenButton?.Invoke();
+    }
 
 }
