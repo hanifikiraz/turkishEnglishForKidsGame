@@ -8,7 +8,7 @@ namespace Answers.FillingWord
 {
     public class FillingController : MonoBehaviour
     {
-        [SerializeField] private List<TextMeshProUGUI> answerText;
+        [SerializeField] private List<GameObject> answerText;
         [SerializeField] private List<GameObject> answerButtons;
         [SerializeField] private GameObject congText;
         [SerializeField] private GameObject particlesForWin;
@@ -19,81 +19,42 @@ namespace Answers.FillingWord
 
         private void OnEnable()
         {
-            BusSystem.OnWrongAnswer += AnswerWrongController;
+            BusSystem.OnFillingObjectWorked += FillingObjectController;
         }
 
         private void OnDisable()
         {
-            BusSystem.OnWrongAnswer -= AnswerWrongController;
+            BusSystem.OnFillingObjectWorked -= FillingObjectController;
         }
 
         private void Start()
         {
-            // maxAnswerCount = answerButtons.Count;
-            // foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
-            // {
-            //     GameObject childGameObject = childTransform.gameObject;
-            //     childGameObject.GetComponent<ButtonSelection>().TweenAnimationLittle();
-            // }
-        }
-
-        private void AnswerWrongController(bool value)
-        {
-            // if (value)
-            // {
-            //     SetTextAnim();
-            // }
-            // else
-            // {
-            //     answerText[currentAnswerCount].color = Color.red;
-            //     answerText[currentAnswerCount].gameObject.transform.DOScale(new Vector3(1.2f,1.2f,1.2f), 0.5f).OnComplete(() =>
-            //     {
-            //         answerText[currentAnswerCount].gameObject.transform.DOScale(Vector3.one, 0.5f);
-            //         answerText[currentAnswerCount].color = Color.white;
-            //     });
-            // }
-        }
-    
-
-        private void SetTextAnim()
-        {
-            answerText[currentAnswerCount].color = Color.green;
-            answerText[currentAnswerCount].gameObject.transform.DOScale(new Vector3(1.2f,1.2f,1.2f), 1f).OnComplete(() =>
-            {
-                StartCoroutine(ButtonsAnim(answerButtons[currentAnswerCount].transform));
-                currentAnswerCount++;
-                
-                if (currentAnswerCount == maxAnswerCount)
-                {
-                    StartCoroutine(TextAnim());
-                }
-                else
-                {
-                    answerText[currentAnswerCount].color = Color.white;
-                    answerText[currentAnswerCount].gameObject.transform.DOScale(Vector3.zero, 0.3f).OnComplete((() =>
-                    {
-                        StartCoroutine(ButtonsAnimTwo(answerButtons[currentAnswerCount].transform));
-                        answerText[currentAnswerCount].text = fillingWords[currentAnswerCount];
-                        answerText[currentAnswerCount].gameObject.transform.DOScale(new Vector3(1f, 1f, 1f), 0.5f);
-                    }));
-                }
-            });
-        
-        }
-
-        private IEnumerator ButtonsAnim(Transform but)
-        {
-            
-            foreach (Transform childTransform in but)
+            maxAnswerCount = answerButtons.Count;
+            foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
             {
                 GameObject childGameObject = childTransform.gameObject;
-
-                childGameObject.GetComponent<ButtonSelection>().CloseAnimButtons();
-                childGameObject.gameObject.transform.DOScale(Vector3.zero, 0.3f);
-                yield return new WaitForSecondsRealtime(0.3f);
+                childGameObject.GetComponent<FiilingButton>().TweenAnimationLittle();
             }
-            but.gameObject.SetActive(false);
         }
+
+        private void FillingObjectController()
+        {
+            answerButtons[currentAnswerCount].SetActive(false);
+            answerText[currentAnswerCount].SetActive(false);
+            currentAnswerCount++;
+
+            if (currentAnswerCount == maxAnswerCount)
+            {
+                StartCoroutine(TextAnim());
+            }
+            else
+            {
+                answerButtons[currentAnswerCount].SetActive(true);
+                answerText[currentAnswerCount].SetActive(true);
+                StartCoroutine(ButtonsAnimTwo(answerButtons[currentAnswerCount].transform));
+            }
+        }
+        
         private IEnumerator ButtonsAnimTwo(Transform but)
         {
                 yield return new WaitForSecondsRealtime(0.7f);
@@ -112,7 +73,7 @@ namespace Answers.FillingWord
                 foreach (Transform childTransform in but)
                 {
                     GameObject childGameObject = childTransform.gameObject;
-                    childGameObject.GetComponent<ButtonSelection>().TweenAnimationLittle();
+                    childGameObject.GetComponent<FiilingButton>().TweenAnimationLittle();
                 }
         }
         private IEnumerator TextAnim()

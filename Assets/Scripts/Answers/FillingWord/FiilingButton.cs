@@ -61,6 +61,7 @@ namespace Answers.FillingWord
         {
             emptyText.SetActive(false);
             fillingText.SetActive(true);
+            CloseAnimButtons();
             fillingText.transform.DOScale(Vector3.zero, 0.5f).From().OnComplete((() =>
             {
                 StartCoroutine(MyObjectClose());
