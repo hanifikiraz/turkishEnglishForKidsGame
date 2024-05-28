@@ -10,7 +10,6 @@ namespace Answers
     public class AnswerController : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI answerText;
-        [SerializeField] private List<GameObject> buttons;
         [SerializeField] private List<GameObject> answerButtons;
         [SerializeField] private int maxAnswerCount;
         [SerializeField] private GameObject buttonsBackGround;
@@ -32,6 +31,7 @@ namespace Answers
 
         private void Start()
         {
+            maxAnswerCount = answerButtons.Count;
             answerText.text = objectNames[currentAnswerCount];
             foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
             {
@@ -77,11 +77,7 @@ namespace Answers
                     {
                         StartCoroutine(ButtonsAnimTwo(answerButtons[currentAnswerCount].transform));
                         answerText.text = objectNames[currentAnswerCount];
-                        answerText.gameObject.transform.DOScale(new Vector3(1f, 1f, 1f),0.5f).OnComplete((() =>
-                        {
-                       
-                            
-                        }));
+                        answerText.gameObject.transform.DOScale(new Vector3(1f, 1f, 1f), 0.5f);
                     }));
                 }
             });
