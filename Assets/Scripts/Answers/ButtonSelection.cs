@@ -21,15 +21,15 @@ public class ButtonSelection : MonoBehaviour
     private void Start()
     {
         buttonText.text = buttonTextAnswer;
-        TweenAnimationLittle();
+        //TweenAnimationLittle();
     }
     
 
-    private void TweenAnimationBig()
+    public void TweenAnimationBig()
     {
         scaleTween =  gameObject.transform.DOScale(Vector3.one, 0.8f).OnComplete(TweenAnimationLittle);
     }
-    private void TweenAnimationLittle()
+    public void TweenAnimationLittle()
     {
         scaleTween = gameObject.transform.DOScale(new Vector3(0.9f,0.9f,0.9f), 0.8f).OnComplete(TweenAnimationBig);
     }
