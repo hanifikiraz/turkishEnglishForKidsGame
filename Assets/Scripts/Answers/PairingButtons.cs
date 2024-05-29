@@ -23,6 +23,7 @@ namespace Answers
 
         public void SetTypePairing()
         {
+            BusSystem.CallAudioChange(5);
             SetImage(1);
             BusSystem.CallPairingButtons(gameObject.GetComponent<PairingButtons>());
         }

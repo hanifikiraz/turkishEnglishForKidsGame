@@ -41,6 +41,7 @@ namespace Answers
 
         public void AnswerController()
         {
+            BusSystem.CallAudioChange(5);
             switch (answerType)
             {
                 case Answer.True:

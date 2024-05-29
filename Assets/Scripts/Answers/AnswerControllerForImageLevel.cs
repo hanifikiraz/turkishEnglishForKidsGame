@@ -30,6 +30,8 @@ namespace Answers
         }
         private void Start()
         {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(3);
             maxAnswerCount = answerButtons.Count;
             defaultImage.sprite = objectSprites[currentAnswerCount];
             foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)

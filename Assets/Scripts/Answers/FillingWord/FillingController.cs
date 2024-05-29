@@ -39,6 +39,8 @@ namespace Answers.FillingWord
         }
         private void Start()
         {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(3);
             maxAnswerCount = answerButtons.Count;
             foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
             {

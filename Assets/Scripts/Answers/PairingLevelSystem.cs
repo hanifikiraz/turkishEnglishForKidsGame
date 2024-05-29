@@ -29,6 +29,8 @@ namespace Answers
         }
     void Start()
     {
+        BusSystem.CallAudioChange(10);
+        BusSystem.CallAudioChange(4);
         // 4 English and 4 Turkish words randomly selected from the full list
         List<string> selectedEnglish = GetUniqueRandomButtons(objectEnglishName, 4);
         List<string> selectedTurkish = new List<string>();
@@ -132,6 +134,7 @@ namespace Answers
                 if (pairingButtons[0].GetComponent<PairingButtons>().ID == pairingButtons[1].GetComponent<PairingButtons>().ID && pairingButtons[0] != pairingButtons[1])
                 {
                     BusSystem.CallPlayerSetAnim(2);
+                    BusSystem.CallAudioChange(8);
                     foreach (var VARIABLE in pairingButtons)
                     {
                         VARIABLE.GetComponent<PairingButtons>().SetImage(3);
@@ -145,6 +148,7 @@ namespace Answers
                         VARIABLE.GetComponent<PairingButtons>().SetImage(2);
                     }
                     BusSystem.CallPlayerSetAnim(3);
+                    BusSystem.CallAudioChange(9);
               
                 }
                 pairingButtons.Clear();

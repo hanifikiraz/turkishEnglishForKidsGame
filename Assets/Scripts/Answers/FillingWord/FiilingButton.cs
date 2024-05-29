@@ -82,6 +82,7 @@ namespace Answers.FillingWord
 
         public void AnswerController()
         {
+            BusSystem.CallAudioChange(5);
             switch (answerType)
             {
                 case Answer.True:

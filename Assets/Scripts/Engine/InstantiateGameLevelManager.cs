@@ -42,11 +42,15 @@ namespace Engine
             gameLoseWinCanvasBG.SetActive(true);
             if (isWin)
             {
+                BusSystem.CallAudioChange(10);
+                BusSystem.CallAudioChange(6);
                 gameWinCanvas.SetActive(true);
                 gameWinCanvas.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From();
             }
             else
             {
+                BusSystem.CallAudioChange(10);
+                BusSystem.CallAudioChange(7);
                 gameLoseCanvas.SetActive(true);
                 gameLoseCanvas.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From();
             }
@@ -59,6 +63,7 @@ namespace Engine
         }
         public void HomeMenuButton()
         {
+            BusSystem.CallAudioChange(1);
             allCanvas.SetActive(true);
             CloseWinOrLoseCanvas();
             Destroy(playingGame);

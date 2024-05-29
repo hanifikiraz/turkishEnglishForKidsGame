@@ -190,5 +190,14 @@ public static class BusSystem
     {
         OnCloseTweenButton?.Invoke();
     }
+    
+    // Audio
+
+    public static Action<int> OnAudioChange;
+
+    public static void CallAudioChange(int value)
+    {
+        OnAudioChange?.Invoke(value);
+    }
 
 }

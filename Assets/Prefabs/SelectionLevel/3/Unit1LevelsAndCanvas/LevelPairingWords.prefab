@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7058824, g: 0.43137258, b: 0.909804, a: 1}
+  m_Color: {r: 0.89411765, g: 0.12156864, b: 0.68636453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1220,6 +1220,30 @@ PrefabInstance:
     - target: {fileID: 5720909578270890383, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
       propertyPath: m_Name
       value: CanvasPairingLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c456aa101a2eb4b4a9ba149239e01765, type: 3}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008148492210416425, guid: e7fb9b6b90330684bafb7d5087adc241, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -31,6 +31,8 @@ namespace Answers
 
         private void Start()
         {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(2);
             maxAnswerCount = answerButtons.Count;
             answerText.text = objectNames[currentAnswerCount];
             foreach (Transform childTransform in answerButtons[currentAnswerCount].transform)
