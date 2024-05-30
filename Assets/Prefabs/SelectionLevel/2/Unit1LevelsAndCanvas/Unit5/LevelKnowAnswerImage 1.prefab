@@ -59,9 +59,9 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: b6655a438d7598e428a7e80e193e47ba, type: 3}
-  - {fileID: 21300000, guid: 12d945c4d6c17354f9cd691b02edfba7, type: 3}
-  - {fileID: 21300000, guid: a4f2587e19ef5904190f31f67b24d545, type: 3}
+  - {fileID: 21300000, guid: ec35d7b13e69a4544a482c31e3640035, type: 3}
+  - {fileID: 21300000, guid: b9d76c8bbbbeed4449d32bf872d3023c, type: 3}
+  - {fileID: 21300000, guid: 7be5499130daa8f45a692f4a0202ef40, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -311,32 +311,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: answerType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD BYE
+      value: AMBULANCE
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HELLO
+      value: DOCTOR
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
       value: CanvasSelectionImage
       objectReference: {fileID: 0}
     - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: answerType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD MORNING
+      value: CAR
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD MORNING
+      value: MAN
       objectReference: {fileID: 0}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
@@ -419,36 +411,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: answerType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD EVENING
-      objectReference: {fileID: 0}
-    - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: buttonTextAnswer
-      value: GOOD BYE
-      objectReference: {fileID: 0}
-    - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: answerType
-      value: 1
+      value: CAKE
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD BYE
-      objectReference: {fileID: 0}
-    - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: answerType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-      propertyPath: buttonTextAnswer
-      value: GOOD NIGHT
+      value: HUMAN
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD NIGHT
+      value: TRAIN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
