@@ -1,4 +1,4 @@
-// Copyright (C) 2015-2021 ricimi - All rights reserved.
+// Copyright (C) 2015-2019 ricimi - All rights reserved.
 // This code can only be used under the standard Unity Asset Store End User License Agreement.
 // A Copy of the Asset Store EULA is available at http://unity3d.com/company/legal/as_terms.
 
@@ -13,6 +13,8 @@ namespace Ricimi
     public class Popup : MonoBehaviour
     {
         public Color backgroundColor = new Color(10.0f / 255.0f, 10.0f / 255.0f, 10.0f / 255.0f, 0.6f);
+
+        public float destroyTime = 0.5f;
 
         private GameObject m_background;
 
@@ -37,7 +39,7 @@ namespace Ricimi
         // finished, you can use an animation event instead.
         private IEnumerator RunPopupDestroy()
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(destroyTime);
             Destroy(m_background);
             Destroy(gameObject);
         }
