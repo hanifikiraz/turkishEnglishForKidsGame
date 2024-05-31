@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3347114185799240252}
   m_Layer: 0
-  m_Name: LevelFillingWork 2
+  m_Name: LevelFillingWork 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -857,27 +857,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0.8985
-      objectReference: {fileID: 0}
-    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.81615
+      value: 1.4589
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.62
+      value: -1.5689
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.011999976
+      value: 0.08500002
       objectReference: {fileID: 0}
     - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -901,31 +889,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: I am
-      objectReference: {fileID: 0}
-    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
-    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
-    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: What is this?
       objectReference: {fileID: 0}
     - target: {fileID: 1241816613156607901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: That is
+      value: Who
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: this? - Bu nedir?
+      value: a banana - Bana bir muz ver!
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -941,11 +913,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1.0059
+      value: 1.0314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.80908
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.4075999
+      value: -1.7673299
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -953,83 +937,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: What is
+      value: Give me
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: That is
+      value: Love me
       objectReference: {fileID: 0}
-    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.81615
+    - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: Send me
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.6990899
+      value: 0.078
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.011999976
-      objectReference: {fileID: 0}
-    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
-    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
-    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: 0.085
       objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: There is
+      objectReference: {fileID: 0}
     - target: {fileID: 4007344505241404676, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: I am
+      value: What is tihs?
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 3.1459
-      objectReference: {fileID: 0}
-    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.81615
-      objectReference: {fileID: 0}
-    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.81615
+      value: 2.1447
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.173
+      value: 0.22200002
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.012
+      value: -0.059
       objectReference: {fileID: 0}
-    - target: {fileID: 4748565254002943948, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_Name
-      value: FalseButton
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.80908
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.06919998
+      value: -0.60556
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1037,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: What is
+      value: Give me
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1055,13 +1019,21 @@ PrefabInstance:
       propertyPath: answerType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: There is
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: Send me
+      objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: I am
+      value: What is tihs?
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: myObjects.Array.size
@@ -1081,11 +1053,23 @@ PrefabInstance:
       objectReference: {fileID: 3622230639965195004}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.7326
+      value: 3.2747
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.80908
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.80908
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.404
+      value: -0.032
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1097,23 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: "seven - Yedi ya\u015F\u0131nday\u0131m"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
-    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
-    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: / - it is an cake (Bu nedir? /- O bir kek)
       objectReference: {fileID: 0}
     - target: {fileID: 8251075719372664329, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -1121,27 +1089,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: That is
+      value: Love me
       objectReference: {fileID: 0}
     - target: {fileID: 8591500576422134902, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
       value: FalseButton
       objectReference: {fileID: 0}
-    - target: {fileID: 8716271966176955833, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8865368445925010961, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: What is
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-      propertyPath: answerType
-      value: 0
+      value: Give me
       objectReference: {fileID: 0}
     - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: That is
+      value: Who
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -881,11 +881,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 939499081329532500, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -997,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -1072,13 +1072,37 @@ PrefabInstance:
       value: Point
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: emptyText
+      value: 
+      objectReference: {fileID: 8246424202531893323}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: fillingText
+      value: 
+      objectReference: {fileID: 4002145855569308004}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
       value: Count
       objectReference: {fileID: 0}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: myObjects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: myObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 4002145855569308004}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: myObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 331525995591264582}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: myObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 3622230639965195004}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
       value: 2.93
@@ -1117,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8251075719372664329, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
@@ -1153,14 +1177,34 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8251075719372664329, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &331525995591264582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8591500576422134902, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+  m_PrefabInstance: {fileID: 8332492069766622512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1155537865913267325 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7182043980827662669, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3622230639965195004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4748565254002943948, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+  m_PrefabInstance: {fileID: 8332492069766622512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4002145855569308004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4911332693950612564, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+  m_PrefabInstance: {fileID: 8332492069766622512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6055010534158920541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+  m_PrefabInstance: {fileID: 8332492069766622512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8246424202531893323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 131689045388041595, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &8316570880423553941 stripped
