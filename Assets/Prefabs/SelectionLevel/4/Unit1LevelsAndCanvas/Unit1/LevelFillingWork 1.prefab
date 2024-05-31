@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3347114185799240252}
   m_Layer: 0
-  m_Name: LevelFillingWork
+  m_Name: LevelFillingWork 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -863,6 +863,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1241816613156607901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
       value: That
@@ -870,6 +882,18 @@ PrefabInstance:
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
       value: Doctor - Bir Doktor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -918,6 +942,18 @@ PrefabInstance:
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
       value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer

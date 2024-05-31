@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3347114185799240252}
   m_Layer: 0
-  m_Name: LevelFillingWork
+  m_Name: LevelFillingWork 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,100 +856,281 @@ PrefabInstance:
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.488
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.5059
+      value: -1.3870001
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.054000035
+      objectReference: {fileID: 0}
+    - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 939499081329532500, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: have got
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1241816613156607901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: That
+      value: have got
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Doctor - Bir Doktor
+      value: cock in the room -                                                                             
+        Odada bir horoz var.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.9472
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.5526
+      value: -1.6627
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0010000058
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: A
+      value: There is
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: This
+      value: That is
+      objectReference: {fileID: 0}
+    - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: There are
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7007301
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.37499997
+      value: -0.951
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: have
+      objectReference: {fileID: 0}
     - target: {fileID: 4007344505241404676, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: has got
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.1447
+      value: 4.8335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7007301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7007301
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.231
+      value: -0.3214
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.047999978
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748565254002943948, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_Name
+      value: TrueButton
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.5037
+      value: -0.21690011
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0010000058
+      value: 0.049999982
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: There is
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: have
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: There are
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: A
+      value: has got
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.3983
+      value: 2.6999
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.233
+      value: 0.198
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.001
+      value: -0.096
       objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Apple - Bir Elma
+      value: I               a black horse - Ben bir siyah ata sahibim.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251075719372664329, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: This
+      value: That is
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591500576422134902, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_Name
+      value: FalseButton
       objectReference: {fileID: 0}
     - target: {fileID: 8865368445925010961, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: There is
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: answerType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: That
+      value: have got
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

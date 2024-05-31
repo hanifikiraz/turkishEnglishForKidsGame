@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3347114185799240252}
   m_Layer: 0
-  m_Name: LevelFillingWork
+  m_Name: LevelFillingWork 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,24 +856,104 @@ PrefabInstance:
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.9614
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.5059
+      value: -1.3371799
+      objectReference: {fileID: 0}
+    - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 939499081329532500, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1121015567719551653, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: Good morning
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_margin.x
+      value: -0.90133977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1241816613156607901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: That
+      value: Good Night
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Doctor - Bir Doktor
+      value: "Emre, - \u0130yi geceler Emre."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.548
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7808
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.5526
+      value: -1.4850001
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -881,35 +961,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: A
+      value: Good Night
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
       value: This
       objectReference: {fileID: 0}
+    - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: Good Evening
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68887
+      objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.37499997
+      value: -0.53187
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: Good Evening
+      objectReference: {fileID: 0}
     - target: {fileID: 4007344505241404676, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: Good Morning
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.1447
+      value: 3.6883
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68887
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.231
+      value: 0.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7808
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.5037
+      value: -0.2283901
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -917,39 +1053,103 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: Good Night
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: d33912994cdc8ab4f91b264b95266faa, type: 2}
+    - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: Good Evening
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: Good Evening
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: answerType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: A
+      value: Good Morning
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.3983
+      value: 3.0784
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7808
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7808
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.233
+      value: 0.223
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 7440344374312727893, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_Name
+      value: TrueButton
+      objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Apple - Bir Elma
+      value: ",teacher - G\xFCnayd\u0131n \xF6\u011Fretmenim"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251075719372664329, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
       value: This
       objectReference: {fileID: 0}
+    - target: {fileID: 8591500576422134902, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_Name
+      value: FalseButton
+      objectReference: {fileID: 0}
     - target: {fileID: 8865368445925010961, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: Good Night
       objectReference: {fileID: 0}
     - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: That
+      value: Good Night
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
