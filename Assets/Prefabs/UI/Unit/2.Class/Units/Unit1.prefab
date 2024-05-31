@@ -22347,6 +22347,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: ALPHABET - ALFABE
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: ALPHABET - ALFABE
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22365,9 +22369,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 1530199430698488564, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -22661,6 +22677,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: COLD - SOGUK
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: COLD - SOGUK
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22769,6 +22789,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
+      value: MUSIC - MUZIK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
       value: MUSIC - MUZIK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22885,6 +22909,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: QUIZ - SINAV
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: QUIZ - SINAV
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22903,9 +22931,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 1530199430698488564, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -23101,6 +23141,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: FOOTBALL - FUTBOL
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: FOOTBALL - FUTBOL
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23209,6 +23253,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
+      value: TELEPHONE - TELEFON
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
       value: TELEPHONE - TELEFON
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23325,6 +23373,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: BROCCOLI - BROKOLI
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: BROCCOLI - BROKOLI
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23437,6 +23489,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
+      value: NEGATIVE - OLUMSUZ
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
       value: NEGATIVE - OLUMSUZ
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23553,6 +23609,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: LEMON - LIMON
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: LEMON - LIMON
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23667,6 +23727,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: CAFETERIA - KAFETERYA
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: CAFETERIA - KAFETERYA
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23685,9 +23749,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -23768,6 +23840,10 @@ PrefabInstance:
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693224956756190410, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23879,6 +23955,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: AMBULANCE-AMBULANS
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: AMBULANCE-AMBULANS
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23897,9 +23977,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 2298612027702242898, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -24091,6 +24183,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: DOCTOR - DOKTOR
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: DOCTOR - DOKTOR
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24205,6 +24301,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: SCHOOL - OKUL
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: SCHOOL - OKUL
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24313,6 +24413,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
+      value: ELECTRIC - ELEKTRIK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
       value: ELECTRIC - ELEKTRIK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24427,6 +24531,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
+      value: HOT - SICAK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
       value: HOT - SICAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24641,6 +24749,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: GARAGE - GARAJ
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: GARAGE - GARAJ
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24659,9 +24771,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 2298612027702242898, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -24853,6 +24977,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: JACKET - CEKET
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: JACKET - CEKET
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24967,6 +25095,10 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: HELICOPTER - HELIKOPTER
       objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: HELICOPTER - HELIKOPTER
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24985,9 +25117,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
@@ -25069,6 +25209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8693224956756190410, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25087,9 +25231,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6221212743169567564}
     m_Modifications:
+    - target: {fileID: 1530199430698488564, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084931105731989224, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Pivot.x
