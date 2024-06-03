@@ -11,14 +11,13 @@ namespace Answers
     {
         [SerializeField] private TextMeshProUGUI answerText;
         [SerializeField] private List<GameObject> answerButtons;
-        [SerializeField] private int maxAnswerCount;
         [SerializeField] private GameObject buttonsBackGround;
         [SerializeField] private GameObject congText;
         [SerializeField] private GameObject particlesForWin;
         [SerializeField] private List<ParticleSystem> partic;
         [SerializeField] private List<string> objectNames;
         private int currentAnswerCount;
-
+        private int maxAnswerCount;
         private void OnEnable()
         {
             BusSystem.OnWrongAnswer += AnswerWrongController;
