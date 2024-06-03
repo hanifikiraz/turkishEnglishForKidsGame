@@ -55,6 +55,7 @@ namespace Answers
                 {
                     answerText.gameObject.transform.DOScale(Vector3.one, 0.5f);
                     answerText.color = Color.white;
+                    answerText.outlineColor = Color.white;
                 });
             }
         }
