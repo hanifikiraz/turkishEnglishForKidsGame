@@ -49,6 +49,7 @@ MonoBehaviour:
   - {fileID: 1998959043364198968}
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
+  - {fileID: 4688070856209642182}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,6 +63,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7e5a26a882401ed49bf15e9b5565f913, type: 3}
   - {fileID: 21300000, guid: 7644c9b55e0bdcc439a8062c63b9ed50, type: 3}
   - {fileID: 21300000, guid: 5af5aa99c887cc04c8111748903fda35, type: 3}
+  - {fileID: 21300000, guid: f12e9c275d577dd4ea9849da916ca151, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -326,6 +328,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: NO
       objectReference: {fileID: 0}
+    - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: HI!
+      objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
       value: CanvasSelectionImage
@@ -434,6 +440,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: HELLO
       objectReference: {fileID: 0}
+    - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: YOU
+      objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BYE
@@ -445,6 +455,10 @@ PrefabInstance:
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: NO
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: LIKE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -474,6 +488,11 @@ GameObject:
 --- !u!224 &4629753135536573675 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+  m_PrefabInstance: {fileID: 965888515114452830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4688070856209642182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5505890127907026328, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4939662043687401163 stripped
