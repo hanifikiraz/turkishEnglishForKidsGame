@@ -17,13 +17,30 @@ namespace Answers
         [SerializeField] private string buttonTextAnswer;
         [SerializeField] private TextMeshProUGUI buttonText;
         private Tween scaleTween;
+        private bool onClickable = true;
         
         private void Start()
         {
             buttonText.text = buttonTextAnswer;
             //TweenAnimationLittle();
         }
-    
+
+        private void OnEnable()
+        {
+            BusSystem.OnButtonClickable += ButtonClickable;
+            onClickable = true;
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnButtonClickable -= ButtonClickable;
+        }
+
+        private void ButtonClickable(bool value)
+        {
+            onClickable = value;
+        }
+
 
         public void TweenAnimationBig()
         {
@@ -41,19 +58,22 @@ namespace Answers
 
         public void AnswerController()
         {
-            BusSystem.CallAudioChange(5);
-            switch (answerType)
+            if (onClickable)
             {
-                case Answer.True:
-                    Debug.Log("True");
-                    BusSystem.CallPlayerSetAnim(2);
-                    BusSystem.CallWrongAnswer(true);
-                    break;
-                case Answer.False:
-                    Debug.Log("False");
-                    BusSystem.CallPlayerSetAnim(3);
-                    BusSystem.CallWrongAnswer(false);
-                    break;
+                BusSystem.CallAudioChange(5);
+                switch (answerType)
+                {
+                    case Answer.True:
+                        Debug.Log("True");
+                        BusSystem.CallPlayerSetAnim(2);
+                        BusSystem.CallWrongAnswer(true);
+                        break;
+                    case Answer.False:
+                        Debug.Log("False");
+                        BusSystem.CallPlayerSetAnim(3);
+                        BusSystem.CallWrongAnswer(false);
+                        break;
+                }
             }
         }
     }

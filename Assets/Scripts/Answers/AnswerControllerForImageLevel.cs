@@ -30,6 +30,7 @@ namespace Answers
         }
         private void Start()
         {
+            BusSystem.CallButtonClickable(true);
             BusSystem.CallAudioChange(10);
             BusSystem.CallAudioChange(3);
             maxAnswerCount = answerButtons.Count;
@@ -42,6 +43,7 @@ namespace Answers
         }
         private void AnswerWrongController(bool value)
         {
+            BusSystem.CallButtonClickable(false);
             if (value)
             {
                 SetTextAnim();
@@ -50,7 +52,10 @@ namespace Answers
             {
                 levelImage.gameObject.transform.DOScale(new Vector3(1.3f,1.3f,1.3f), 0.5f).OnComplete(() =>
                 {
-                    levelImage.gameObject.transform.DOScale(Vector3.one, 0.5f);
+                    levelImage.gameObject.transform.DOScale(Vector3.one, 0.5f).OnComplete((() =>
+                    {
+                        BusSystem.CallButtonClickable(true);
+                    }));
                 });
             }
         }
@@ -108,6 +113,7 @@ namespace Answers
                 childGameObject.gameObject.transform.DOScale(Vector3.zero, 0.3f);
                 yield return new WaitForSecondsRealtime(0.3f);
             }
+            BusSystem.CallButtonClickable(true);
             but.gameObject.SetActive(false);
         }
         private IEnumerator ButtonsAnimTwo(Transform but)

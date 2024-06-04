@@ -200,4 +200,11 @@ public static class BusSystem
         OnAudioChange?.Invoke(value);
     }
 
+    public static Action<bool> OnButtonClickable;
+
+    public static void CallButtonClickable(bool value)
+    {
+        OnButtonClickable?.Invoke(value);
+    }
+
 }

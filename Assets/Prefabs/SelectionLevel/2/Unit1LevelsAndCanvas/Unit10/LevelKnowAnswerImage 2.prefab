@@ -49,6 +49,9 @@ MonoBehaviour:
   - {fileID: 1998959043364198968}
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
+  - {fileID: 4688070856209642182}
+  - {fileID: 1903628696243993434}
+  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,6 +65,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: bb3f35cc443569647a2fac69bcca7e84, type: 3}
   - {fileID: 21300000, guid: 83a4c2366da06f84d896c9abe988cc28, type: 3}
   - {fileID: 21300000, guid: 37aeaf0807fa60d4d930dcf4a67867b7, type: 3}
+  - {fileID: 21300000, guid: aab690bc4a6f4b7438819ac4cfee13db, type: 3}
+  - {fileID: 21300000, guid: 2f6ab798c665bae4081d0a61acd24c54, type: 3}
+  - {fileID: 21300000, guid: e5fb03b5a480139489430672276d04eb, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -310,6 +316,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: CHICKEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 436212167869640632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: ELEPHANT
+      objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -325,6 +339,14 @@ PrefabInstance:
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: LION
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: CHICKEN
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -430,6 +452,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: WALK
       objectReference: {fileID: 0}
+    - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: answerType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: KANGAROO
+      objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 1
@@ -438,9 +468,17 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: TIGER
       objectReference: {fileID: 0}
+    - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: SNAKE
+      objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BANANA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: GOAT
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -450,6 +488,26 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: KNIGHT
       objectReference: {fileID: 0}
+    - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: RABBIT
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: answerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: LION
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: answerType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: COW
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -458,6 +516,11 @@ PrefabInstance:
 --- !u!1 &239003717861500938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+  m_PrefabInstance: {fileID: 965888515114452830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1903628696243993434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
@@ -478,6 +541,11 @@ GameObject:
 --- !u!224 &4629753135536573675 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+  m_PrefabInstance: {fileID: 965888515114452830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4688070856209642182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5505890127907026328, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4939662043687401163 stripped
@@ -501,6 +569,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &9064555107309578565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+  m_PrefabInstance: {fileID: 965888515114452830}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0
