@@ -13,7 +13,6 @@ namespace Answers.FillingWord
         [SerializeField] private GameObject congText;
         [SerializeField] private GameObject particlesForWin;
         [SerializeField] private List<ParticleSystem> partic;
-        [SerializeField] private List<string> fillingWords;
         private int currentAnswerCount;
         private int maxAnswerCount;
 
