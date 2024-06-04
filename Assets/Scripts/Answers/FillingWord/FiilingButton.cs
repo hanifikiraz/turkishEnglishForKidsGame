@@ -87,12 +87,12 @@ namespace Answers.FillingWord
             {
                 case Answer.True:
                     Debug.Log("True");
-                    BusSystem.CallPlayerSetAnim(2);
+                    BusSystem.CallPlayerSetAnim(3);
                     SetText();
                     break;
                 case Answer.False:
                     Debug.Log("False");
-                    BusSystem.CallPlayerSetAnim(3);
+                    BusSystem.CallPlayerSetAnim(2);
                     break;
             }
         }

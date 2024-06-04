@@ -25,7 +25,7 @@ namespace LevelScripts.CollectFruits
         {
             if (other.gameObject.tag == "BasketFruit")
             {
-                BusSystem.CallPlayerSetAnim(2);
+                BusSystem.CallPlayerSetAnim(3);
                 BusSystem.CallSetFruitScore(point);
                 goTween.Kill();
                 gameObject.GetComponent<Renderer>().enabled = false;

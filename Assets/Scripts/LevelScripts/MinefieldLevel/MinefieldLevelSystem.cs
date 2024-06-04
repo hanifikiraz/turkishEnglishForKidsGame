@@ -64,7 +64,7 @@ namespace LevelScripts.MinefieldLevel
                                     {
                                         if (hit.transform.parent.GetComponent<MineFieldObject>().ObjectID == 1)
                                         {
-                                            BusSystem.CallPlayerSetAnim(2);
+                                            BusSystem.CallPlayerSetAnim(3);
                                             mainerValue--;
                                             hit.transform.parent.DOScale(Vector3.zero, 1f).SetDelay(0.5f).OnComplete((
                                                 () =>
@@ -85,7 +85,7 @@ namespace LevelScripts.MinefieldLevel
                                         else
                                         {
                                             heartValue--;
-                                            BusSystem.CallPlayerSetAnim(3);
+                                            BusSystem.CallPlayerSetAnim(2);
                                             foreach (var VARIABLE in hearts)
                                             {
                                                 VARIABLE.SetActive(false);

@@ -23,14 +23,14 @@ namespace Answers
                 if (doubleSidesObject[0].GetComponent<DoubleSideObject>().objectID == doubleSidesObject[1].GetComponent<DoubleSideObject>().objectID )
                 {
                     Debug.Log("TRUE");
-                    BusSystem.CallPlayerSetAnim(2);
+                    BusSystem.CallPlayerSetAnim(3);
                     StartCoroutine(CollectObject());
                 }
                 else
                 {
                     Debug.Log("FALSE");
                 
-                    BusSystem.CallPlayerSetAnim(3);
+                    BusSystem.CallPlayerSetAnim(2);
                     StartCoroutine(RotateDefault());
                 
 
