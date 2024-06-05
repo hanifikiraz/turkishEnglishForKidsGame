@@ -14,6 +14,7 @@ namespace Engine
         [SerializeField] private GameObject gameLoseWinCanvasBG;
         private GameObject playingGame;
         private GameObject playingGameForRetry;
+        private GameObject lockObject;
 
         private void OnEnable()
         {

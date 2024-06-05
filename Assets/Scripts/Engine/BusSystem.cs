@@ -207,4 +207,18 @@ public static class BusSystem
         OnButtonClickable?.Invoke(value);
     }
 
+    public static Action OnIncreaseCompletedLevelValue;
+
+    public static void CallIncreaseCompletedLevelValue()
+    {
+        OnIncreaseCompletedLevelValue?.Invoke();
+    }
+
+    public static Action<GameObject> OnSetIncreaseLevel;
+
+    public static void CallSetIncreaseLevel(GameObject obj)
+    {
+        OnSetIncreaseLevel?.Invoke(obj);
+    }
+
 }

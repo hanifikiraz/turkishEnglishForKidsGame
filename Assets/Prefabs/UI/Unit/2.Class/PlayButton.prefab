@@ -2125,7 +2125,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8264502326003309380}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3965064389625908164}
+        m_TargetAssemblyTypeName: Menu.LevelPlayButtonCustomization, Assembly-CSharp
+        m_MethodName: SetLevelIncrease
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3965064389625908164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2139,6 +2151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LockGameObject: {fileID: 6208990107265026387}
+  unitName: 
   color1: {r: 0.4113207, g: 0.41108143, b: 0.3810537, a: 1}
   color2: {r: 1, g: 0.86274517, b: 0.08627451, a: 1}
   color1Images:

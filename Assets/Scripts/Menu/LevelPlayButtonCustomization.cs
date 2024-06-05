@@ -17,6 +17,7 @@ namespace Menu
         }
 
         public GameObject LockGameObject;
+        [SerializeField] private string unitName;
         [SerializeField] private Color color1;
         [SerializeField] private Color color2;
         [SerializeField] private List<Image> color1Images;
@@ -25,7 +26,39 @@ namespace Menu
         [SerializeField] private TextMeshProUGUI levelTextMesh;
         [SerializeField] private LevelType levelType;
         [SerializeField] private List<GameObject> levelTypeImages;
+        private int levelReply;
+        private string key;
 
+        private void Awake()
+        {
+            key = "LevelReply"+ unitName + gameObject.name;
+            LoadLevelCompletion();
+        }
+
+        public void SetLevelIncrease()
+        {
+            if (levelReply == 0)
+            {
+                BusSystem.CallIncreaseCompletedLevelValue();
+                levelReply = 1;
+                SavePrefs();
+            }
+        }
+        private void LoadLevelCompletion()
+        {
+            if (PlayerPrefs.HasKey(key))
+            {
+                levelReply = PlayerPrefs.GetInt(key);
+            }
+            else
+            {
+                levelReply = 0;
+                PlayerPrefs.SetInt(key, levelReply);
+                PlayerPrefs.Save(); // Değişiklikleri hemen kaydet
+            }
+            SavePrefs();
+        }
+        
         private void SetLevelType()
         {
             foreach (var VARIABLE in levelTypeImages)
@@ -63,6 +96,11 @@ namespace Menu
             }
 
             SetLevelType();
+        }
+        private void SavePrefs()
+        {
+            PlayerPrefs.SetInt(key, levelReply);
+            PlayerPrefs.Save();
         }
     }
 }

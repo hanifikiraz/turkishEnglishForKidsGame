@@ -1,37 +1,73 @@
 using System;
+using System.Collections.Generic;
+using Menu;
 using UnityEngine;
 
 namespace Unit
 {
     public class UnitLevelController : MonoBehaviour
     {
+        [SerializeField] private List<GameObject> buttons;
         [SerializeField] private int unitType;
         [SerializeField] private string unitName;
         [SerializeField] private int totalLevelCount;
         private int levelCompletedCount;
         
-
-
-        private void Awake()
+        
+        private void LoadLevelCompletion()
         {
-            if (PlayerPrefs.HasKey(unitName+unitType))
+            string key = unitName + unitType;
+
+            if (PlayerPrefs.HasKey(key))
             {
-                levelCompletedCount= PlayerPrefs.GetInt(unitName+unitType);
+                levelCompletedCount = PlayerPrefs.GetInt(key);
             }
             else
             {
-                PlayerPrefs.SetInt(unitName+unitType, 0);
+                levelCompletedCount = 0;
+                PlayerPrefs.SetInt(key, levelCompletedCount);
+                PlayerPrefs.Save(); // Değişiklikleri hemen kaydet
             }
 
-            SavePrefs();
+            Debug.Log("Level Completed Count: " + levelCompletedCount);
         }
 
-        private void LevelController()
+        private void Awake()
         {
-            if (levelCompletedCount<totalLevelCount)
+            LoadLevelCompletion();
+
+            SavePrefs();
+            SetLockImage();
+        }
+
+        private void OnEnable()
+        {
+            BusSystem.OnIncreaseCompletedLevelValue += IncreaseLevelCompletedCount;
+            SetLockImage();
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnIncreaseCompletedLevelValue -= IncreaseLevelCompletedCount;
+        }
+
+        private void SetLockImage()
+        {
+            
+            for (int i = 0; i < buttons.Count; i++)
             {
-                
+                if (i<=levelCompletedCount)
+                {
+                    Debug.Log("AAAAAAAAAAAAAAA");
+                    buttons[i].GetComponent<LevelPlayButtonCustomization>().LockGameObject.SetActive(false);
+                }
             }
+        }
+
+        private void IncreaseLevelCompletedCount()
+        {
+            levelCompletedCount++;
+            SavePrefs();
         }
         private void SavePrefs()
         {
