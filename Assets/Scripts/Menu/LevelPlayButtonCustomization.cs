@@ -18,6 +18,7 @@ namespace Menu
 
         public GameObject LockGameObject;
         [SerializeField] private string unitName;
+        [SerializeField] private int classNumber;
         [SerializeField] private Color color1;
         [SerializeField] private Color color2;
         [SerializeField] private List<Image> color1Images;
@@ -42,7 +43,7 @@ namespace Menu
             {
                 if (levelReply == 0)
                 {
-                    BusSystem.CallIncreaseCompletedLevelValue();
+                    BusSystem.CallIncreaseCompletedLevelValue(classNumber);
                     levelReply = 1;
                     SavePrefs();
                 }

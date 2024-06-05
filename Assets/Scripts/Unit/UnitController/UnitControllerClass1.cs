@@ -11,8 +11,7 @@ namespace Unit.UnitController
         [SerializeField] private string unitName;
         [SerializeField] private int totalLevelCount;
         private int levelCompletedCount;
-            
-            
+        
         private void LoadLevelCompletion()
         {
             string key = unitName + unitType;
@@ -41,13 +40,23 @@ namespace Unit.UnitController
     
         private void OnEnable()
         {
-            BusSystem.OnIncreaseCompletedLevelValue += IncreaseLevelCompletedCount;
+            BusSystem.OnIncreaseCompletedUnitValueClassTwo += IncreaseLevelCompletedCount;
+            BusSystem.OnUnitEnabled += SetValuesUnit;
             SetLockImage();
         }
     
         private void OnDisable()
         {
-            BusSystem.OnIncreaseCompletedLevelValue -= IncreaseLevelCompletedCount;
+           BusSystem.OnIncreaseCompletedUnitValueClassTwo -= IncreaseLevelCompletedCount;
+           BusSystem.OnUnitEnabled -= SetValuesUnit;
+        }
+
+        private void SetValuesUnit()
+        {
+            LoadLevelCompletion();
+    
+            SavePrefs();
+            SetLockImage();
         }
     
         private void SetLockImage()
@@ -57,7 +66,7 @@ namespace Unit.UnitController
             {
                 if (i<=levelCompletedCount)
                 {
-                  //  buttons[i].GetComponent<ClassMenuControllerTwoClass>().LockGameObject.SetActive(false);
+                    buttons[i].GetComponent<ClassMenuControllerTwoClass>().LockGameObject.SetActive(false);
                 }
             }
         }

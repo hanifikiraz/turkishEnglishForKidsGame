@@ -63,9 +63,24 @@ namespace Unit
             }
         }
 
-        private void IncreaseLevelCompletedCount()
+        private void IncreaseLevelCompletedCount(int classValue)
         {
             levelCompletedCount++;
+            if (levelCompletedCount == 10)
+            {
+                if (classValue == 2)
+                {
+                    BusSystem.CallIncreaseCompletedUnityValueClassTwo();
+                }
+                if (classValue == 3)
+                {
+                    BusSystem.CallIncreaseCompletedUnityValueClassThree();
+                }
+                if (classValue == 4)
+                {
+                    BusSystem.CallIncreaseCompletedUnityValueClassFour();
+                }
+            }
             SavePrefs();
         }
         private void SavePrefs()

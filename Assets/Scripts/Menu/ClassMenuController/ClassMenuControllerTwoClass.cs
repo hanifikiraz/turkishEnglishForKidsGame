@@ -21,7 +21,7 @@ namespace Menu.ClassMenuController
            Fruit,
            Animals
        }
-       
+       public GameObject LockGameObject;
        [SerializeField] private UnitType unitType;
        [SerializeField] private List<Sprite> unitImages;
        [SerializeField] private Image defaultImage;
@@ -39,8 +39,11 @@ namespace Menu.ClassMenuController
 
        public void OpenUnit()
        {
-           unitCanvas.SetActive(true);
-           myCanvas.SetActive(false);
+           if (LockGameObject.activeSelf == false)
+           {
+               unitCanvas.SetActive(true);
+               myCanvas.SetActive(false);
+           }
        }
         
        private void SpriteSelection(int value)

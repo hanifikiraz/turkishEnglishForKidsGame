@@ -207,11 +207,11 @@ public static class BusSystem
         OnButtonClickable?.Invoke(value);
     }
 
-    public static Action OnIncreaseCompletedLevelValue;
+    public static Action<int> OnIncreaseCompletedLevelValue;
 
-    public static void CallIncreaseCompletedLevelValue()
+    public static void CallIncreaseCompletedLevelValue(int classValue)
     {
-        OnIncreaseCompletedLevelValue?.Invoke();
+        OnIncreaseCompletedLevelValue?.Invoke(classValue);
     }
 
     public static Action<GameObject> OnSetIncreaseLevel;
@@ -219,6 +219,33 @@ public static class BusSystem
     public static void CallSetIncreaseLevel(GameObject obj)
     {
         OnSetIncreaseLevel?.Invoke(obj);
+    }
+
+    public static Action OnIncreaseCompletedUnitValueClassTwo;
+
+    public static void CallIncreaseCompletedUnityValueClassTwo()
+    {
+        OnIncreaseCompletedUnitValueClassTwo?.Invoke();
+    }
+    
+    public static Action OnIncreaseCompletedUnitValueClassThree;
+
+    public static void CallIncreaseCompletedUnityValueClassThree()
+    {
+        OnIncreaseCompletedUnitValueClassThree?.Invoke();
+    }
+    public static Action OnIncreaseCompletedUnitValueClassFour;
+
+    public static void CallIncreaseCompletedUnityValueClassFour()
+    {
+        OnIncreaseCompletedUnitValueClassFour?.Invoke();
+    }
+
+    public static Action OnUnitEnabled;
+
+    public static void CallUnitEnabled()
+    {
+        OnUnitEnabled?.Invoke();
     }
 
 }
