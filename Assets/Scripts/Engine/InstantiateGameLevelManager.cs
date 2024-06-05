@@ -29,12 +29,17 @@ namespace Engine
 
         public void InstantiateGame(GameObject gameLevelPrefab)
         {
+            SetLevel(gameLevelPrefab);
+        }
+
+        private void SetLevel(GameObject level)
+        {
             allCanvas.SetActive(false);
-            GameObject game = Instantiate(gameLevelPrefab, gameLevelPrefabParent.transform.position,
+            GameObject game = Instantiate(level, gameLevelPrefabParent.transform.position,
                 Quaternion.identity);
             game.transform.SetParent(gameLevelPrefabParent.transform);
             playingGame = game;
-            playingGameForRetry = gameLevelPrefab;
+            playingGameForRetry = level;
         }
 
         private void LevelWinStatusCanvas(bool isWin)
@@ -72,7 +77,7 @@ namespace Engine
         {
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
-            InstantiateGame(playingGameForRetry);
+            SetLevel(playingGameForRetry);
         }
     }
 }

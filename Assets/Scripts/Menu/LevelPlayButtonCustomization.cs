@@ -15,6 +15,8 @@ namespace Menu
             LevelPairing,
             LevelFilling
         }
+
+        public GameObject LockGameObject;
         [SerializeField] private Color color1;
         [SerializeField] private Color color2;
         [SerializeField] private List<Image> color1Images;
