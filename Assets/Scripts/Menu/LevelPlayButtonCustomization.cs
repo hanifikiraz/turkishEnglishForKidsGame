@@ -26,6 +26,7 @@ namespace Menu
         [SerializeField] private TextMeshProUGUI levelTextMesh;
         [SerializeField] private LevelType levelType;
         [SerializeField] private List<GameObject> levelTypeImages;
+        [SerializeField] private GameObject level;
         private int levelReply;
         private string key;
 
@@ -43,6 +44,7 @@ namespace Menu
                 levelReply = 1;
                 SavePrefs();
             }
+            BusSystem.CallSetIncreaseLevel(level);
         }
         private void LoadLevelCompletion()
         {

@@ -14788,6 +14788,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8559451171670182576}
+  - {fileID: 9074686371597214392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -20729,6 +20730,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: debc5dbdef474164cb4de280389390c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -20825,6 +20834,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &4639907082569013755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 1658286698452116149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8315147098400298711 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -21558,6 +21572,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6179602304097044002}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: e16de9fda6cd06949bf3e920ccb926b4, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (1)
@@ -21650,6 +21672,11 @@ PrefabInstance:
 --- !u!224 &6873040951593519710 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 4253595530636738108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7809495220926317938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 4253595530636738108}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5141453925715429839
@@ -21779,6 +21806,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 8789155629994348313, guid: 5ab1c6868ca4a884db7ae1728f696d67, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 1
       objectReference: {fileID: 0}
@@ -21875,6 +21910,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &2300664430283749200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 5227186047663098910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3237119249104058492 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -21888,6 +21928,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6179602304097044002}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: 9ff91100eccdae0438ab2703a1e8bdb6, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton
@@ -21977,6 +22025,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &2163273752053871623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 5287883589885546313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3243835100831791915 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -22109,6 +22162,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 6179602304097044002}
     m_Modifications:
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 6186709638198017918, guid: 60f0f9e32f4273f418dda214afcc422b, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 3
       objectReference: {fileID: 0}
@@ -22209,6 +22270,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &379854093788691235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 5918481250425143405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3910417070031762447 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -22451,6 +22517,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 6179602304097044002}
     m_Modifications:
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 6186709638198017918, guid: 13ef786ece23bc2489399f949e6325da, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 3
       objectReference: {fileID: 0}
@@ -22551,6 +22625,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &1031847791947701524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 6428593826183931482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4418252012769841720 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -22567,6 +22646,14 @@ PrefabInstance:
     - target: {fileID: 2298612027702242898, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 8789155629994348313, guid: 76f2ccbc2b6e86046aa0b5a701186ee7, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
@@ -22665,6 +22752,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &1057497097680355595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 6470498515794049605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4444464402672111143 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -22784,6 +22876,116 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
   m_PrefabInstance: {fileID: 6718114216340912451}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7164248304644306476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1808749407567376193}
+    m_Modifications:
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2272.9277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007645132134977447, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_Name
+      value: LevelController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[0]
+      value: 
+      objectReference: {fileID: 2163273752053871623}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 7809495220926317938}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 3541180673594986840}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[3]
+      value: 
+      objectReference: {fileID: 1057497097680355595}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[4]
+      value: 
+      objectReference: {fileID: 2300664430283749200}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[5]
+      value: 
+      objectReference: {fileID: 3016624507824824400}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[6]
+      value: 
+      objectReference: {fileID: 4639907082569013755}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[7]
+      value: 
+      objectReference: {fileID: 2733112985200106994}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[8]
+      value: 
+      objectReference: {fileID: 379854093788691235}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[9]
+      value: 
+      objectReference: {fileID: 1031847791947701524}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+--- !u!4 &9074686371597214392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+  m_PrefabInstance: {fileID: 7164248304644306476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7368985273746434582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22792,6 +22994,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6179602304097044002}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: 06e8b337fcb05964e9fb9ad9f14bf419, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (2)
@@ -22884,6 +23094,11 @@ PrefabInstance:
 --- !u!224 &154769309703790196 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 7368985273746434582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3541180673594986840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 7368985273746434582}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7531433554907461370
@@ -23131,6 +23346,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: debc5dbdef474164cb4de280389390c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -23230,6 +23453,11 @@ PrefabInstance:
 --- !u!224 &1651944846929253086 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 8253655387500848828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2733112985200106994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 8253655387500848828}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8451188028778722449
@@ -23363,6 +23591,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: debc5dbdef474164cb4de280389390c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Animals
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -23462,5 +23698,10 @@ PrefabInstance:
 --- !u!224 &1935458033320570748 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 9131642109789788958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3016624507824824400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 9131642109789788958}
   m_PrefabAsset: {fileID: 0}

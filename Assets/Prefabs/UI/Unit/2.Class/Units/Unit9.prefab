@@ -9694,6 +9694,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2189148626281516033}
+  - {fileID: 3000208933754462646}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -19800,6 +19801,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 8789155629994348313, guid: b27afd8dd6ec57a4eaecf16a131411eb, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 1
       objectReference: {fileID: 0}
@@ -19809,27 +19818,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -19924,6 +19937,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &6344184963213631982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 1111327545222961824}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7712984244064382658 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -20174,6 +20192,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 4472176842665144476}
     m_Modifications:
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 6186709638198017918, guid: 46e3348da42dc6841bd736e1afc00dce, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 3
       objectReference: {fileID: 0}
@@ -20183,7 +20209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -20191,19 +20217,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -20302,6 +20328,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!114 &3402073119515947092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 1742939750065716112}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5717040897673461982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49fcc65934fd9843967dcc19e72402c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5717040897673461982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 1742939750065716112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8959373498835816434 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -20320,6 +20362,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 8789155629994348313, guid: 26209694f766a8d43b5ad439930cd486, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 1
       objectReference: {fileID: 0}
@@ -20329,27 +20379,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -20444,6 +20498,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &5570677060343748913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 1884806310094103167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &9101231241296451101 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -20576,6 +20635,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: c6087192aca5ff949ade1444f29cd1c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -20585,27 +20652,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -20703,6 +20774,11 @@ PrefabInstance:
 --- !u!224 &6098766352405757565 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 3514240797941991967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7467600938960859473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 3514240797941991967}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3670682814739310515
@@ -20827,33 +20903,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4472176842665144476}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: 68ec60725170b784192a96921c9f0b4f, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -20948,6 +21036,121 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 3685019769715507001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7225174490048169079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 3685019769715507001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3972637688129303842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8012108828980334350}
+    m_Modifications:
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2272.9277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007645132134977447, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: m_Name
+      value: LevelController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[0]
+      value: 
+      objectReference: {fileID: 2561254372602549833}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 7225174490048169079}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 2146085086276868117}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[3]
+      value: 
+      objectReference: {fileID: 6344184963213631982}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[4]
+      value: 
+      objectReference: {fileID: 5570677060343748913}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[5]
+      value: 
+      objectReference: {fileID: 7936286146407603952}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[6]
+      value: 
+      objectReference: {fileID: 7467600938960859473}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[7]
+      value: 
+      objectReference: {fileID: 4408033576001655261}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[8]
+      value: 
+      objectReference: {fileID: 3113596406711193049}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: buttons.Array.data[9]
+      value: 
+      objectReference: {fileID: 5717040897673461982}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+--- !u!4 &3000208933754462646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+  m_PrefabInstance: {fileID: 3972637688129303842}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4024896464543511331
 PrefabInstance:
@@ -21076,6 +21279,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: c6087192aca5ff949ade1444f29cd1c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -21085,27 +21296,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -21203,6 +21418,11 @@ PrefabInstance:
 --- !u!224 &6711013126372315612 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 4126548693691966910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7936286146407603952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 4126548693691966910}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4445866055503744290
@@ -22027,33 +22247,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4472176842665144476}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: 8bfe22e3f80018841a1b43eefbd4ffd0, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -22144,6 +22376,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+--- !u!1 &2146085086276868117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 5381596066878448475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3371359736788588345 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
@@ -22508,6 +22745,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 4073589873809185605, guid: c6087192aca5ff949ade1444f29cd1c3, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 2
       objectReference: {fileID: 0}
@@ -22517,27 +22762,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -22637,6 +22886,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 7659307062873352851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4408033576001655261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 7659307062873352851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8425196242174356743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22645,33 +22899,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4472176842665144476}
     m_Modifications:
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 2108961785987287610, guid: 078883197991a8948a25afc048956073, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -22765,6 +23031,11 @@ PrefabInstance:
 --- !u!224 &1191892158172977509 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 8425196242174356743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2561254372602549833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 8425196242174356743}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8695119646456838816
@@ -22894,6 +23165,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 4472176842665144476}
     m_Modifications:
     - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 6186709638198017918, guid: c9526468c57a9974a8bdb4a85b1463ae, type: 3}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: unitName
+      value: Fruits
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: levelType
       value: 3
       objectReference: {fileID: 0}
@@ -22903,27 +23182,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3402073119515947092}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: InstantiateGame
+      value: SetLevelIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Engine.InstantiateGameLevelManager, Assembly-CSharp
+      value: Menu.LevelPlayButtonCustomization, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1972503246349204128, guid: f74a2b6d6c9104a4c9af77903f213e02, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
@@ -23025,5 +23308,10 @@ PrefabInstance:
 --- !u!224 &1744198988043207413 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7234536705330213986, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+  m_PrefabInstance: {fileID: 8958397915002451607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3113596406711193049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
   m_PrefabInstance: {fileID: 8958397915002451607}
   m_PrefabAsset: {fileID: 0}

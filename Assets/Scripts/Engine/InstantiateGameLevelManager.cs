@@ -20,12 +20,14 @@ namespace Engine
         {
             BusSystem.OnLevelWinStatusForCanvas += LevelWinStatusCanvas;
             BusSystem.OnCloseWinOrLoseCanvas += CloseWinOrLoseCanvas;
+            BusSystem.OnSetIncreaseLevel += InstantiateGame;
         }
 
         private void OnDisable()
         {
             BusSystem.OnLevelWinStatusForCanvas -= LevelWinStatusCanvas;
             BusSystem.OnCloseWinOrLoseCanvas -= CloseWinOrLoseCanvas;
+            BusSystem.OnSetIncreaseLevel -= InstantiateGame;
         }
 
         public void InstantiateGame(GameObject gameLevelPrefab)
