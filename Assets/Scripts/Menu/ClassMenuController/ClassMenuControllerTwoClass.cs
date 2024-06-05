@@ -26,6 +26,7 @@ namespace Menu.ClassMenuController
        [SerializeField] private List<Sprite> unitImages;
        [SerializeField] private Image defaultImage;
        [SerializeField] private TextMeshProUGUI unitText;
+       [SerializeField] private TextMeshProUGUI lockText;
        [SerializeField] private string unitTextString;
        [SerializeField] private GameObject myCanvas;
        [SerializeField] private GameObject unitCanvas;
@@ -33,6 +34,7 @@ namespace Menu.ClassMenuController
        {
            UnitSelection();
            unitText.text = unitTextString;
+           lockText.text = unitTextString;
        }
 
        public void OpenUnit()

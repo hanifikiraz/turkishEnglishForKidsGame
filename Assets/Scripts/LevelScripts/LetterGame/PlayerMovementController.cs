@@ -22,7 +22,7 @@ namespace LevelScripts.LetterGame
 
         public bool isMove;
         private bool playerMovedRedLight;
-        private bool canMove;
+        //private bool canMove;
         private bool isTakeLetter;
 
         private void Awake()
@@ -46,7 +46,7 @@ namespace LevelScripts.LetterGame
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
                 if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
                 {
-                    canMove = true;
+                 //   canMove = true;
                 }
                 Move();  
             }
@@ -61,7 +61,7 @@ namespace LevelScripts.LetterGame
             {
                // gameObject.GetComponent<BoxCollider>().isTrigger = true;
                 gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                canMove = false;
+              //  canMove = false;
 
                 animator.SetTrigger("Idle");
             }
@@ -74,7 +74,7 @@ namespace LevelScripts.LetterGame
             _moveVector.z = _joystick.Vertical * _moveSpeed * Time.deltaTime;
             if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
             {
-                canMove = true;
+              //  canMove = true;
                 Vector3 direction =
                     Vector3.RotateTowards(transform.forward, _moveVector, _rotateSpeed * Time.deltaTime, 0.0f);
                 transform.rotation = Quaternion.LookRotation(direction);

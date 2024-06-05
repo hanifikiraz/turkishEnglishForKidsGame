@@ -38,13 +38,16 @@ namespace Menu
 
         public void SetLevelIncrease()
         {
-            if (levelReply == 0)
+            if (LockGameObject.activeSelf == false)
             {
-                BusSystem.CallIncreaseCompletedLevelValue();
-                levelReply = 1;
-                SavePrefs();
+                if (levelReply == 0)
+                {
+                    BusSystem.CallIncreaseCompletedLevelValue();
+                    levelReply = 1;
+                    SavePrefs();
+                }
+                BusSystem.CallSetIncreaseLevel(level);
             }
-            BusSystem.CallSetIncreaseLevel(level);
         }
         private void LoadLevelCompletion()
         {

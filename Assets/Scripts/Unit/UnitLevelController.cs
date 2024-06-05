@@ -58,7 +58,6 @@ namespace Unit
             {
                 if (i<=levelCompletedCount)
                 {
-                    Debug.Log("AAAAAAAAAAAAAAA");
                     buttons[i].GetComponent<LevelPlayButtonCustomization>().LockGameObject.SetActive(false);
                 }
             }
