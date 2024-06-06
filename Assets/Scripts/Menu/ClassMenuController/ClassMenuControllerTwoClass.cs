@@ -35,6 +35,7 @@ namespace Menu.ClassMenuController
            UnitSelection();
            unitText.text = unitTextString;
            lockText.text = unitTextString;
+          // LockGameObject.SetActive(false);
        }
 
        public void OpenUnit()
