@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 namespace Answers.FillingWord
 {
@@ -20,6 +21,8 @@ namespace Answers.FillingWord
         [SerializeField] private List<GameObject> myObjects;
         [SerializeField] private GameObject fillingText;
         [SerializeField] private GameObject emptyText;
+        [SerializeField] private Image defaultImage;
+        [SerializeField] private List<Sprite> sprites;
         private Tween scaleTween;
         
         private void OnValidate()
@@ -37,7 +40,30 @@ namespace Answers.FillingWord
         private void Start()
         {
             fillingText.SetActive(false);
-            buttonText.text = buttonTextAnswer; 
+            buttonText.text = buttonTextAnswer;
+            SetButtonImage(1);
+        }
+        private void SetButtonImage(int value)
+        {
+            switch (value)
+            {
+                case 1:
+                    defaultImage.sprite = sprites[0];
+                    break;
+                case 2:
+                    StartCoroutine(SetWrongImage());
+                    break;
+                case 3:
+                    defaultImage.sprite = sprites[2];
+                    break;
+            }
+        }
+
+        private IEnumerator SetWrongImage()
+        {
+            defaultImage.sprite = sprites[1];
+            yield return new WaitForSecondsRealtime(0.5f);
+            defaultImage.sprite = sprites[0];
         }
         public void TweenAnimationBig()
         {
@@ -82,15 +108,19 @@ namespace Answers.FillingWord
 
         public void AnswerController()
         {
-            BusSystem.CallAudioChange(5);
+            ;
             switch (answerType)
             {
                 case Answer.True:
+                    BusSystem.CallAudioChange(8);
+                    SetButtonImage(3);
                     Debug.Log("True");
                     BusSystem.CallPlayerSetAnim(3);
                     SetText();
                     break;
                 case Answer.False:
+                    BusSystem.CallAudioChange(9);
+                    SetButtonImage(2);
                     Debug.Log("False");
                     BusSystem.CallPlayerSetAnim(2);
                     break;

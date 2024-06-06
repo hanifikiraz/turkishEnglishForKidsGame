@@ -202,8 +202,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a0c4687d22934cf095617641845b467, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: c80ad0f5bc8d143378e1c7bd05fe5fe1, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -290,3 +290,8 @@ MonoBehaviour:
   - {fileID: 0}
   fillingText: {fileID: 0}
   emptyText: {fileID: 0}
+  defaultImage: {fileID: 2220414885779770803}
+  sprites:
+  - {fileID: 21300000, guid: c80ad0f5bc8d143378e1c7bd05fe5fe1, type: 3}
+  - {fileID: 21300000, guid: 0cf1c10cfff5c40deb52b730c33de32e, type: 3}
+  - {fileID: 21300000, guid: f2f4580479a744a0688440b82c21ddd5, type: 3}

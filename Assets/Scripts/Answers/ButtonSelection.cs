@@ -24,6 +24,17 @@ namespace Answers
         private Tween scaleTween;
         private bool onClickable = true;
         
+       
+        private void OnEnable()
+        {
+            BusSystem.OnButtonClickable += ButtonClickable;
+            onClickable = true;
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnButtonClickable -= ButtonClickable;
+        }
         private void Start()
         {
             buttonText.text = buttonTextAnswer;
@@ -53,16 +64,6 @@ namespace Answers
             yield return new WaitForSecondsRealtime(0.5f);
             defaultImage.sprite = sprites[0];
         }
-        private void OnEnable()
-        {
-            BusSystem.OnButtonClickable += ButtonClickable;
-            onClickable = true;
-        }
-
-        private void OnDisable()
-        {
-            BusSystem.OnButtonClickable -= ButtonClickable;
-        }
 
         private void ButtonClickable(bool value)
         {
@@ -88,16 +89,17 @@ namespace Answers
         {
             if (onClickable)
             {
-                BusSystem.CallAudioChange(5);
                 switch (answerType)
                 {
                     case Answer.True:
+                        BusSystem.CallAudioChange(8);
                         SetButtonImage(3);
                         Debug.Log("True");
                         BusSystem.CallPlayerSetAnim(3);
                         BusSystem.CallWrongAnswer(true);
                         break;
                     case Answer.False:
+                        BusSystem.CallAudioChange(9);
                         SetButtonImage(2);
                         Debug.Log("False");
                         BusSystem.CallPlayerSetAnim(2);
