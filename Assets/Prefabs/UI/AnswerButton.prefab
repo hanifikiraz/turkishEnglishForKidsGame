@@ -202,8 +202,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a0c4687d22934cf095617641845b467, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 03da769f7cb3f492787dc8e96c5b404e, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -283,3 +283,8 @@ MonoBehaviour:
   answerType: 1
   buttonTextAnswer: ELMA
   buttonText: {fileID: 7800016550141206374}
+  defaultImage: {fileID: 6233930180354098013}
+  sprites:
+  - {fileID: 21300000, guid: 03da769f7cb3f492787dc8e96c5b404e, type: 3}
+  - {fileID: 21300000, guid: 0cf1c10cfff5c40deb52b730c33de32e, type: 3}
+  - {fileID: 21300000, guid: f2f4580479a744a0688440b82c21ddd5, type: 3}
