@@ -1,4 +1,5 @@
 using System;
+using LevelScripts.AAAAAOthers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,12 +9,21 @@ namespace Menu
     {
         [SerializeField] private Image areaImage;
         [SerializeField] private Image areaImageTwo;
-
+        public GameButtons.LevelType LevelType;
         private void OnEnable()
         {
             SetImage(false);
+            if (LevelType != GameButtons.LevelType.Empty)
+            {
+                BusSystem.CallMiniLevelCompleted(LevelType);
+                LevelType = GameButtons.LevelType.Empty;
+            }
         }
 
+        private void Start()
+        {
+            LevelType = GameButtons.LevelType.Empty;
+        }
         private void Update()
         {
             if (Input.GetMouseButtonDown(0))

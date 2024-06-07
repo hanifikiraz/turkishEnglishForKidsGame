@@ -2173,6 +2173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1828b02057a6ed4dadeda3ac6da5e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
   levelImages:
   - {fileID: 815676045444167565}
   - {fileID: 2266531599737453492}
@@ -2181,6 +2182,8 @@ MonoBehaviour:
   - {fileID: 3074763569724961379}
   - {fileID: 7256237161789644407}
   - {fileID: 7222339116915971202}
-  lockObject: {fileID: 3845852583281570768}
+  levels: []
   gamePrefab: {fileID: 0}
+  canvasController: {fileID: 0}
+  lockObject: {fileID: 3845852583281570768}
   levelType: 0

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Answers;
+using LevelScripts.AAAAAOthers;
 using UnityEngine;
 
 public static class BusSystem
@@ -246,6 +247,13 @@ public static class BusSystem
     public static void CallUnitEnabled()
     {
         OnUnitEnabled?.Invoke();
+    }
+
+    public static Action<GameButtons.LevelType> OnMiniLevelCompleted;
+
+    public static void CallMiniLevelCompleted(GameButtons.LevelType levelType)
+    {
+        OnMiniLevelCompleted?.Invoke(levelType);
     }
 
 }
