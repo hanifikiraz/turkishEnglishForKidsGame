@@ -2148,7 +2148,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 717363258644551057}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4785148075998926540}
+        m_TargetAssemblyTypeName: LevelScripts.AAAAAOthers.GameButtons, Assembly-CSharp
+        m_MethodName: SetGameInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4785148075998926540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2170,4 +2182,5 @@ MonoBehaviour:
   - {fileID: 7256237161789644407}
   - {fileID: 7222339116915971202}
   lockObject: {fileID: 3845852583281570768}
+  gamePrefab: {fileID: 0}
   levelType: 0

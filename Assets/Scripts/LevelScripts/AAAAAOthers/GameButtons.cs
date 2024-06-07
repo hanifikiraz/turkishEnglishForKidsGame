@@ -20,11 +20,17 @@ namespace LevelScripts.AAAAAOthers
 
         [SerializeField] private List<GameObject> levelImages;
         [SerializeField] private GameObject lockObject;
+        [SerializeField] private GameObject gamePrefab;
         public LevelType levelType;
 
         private void OnValidate()
         {
             SetLevelType();
+        }
+
+        public void SetGameInstantiate()
+        {
+            BusSystem.CallSetIncreaseLevel(gamePrefab);
         }
 
         private void SetImage(int value)

@@ -37,7 +37,10 @@ namespace LevelScripts.TankLevel
                     VARIABLE.SetActive(false);
                 }
                 congText.SetActive(true);
-                congText.transform.DOScale(Vector3.zero, 0.7f).From();
+                congText.transform.DOScale(Vector3.zero, 0.7f).From().OnComplete((() =>
+                {
+                    BusSystem.CallLevelWinStatusForCanvas(true);
+                }));
             }
             
         }
