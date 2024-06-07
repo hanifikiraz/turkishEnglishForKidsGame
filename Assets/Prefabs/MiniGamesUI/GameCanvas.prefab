@@ -30,6 +30,7 @@ RectTransform:
   m_Children:
   - {fileID: 3757021553423693584}
   - {fileID: 7065796376116524209}
+  - {fileID: 4158233885711557435}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -172,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.07169801, g: 0.07169801, b: 0.07169801, a: 0.3372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -233,7 +234,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6651693119196842045}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.40534675
+  m_Size: 0.45090184
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -477,6 +478,52 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &3388239488345492407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4158233885711557435}
+  - component: {fileID: 1744481870794343566}
+  m_Layer: 0
+  m_Name: GameCanvasController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4158233885711557435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388239488345492407}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -766.3232, y: 64.78931, z: 6.6352253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4029730230782060096}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744481870794343566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388239488345492407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c770c1e87f8e614fb895acf3399243c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaImage: {fileID: 4923100558539355658}
+  areaImageTwo: {fileID: 3366087539321141635}
 --- !u!1 &3420377815156077913
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,8 +666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: 0, y: 0.1637}
+  m_SizeDelta: {x: 20, y: 25.4929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2037220013712355845
 CanvasRenderer:
@@ -643,14 +690,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21509439, g: 0.21509439, b: 0.21509439, a: 1}
+  m_Color: {r: 1, g: 0.3647059, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: c3aa8bc4fb716401ca32ee9904a18bb0, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -779,6 +826,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872173201138771396, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 4296537350077196278, guid: e9772d63324d9fc4cb1dd14ce3b672d1, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (3)
@@ -983,6 +1046,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: cb09ef63053da8b49b13e93d6c909b9e, type: 3}
+    - target: {fileID: 7256237161789644407, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (5)
@@ -1085,6 +1164,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071892992292099325, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 5578659339860964899, guid: 37d988ade4853044a9cfa7816a869a13, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (2)
@@ -1289,6 +1384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 3913340455588573227, guid: 876f6a90b1e6eb4458d806c939461143, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton
@@ -1391,6 +1490,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266531599737453492, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 8554240133258525339, guid: 9166d590115b4f9448cc62965196ae57, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (1)
@@ -1493,6 +1608,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 18d7946301982d74bbd7681df64e978a, type: 3}
+    - target: {fileID: 7222339116915971202, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (6)
@@ -1697,6 +1828,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074763569724961379, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: gamePrefab
+      value: 
+      objectReference: {fileID: 2734575400963089, guid: 64964bc3412799a4cb6181072c65656a, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (4)

@@ -54,7 +54,6 @@ public class JumpController : MonoBehaviour
    {
       if (floatingImage.transform.localPosition.x>=minX && floatingImage.transform.localPosition.x<= maxX)
       {
-         Debug.Log("KAZANDI");
          BusSystem.CallPlayerJump();
       }
    }

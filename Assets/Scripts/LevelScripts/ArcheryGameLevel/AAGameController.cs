@@ -37,8 +37,11 @@ namespace LevelScripts.AAGameLevel
 
         public void SetArrow()
         {
-            GameObject instArrom = Instantiate(arrow, arrowTransform.position, Quaternion.identity);
-            arrows.Add(instArrom);
+            if (levelEnd == false)
+            {
+                GameObject instArrom = Instantiate(arrow, arrowTransform.position, Quaternion.identity);
+                arrows.Add(instArrom);
+            }
         }
 
         private void LevelEnd()
@@ -58,7 +61,10 @@ namespace LevelScripts.AAGameLevel
             }
             levelEndText.SetActive(true);
             levelEndText.transform.DOScale(Vector3.zero, 0);
-            levelEndText.transform.DOScale(Vector3.one, 0.7f);
+            levelEndText.transform.DOScale(Vector3.one, 0.7f).OnComplete((() =>
+            {
+                BusSystem.CallLevelWinStatusForCanvas(true);
+            }));
         }
         
     }

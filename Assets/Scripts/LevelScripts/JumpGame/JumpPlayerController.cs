@@ -35,7 +35,6 @@ public class JumpPlayerController : MonoBehaviour
             playerAnimator.SetTrigger("Jump");
             gameObject.transform.DOLocalJump(pos, 3, 1,1).OnComplete((() =>
             {
-                Debug.Log(jumpValue + " Jumpp Valuee " + jumpAreas.Count +" JumpCount");
                 jumpValue++;
                 isJump = true;
                 if (jumpValue == jumpAreas.Count)
@@ -43,6 +42,7 @@ public class JumpPlayerController : MonoBehaviour
                     BusSystem.CallJumpLevelDone();
                     playerAnimator.SetTrigger("Dance");
                     isJump = false;
+                    BusSystem.CallLevelWinStatusForCanvas(true);
                 }
             }));
             

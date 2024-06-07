@@ -79,7 +79,11 @@ namespace LevelScripts.MinefieldLevel
                                                 {
                                                     VARIABLE.Play();
                                                 }
-                                                levelWinUI.transform.DOScale(Vector3.zero,0.7f).From();
+                                                levelWinUI.transform.DOScale(Vector3.zero,0.7f).From().OnComplete((() =>
+                                                {
+                                                    BusSystem.CallLevelWinStatusForCanvas(true);
+                                                }));
+                                                
                                             }
                                         }
                                         else
@@ -100,7 +104,11 @@ namespace LevelScripts.MinefieldLevel
                                             if (heartValue==0)
                                             {
                                                 levelLoseUI.SetActive(true);
-                                                levelLoseUI.transform.DOScale(Vector3.zero,0.7f).From();
+                                                levelLoseUI.transform.DOScale(Vector3.zero,0.7f).From().OnComplete((
+                                                    () =>
+                                                    {
+                                                        BusSystem.CallLevelWinStatusForCanvas(false);
+                                                    }));
                                             }
                                         }
                                     }));

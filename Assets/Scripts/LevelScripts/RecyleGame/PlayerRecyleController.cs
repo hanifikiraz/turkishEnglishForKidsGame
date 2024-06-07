@@ -81,6 +81,7 @@ namespace LevelScripts.RecyleGame
                             Debug.Log("LevelBitti");
                             BusSystem.CallGoAreValue(5);
                             BusSystem.CallRecyleLevelEnd();
+                            BusSystem.CallLevelWinStatusForCanvas(true);
                         }
                         else
                         {

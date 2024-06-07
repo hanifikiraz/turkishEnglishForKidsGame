@@ -1,7 +1,6 @@
 using System;
 using DG.Tweening;
 using UnityEngine;
-using Vector3 = System.Numerics.Vector3;
 
 namespace Engine
 {
@@ -53,14 +52,16 @@ namespace Engine
                 BusSystem.CallAudioChange(10);
                 BusSystem.CallAudioChange(6);
                 gameWinCanvas.SetActive(true);
-                gameWinCanvas.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From();
+                gameWinCanvas.transform.localScale = Vector3.zero;
+                gameWinCanvas.transform.DOScale(Vector3.one,  0.7f);
             }
             else
             {
                 BusSystem.CallAudioChange(10);
                 BusSystem.CallAudioChange(7);
                 gameLoseCanvas.SetActive(true);
-                gameLoseCanvas.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From();
+                gameLoseCanvas.transform.localScale = Vector3.zero;
+                gameLoseCanvas.transform.DOScale(Vector3.one,  0.7f);
             }
         }
         private void CloseWinOrLoseCanvas()

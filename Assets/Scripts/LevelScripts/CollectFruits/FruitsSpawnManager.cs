@@ -48,7 +48,10 @@ namespace LevelScripts.CollectFruits
                 levelEnd = true;
                 StopCoroutine(SpawnObjectCoroutine());
                 congText.SetActive(true);
-                congText.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From();
+                congText.transform.DOScale(new UnityEngine.Vector3(0,0,0), 0.7f).From().OnComplete((() =>
+                {
+                    BusSystem.CallLevelWinStatusForCanvas(true);
+                }));
                 particle.SetActive(true);
                 foreach (var VARIABLE in particles)
                 {

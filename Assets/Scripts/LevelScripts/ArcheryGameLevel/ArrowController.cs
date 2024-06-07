@@ -28,7 +28,6 @@ namespace LevelScripts.AAGameLevel
             if (other.gameObject.tag == "Arrow")
             {
                 BusSystem.CallAAGameLevelEnd();
-                Debug.Log("AAAAAAAAAAAA");
             }
         }
     }

@@ -49,6 +49,7 @@ namespace LevelScripts.LetterGame
             if (currentCompletedValue>=completedValue)
             {
                 Debug.Log("Level Bitti");
+                BusSystem.CallLevelWinStatusForCanvas(true);
             }
             else
             {
