@@ -42,7 +42,7 @@ namespace LevelScripts.CollectFruits
         private void SetScore(float value)
         {
             score += value;
-            scoreText.text = score.ToString();
+            scoreText.text = score+ "/" +endScore;
             if (score == endScore)
             {
                 levelEnd = true;
