@@ -19,7 +19,7 @@ namespace LevelScripts.AAAAAOthers
         }
 
         [SerializeField] private List<GameObject> levelImages;
-        [SerializeField] private GameObject lockObject;
+        public GameObject lockObject;
         [SerializeField] private GameObject gamePrefab;
         public LevelType levelType;
 

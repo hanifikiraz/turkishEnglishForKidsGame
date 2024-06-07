@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using LevelScripts.AAAAAOthers;
 using Menu.ClassMenuController;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ namespace Unit.UnitController
     public class UnitControllerClass1 : MonoBehaviour
     {
         [SerializeField] private List<GameObject> buttons;
+        [SerializeField] private List<GameObject> buttonsGame;
         [SerializeField] private int unitType;
         [SerializeField] private string unitName;
         [SerializeField] private int totalLevelCount;
@@ -67,6 +69,13 @@ namespace Unit.UnitController
                 if (i<=levelCompletedCount)
                 {
                     buttons[i].GetComponent<ClassMenuControllerTwoClass>().LockGameObject.SetActive(false);
+                }
+            } 
+            for (int i = 0; i < buttonsGame.Count; i++)
+            {
+                if (i<levelCompletedCount)
+                {
+                    buttonsGame[i].GetComponent<GameButtons>().lockObject.SetActive(false);
                 }
             }
         }
