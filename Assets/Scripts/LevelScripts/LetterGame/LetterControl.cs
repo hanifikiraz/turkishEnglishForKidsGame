@@ -38,7 +38,6 @@ namespace LevelScripts.LetterGame
             if (isCompleted)
             {
                 BusSystem.CallLetterCompletedControl();
-                Debug.Log("Bittttttttiii");
             }
         }
     }

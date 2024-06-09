@@ -234,7 +234,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6651693119196842045}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.46052614
+  m_Size: 0.42621395
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1272,6 +1272,34 @@ PrefabInstance:
       propertyPath: canvasController
       value: 
       objectReference: {fileID: 1744481870794343566}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[0]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: cb09ef63053da8b49b13e93d6c909b9e, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: d45e19106aea5e5459f3386e1a0d0c00, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: 330dfbd6b5b4f6c4ab650232331bad71, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[3]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: f783bad3542d2dd41bfc383fe3b50a39, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[4]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: c8af0ddd0cd4d5441a84c3d5e2adcb72, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[5]
+      value: 
+      objectReference: {fileID: 7376667806159187905, guid: be25b9c83d061ae4db890799bfa8891a, type: 3}
     - target: {fileID: 7256237161789644407, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_IsActive
       value: 1
