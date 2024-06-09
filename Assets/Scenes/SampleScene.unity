@@ -2083,7 +2083,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 71.335945
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2109,8 +2109,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14800262, y: -0.20638983, z: 0.042986188, w: 0.9662561}
-  m_LocalPosition: {x: 4.6, y: 7.5, z: -14.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.97, y: 0.31, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5889,6 +5889,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -275
       objectReference: {fileID: 0}
+    - target: {fileID: 2699916231947213130, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806703556242525783, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853854017904388287, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3164844167886520752, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6009,6 +6021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5068307420435153195, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5374012437774923113, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6027,7 +6043,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5655465687843778679, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6544820272201753401, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6768088894716778282, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -6045,6 +6065,10 @@ PrefabInstance:
       propertyPath: mainMenuCanvas
       value: 
       objectReference: {fileID: 510687010}
+    - target: {fileID: 7926602929020703658, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7930781357271962816, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.45090184
