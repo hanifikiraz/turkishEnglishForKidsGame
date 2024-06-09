@@ -1986,6 +1986,42 @@ PrefabInstance:
       propertyPath: canvasController
       value: 
       objectReference: {fileID: 1744481870794343566}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[0]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 18d7946301982d74bbd7681df64e978a, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 6cbc2af07e6c276419ab82e0a78d8d3d, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 9de83a8d58c917a42875246bbdeafa1c, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[3]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 4f1aa52107c03d34fbf69e9d57c8210e, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[4]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 6d34c7c6e4553e1469d5e0bfedf47bf1, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[5]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 161fbb5df263ff0449b80b0ccd90d635, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[6]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 2a513ad6bafaac54397b13e05d9aaa37, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[7]
+      value: 
+      objectReference: {fileID: 8706193822218485055, guid: 1b7f9e66992a68645bc9a909fb1066b7, type: 3}
     - target: {fileID: 7222339116915971202, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_IsActive
       value: 1

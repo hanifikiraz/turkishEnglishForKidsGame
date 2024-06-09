@@ -17,6 +17,7 @@ namespace LevelScripts.MinefieldLevel
         [SerializeField] private int mainerValue;
         private bool isClick = false;
         private int heartValue = 3;
+        private bool isLevelCompleted;
 
         private void RotateButtons(float value)
         {
@@ -56,7 +57,7 @@ namespace LevelScripts.MinefieldLevel
                 {
                     // Eğer temas edilen obje varsa, objenin adı yazdırılıyor.
                     Debug.Log("Tıklanan obje adı: " + hit.transform.name);
-                    if (hit.transform.gameObject.name == "MinefieldObject" && isClick)
+                    if (hit.transform.gameObject.name == "MinefieldObject" && isClick && isLevelCompleted == false)
                     {
                         isClick = false;
                             hit.transform.parent.transform.DOLocalRotate(new Vector3(0,180,0),0.5f).OnComplete((
@@ -82,6 +83,7 @@ namespace LevelScripts.MinefieldLevel
                                                 levelWinUI.transform.DOScale(Vector3.zero,0.7f).From().OnComplete((() =>
                                                 {
                                                     BusSystem.CallLevelWinStatusForCanvas(true);
+                                                    isLevelCompleted = true;
                                                 }));
                                                 
                                             }
@@ -108,6 +110,7 @@ namespace LevelScripts.MinefieldLevel
                                                     () =>
                                                     {
                                                         BusSystem.CallLevelWinStatusForCanvas(false);
+                                                        isLevelCompleted = true;
                                                     }));
                                             }
                                         }
