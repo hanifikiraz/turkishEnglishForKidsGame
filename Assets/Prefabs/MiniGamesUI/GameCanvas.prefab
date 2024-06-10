@@ -234,7 +234,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6651693119196842045}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.42621395
+  m_Size: 0.41596666
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2138,7 +2138,7 @@ PrefabInstance:
       objectReference: {fileID: 1744481870794343566}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: levels.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: levels.Array.data[0]
@@ -2152,6 +2152,18 @@ PrefabInstance:
       propertyPath: levels.Array.data[2]
       value: 
       objectReference: {fileID: 4649978101801043571, guid: fd34247a6093721428ea11035282189e, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[3]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: cc1ea0531537de348b724e3af033f397, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[4]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: d5df6329696224a4fbf42e77abe17b5a, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[5]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: 3787ded3ddf576846bcc995b55d051b7, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (7)
