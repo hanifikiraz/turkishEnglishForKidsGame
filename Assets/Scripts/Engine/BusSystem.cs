@@ -256,4 +256,18 @@ public static class BusSystem
         OnMiniLevelCompleted?.Invoke(levelType);
     }
 
+    public static Action OnRunnerLevelStart;
+
+    public static void CallRunnerLevelStart()
+    {
+        OnRunnerLevelStart?.Invoke();
+    }
+    
+    public static Action OnRunnerPlayerJump;
+
+    public static void CallRunnerPlayerJump()
+    {
+        OnRunnerPlayerJump?.Invoke();
+    }
+
 }
