@@ -21819,6 +21819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -21901,7 +21905,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: "HOW MANY - KA\xC7 TANE?"
+      value: "HOW MANY? - KA\xC7 TANE?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: HOW MANY?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -21909,7 +21921,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 29a0244886b2c8547b45384f98c4d71e, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: "HOW MANY - KA\xC7 TANE?"
+      value: "HOW MANY? - KA\xC7 TANE?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21936,6 +21948,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8.3
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22021,6 +22037,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: "HOW OLD? - KA\xC7 YA\u015EINDA?"
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: HOW OLD?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -22054,6 +22078,14 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 51.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 19.1
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22138,6 +22170,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: "SCHOOL BAG - OKUL \xC7ANTASI"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: SCHOOL BAG
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -22292,6 +22332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 46
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22375,6 +22419,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: NOTEBOOK - DEFTER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: NOTEBOOK
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -22676,6 +22728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 104.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22760,6 +22816,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: "PAPER - KA\u011EIT"
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: PAPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -22793,6 +22857,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 128.9
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22878,6 +22946,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: DESK - SIRA
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: DESK
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -22915,6 +22991,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 115.6
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22999,6 +23079,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: "BOOK - K\u0130TAP"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: BOOK
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -23165,6 +23253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 20.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -23248,6 +23340,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: "CRAYON - BOYA KALEM\u0130"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: CRAYON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -23393,6 +23493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 64.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -23477,6 +23581,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: SCISSORS - MAKAS
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: SCISSORS
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -23510,6 +23622,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17.7
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -23595,6 +23711,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: "PEN - T\xDCKENMEZ KALEM"
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: PEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -23632,6 +23756,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.7
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -23717,6 +23845,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: "PENCIL - KUR\u015EUN KALEM"
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: PENCIL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -23754,6 +23890,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -23839,6 +23979,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: NUMBERS - SAYILAR
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: NUMBERS
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -23896,6 +24044,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 67.4
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -23981,6 +24133,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: CHAIR - SANDALYE
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: CHAIR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -24014,6 +24174,14 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 19.2
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24099,6 +24267,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: PENCIL CASE - KALEM KUTUSU
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: PENCIL CASE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -24132,6 +24308,10 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24216,6 +24396,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: BOARD - YAZI TAHTASI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: BOARD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -24636,6 +24824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 88.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24719,6 +24911,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: RULER - CETVEL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: RULER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
@@ -24893,6 +25093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Words (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 98.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24977,6 +25181,14 @@ PrefabInstance:
       propertyPath: wordTextStr
       value: "ERASER - S\u0130LG\u0130"
       objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: ERASER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
+      objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -25014,6 +25226,14 @@ PrefabInstance:
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 42.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.8
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25098,6 +25318,14 @@ PrefabInstance:
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
       value: "PENCIL SHARPENER - KALEMTIRA\u015E"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_text
+      value: PENCIL SHARPENER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291230720
       objectReference: {fileID: 0}
     - target: {fileID: 7542371936792210994, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_audioClip
