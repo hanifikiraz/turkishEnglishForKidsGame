@@ -2128,9 +2128,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: id
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: canvasController
@@ -2164,6 +2172,10 @@ PrefabInstance:
       propertyPath: levels.Array.data[5]
       value: 
       objectReference: {fileID: 4649978101801043571, guid: 3787ded3ddf576846bcc995b55d051b7, type: 3}
+    - target: {fileID: 5090563485888167258, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (7)

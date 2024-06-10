@@ -16,6 +16,7 @@ namespace LevelScripts.AAAAAOthers
             Recyle,
             Letter,
             Minefield,
+            DoubleSides,
             Empty
         }
         
@@ -112,6 +113,9 @@ namespace LevelScripts.AAAAAOthers
                     break;
                 case LevelType.Minefield:
                     SetImage(6);
+                    break;
+                case LevelType.DoubleSides:
+                    SetImage(7);
                     break;
             }
         }
