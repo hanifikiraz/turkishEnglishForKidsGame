@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 7802613873729600932}
   - component: {fileID: 6881553204530435804}
   m_Layer: 0
-  m_Name: DoubleSideObjectParent
+  m_Name: doublesideAPPLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,6 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  objectMaterial: {fileID: 2100000, guid: 298bfb709cb168e43b9936578387a898, type: 2}
+  materialObject: {fileID: 8898945131801475667}
 --- !u!1 &7687336325839684842
 GameObject:
   m_ObjectHideFlags: 0

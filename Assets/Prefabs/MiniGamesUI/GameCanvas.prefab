@@ -2136,6 +2136,22 @@ PrefabInstance:
       propertyPath: canvasController
       value: 
       objectReference: {fileID: 1744481870794343566}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[0]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: 436d2c93dc27e0d40a643be9a92b93cf, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: de65ae6715e2cc0429b38efef0f91e44, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 4649978101801043571, guid: fd34247a6093721428ea11035282189e, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (7)

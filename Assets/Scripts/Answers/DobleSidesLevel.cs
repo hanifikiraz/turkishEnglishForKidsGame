@@ -81,7 +81,10 @@ namespace Answers
             yield return new WaitForSecondsRealtime(0.4f);
             particlesForWin.SetActive(true);
             congText.SetActive(true);
-            congText.gameObject.transform.DOScale(Vector3.zero, 0.7f).From();
+            congText.gameObject.transform.DOScale(Vector3.zero, 0.7f).From().OnComplete((() =>
+            {
+                BusSystem.CallLevelWinStatusForCanvas(true);
+            }));
             foreach (var VARIABLE in partic)
             {
                 VARIABLE.Play();

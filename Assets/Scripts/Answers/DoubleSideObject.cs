@@ -1,8 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
-public class DoubleSideObject : MonoBehaviour
+namespace Answers
 {
-    public int objectID;
+    public class DoubleSideObject : MonoBehaviour
+    {
+        public int objectID;
+        [SerializeField] private Material objectMaterial;
+        [SerializeField] private GameObject materialObject;
+
+        private void OnValidate()
+        {
+            gameObject.name = objectMaterial.name;
+            materialObject.GetComponent<MeshRenderer>().material = objectMaterial;
+        }
+    }
 }
