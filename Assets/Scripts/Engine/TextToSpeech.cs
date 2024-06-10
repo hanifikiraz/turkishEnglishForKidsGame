@@ -1,18 +1,33 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class TextToSpeech : MonoBehaviour
+namespace Engine
 {
-    // Start is called before the first frame update
-    void Start()
+    public class TextToSpeech : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private AudioSource wordSound;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private bool isStartSound = true;
+
+        private void Start()
+        {
+        }
+
+        public void PlaySound()
+        {
+            if (wordSound != null && isStartSound)
+            {
+                wordSound.Play();
+                StartCoroutine(SetSoundStatus());
+            }
+        }
+
+        private IEnumerator SetSoundStatus()
+        {
+            isStartSound = false;
+            yield return new WaitForSecondsRealtime(1f);
+            isStartSound = true;
+        }
     }
 }
