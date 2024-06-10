@@ -17,6 +17,7 @@ namespace LevelScripts.AAAAAOthers
             Letter,
             Minefield,
             DoubleSides,
+            Runner,
             Empty
         }
         
@@ -116,6 +117,9 @@ namespace LevelScripts.AAAAAOthers
                     break;
                 case LevelType.DoubleSides:
                     SetImage(7);
+                    break;
+                case LevelType.Runner:
+                    SetImage(8);
                     break;
             }
         }

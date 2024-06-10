@@ -63,6 +63,14 @@ namespace Unit
             }
         }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                levelCompletedCount = 9;
+            }
+        }
+
         private void IncreaseLevelCompletedCount(int classValue)
         {
             levelCompletedCount++;
@@ -70,6 +78,7 @@ namespace Unit
             {
                 if (classValue == 2)
                 {
+                    Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAA");
                     BusSystem.CallIncreaseCompletedUnityValueClassTwo();
                 }
                 if (classValue == 3)

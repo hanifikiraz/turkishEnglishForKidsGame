@@ -42,6 +42,7 @@ namespace LevelScripts.RunnerGame
                 congText.SetActive(true);
                 congText.transform.DOScale(Vector3.zero, 1f).From().OnComplete((() =>
                 {
+                    congText.SetActive(false);
                     BusSystem.CallLevelWinStatusForCanvas(true);
                 }));
             }
@@ -50,6 +51,7 @@ namespace LevelScripts.RunnerGame
                 failText.SetActive(true);
                 failText.transform.DOScale(Vector3.zero, 1f).From().OnComplete((() =>
                 {
+                    failText.SetActive(false);
                     BusSystem.CallLevelWinStatusForCanvas(false);
                 }));
             }

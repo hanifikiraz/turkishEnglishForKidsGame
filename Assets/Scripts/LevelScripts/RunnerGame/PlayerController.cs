@@ -11,6 +11,7 @@ namespace LevelScripts.RunnerGame
         private bool isJump;
         private bool levelStart;
         public float speed = 10.0f;
+        public GameObject virCamera;
 
         private void OnEnable()
         {
@@ -34,6 +35,7 @@ namespace LevelScripts.RunnerGame
             if (isDeath == false && levelStart)
             {
                 transform.Translate(Vector3.right * speed * Time.deltaTime);
+                virCamera.transform.Translate(Vector3.right * speed * Time.deltaTime);
             }
             if (Input.GetMouseButtonDown(0))
             {
@@ -54,9 +56,9 @@ namespace LevelScripts.RunnerGame
                 playerAnim.SetTrigger("Jump");
                 isJump = true;
               //  transform.DOLocalMoveX(transform.localPosition.x + 3, 0.5f);
-                transform.DOLocalMoveY(transform.position.y + 4, 0.5f).OnComplete((() =>
+                transform.DOLocalMoveY(transform.position.y + 2.5f, 0.5f).OnComplete((() =>
                 {
-                    transform.DOLocalMoveY(transform.position.y - 4, 0.4f).OnComplete((() =>
+                    transform.DOLocalMoveY(transform.position.y - 2.5f, 0.4f).OnComplete((() =>
                     {
                         isJump = false;
                         if (isDeath == false)

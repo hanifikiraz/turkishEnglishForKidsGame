@@ -12,6 +12,7 @@ namespace Unit.UnitController
         [SerializeField] private int unitType;
         [SerializeField] private string unitName;
         [SerializeField] private int totalLevelCount;
+        [SerializeField] private GameObject gameUnlockedCanvas;
         private int levelCompletedCount;
         
         private void LoadLevelCompletion()
@@ -82,6 +83,8 @@ namespace Unit.UnitController
     
         private void IncreaseLevelCompletedCount()
         {
+            Debug.Log("AAAAAAAAAAAAAAAAA");
+            gameUnlockedCanvas.SetActive(true);
             levelCompletedCount++;
             SavePrefs();
         }
