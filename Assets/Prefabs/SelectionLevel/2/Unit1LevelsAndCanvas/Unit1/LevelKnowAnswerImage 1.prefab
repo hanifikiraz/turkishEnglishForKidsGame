@@ -316,6 +316,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 063854246afaf3848a6ab21cb4c4cda6, type: 3}
     - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -336,6 +340,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: DOCTOR
       objectReference: {fileID: 0}
+    - target: {fileID: 2666908743190445030, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8386127f9d1f84744ac98fa4f494df26, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: JACKET
@@ -352,6 +360,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: MAN
       objectReference: {fileID: 0}
+    - target: {fileID: 5109498802562071460, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b85538d48c06cc4499c590de90e28c09, type: 3}
+    - target: {fileID: 5440620946889807360, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d2cc22aae6f6169488dbc0f40fa23036, type: 3}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -436,6 +452,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: CAKE
       objectReference: {fileID: 0}
+    - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ad84b6975c5d9e4e93c0b5160f0168a, type: 3}
     - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: SCHOOL
@@ -464,6 +484,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: MUSIC
       objectReference: {fileID: 0}
+    - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8c4001a04f77f24ebd1e54d3e9cc431, type: 3}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0

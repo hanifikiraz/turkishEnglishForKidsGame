@@ -316,6 +316,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d355abf52236802448c286095876ffc7, type: 3}
     - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -336,6 +340,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: HAIR
       objectReference: {fileID: 0}
+    - target: {fileID: 1258524387387400632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 173f8e8c7a1373f4e8a98404cb6b8f52, type: 3}
+    - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 45e1008f9dde608499f0797d612137da, type: 3}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -344,6 +356,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: FOOT
       objectReference: {fileID: 0}
+    - target: {fileID: 3449003326039531759, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b35264782b86514db926e1aa269ae1c, type: 3}
+    - target: {fileID: 3935261437835875766, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8f916d4e500f264aa50297a537b92d1, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -500,6 +520,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: FINGER
       objectReference: {fileID: 0}
+    - target: {fileID: 8516204950547714309, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2121e9a2cffe0b84d93e24305faa5f6b, type: 3}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BODY

@@ -316,6 +316,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 798ee9d490e7cc645a668dba357a4bae, type: 3}
     - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -344,6 +348,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: BANANA
       objectReference: {fileID: 0}
+    - target: {fileID: 3008664804948046203, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea94fffd3633644f84ae5ba58d7ffa1, type: 3}
+    - target: {fileID: 3449003326039531759, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6980a8498d28dcb469199b1222e3e607, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: GRAPES
@@ -360,6 +372,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: PEACH
       objectReference: {fileID: 0}
+    - target: {fileID: 5440620946889807360, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d02a65b17341c64face532bdae5165d, type: 3}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -444,6 +460,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: MELON
       objectReference: {fileID: 0}
+    - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a033b4fd90ee3b478992f4bc4df17be, type: 3}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BANANA
@@ -480,6 +500,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: PEACH
       objectReference: {fileID: 0}
+    - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 55d3d8250bb0aef44a95d0f852055764, type: 3}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0

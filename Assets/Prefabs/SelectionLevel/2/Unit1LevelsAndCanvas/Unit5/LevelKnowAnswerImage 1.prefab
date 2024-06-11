@@ -316,6 +316,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 28d6922c23fe47b4d9aa6e05271ea743, type: 3}
     - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: PAINT
@@ -336,6 +340,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: BLUE
       objectReference: {fileID: 0}
+    - target: {fileID: 3905717227491525229, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ca60aeb566507f449b4b211fa9cd6332, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -356,6 +364,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: ORANGE
       objectReference: {fileID: 0}
+    - target: {fileID: 5109498802562071460, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d02a65b17341c64face532bdae5165d, type: 3}
+    - target: {fileID: 5440620946889807360, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b1f53b02fa8ce04f82aa9dcade8e2a5, type: 3}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -440,6 +456,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: PINK
       objectReference: {fileID: 0}
+    - target: {fileID: 5728193140973415832, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 757d352082ed6584688f3b0d6b0a6cd5, type: 3}
+    - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 139693c0aa638d34a8f937aa8262bbd9, type: 3}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BLACK

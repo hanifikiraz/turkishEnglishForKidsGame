@@ -314,6 +314,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4064933137160595558}
     m_Modifications:
+    - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 838ec0ad1121e2840a7909f16c7b09a4, type: 3}
     - target: {fileID: 436212167869640632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: YOU
@@ -326,10 +330,18 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: ORANGE
       objectReference: {fileID: 0}
+    - target: {fileID: 1800996939682829989, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e50bd633da780e04cbc11f8498ac0ed2, type: 3}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: BLACK
       objectReference: {fileID: 0}
+    - target: {fileID: 3008664804948046203, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 192ede674c26cfc41a8ec26a1d5e3dd8, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: COLOR
@@ -430,6 +442,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: YELLOW
       objectReference: {fileID: 0}
+    - target: {fileID: 5728193140973415832, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a033b4fd90ee3b478992f4bc4df17be, type: 3}
+    - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e583a9016434f64d8a05e423c35ee34, type: 3}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: PINK
@@ -462,6 +482,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: RED
       objectReference: {fileID: 0}
+    - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c3124c0f95b5d1b4f9a303a4ffbbc7a2, type: 3}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
