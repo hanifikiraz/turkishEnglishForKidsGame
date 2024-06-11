@@ -124,7 +124,6 @@ MonoBehaviour:
   - {fileID: 3592133203523369852}
   - {fileID: 5097461062272888297}
   - {fileID: 8219037865188146913}
-  maxAnswerCount: 6
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -581,6 +580,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: MESAJ
       objectReference: {fileID: 0}
+    - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f1f3dd763221714b92de4f8a4c3fd75, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "K\xD6T\xDC"
@@ -609,6 +612,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: "BEN\u0130M"
       objectReference: {fileID: 0}
+    - target: {fileID: 4210688813104835926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e8ccd9a8d499904d90e9a1e40bcd425, type: 3}
+    - target: {fileID: 4570676474526404796, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e20a1128887cca245a566243eaacc8fb, type: 3}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -689,10 +700,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5147812439162086131, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ccea1ea581b9e034d860723d42cb8ba7, type: 3}
     - target: {fileID: 5295767517348417748, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5932570566056786895, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a294aa7a67f9ea4fba7b2d7901000d2, type: 3}
     - target: {fileID: 6223566271135350015, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: ONUN
@@ -725,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 8226651481762496328, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 157877e86a498884094113e3515ef74f, type: 3}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0

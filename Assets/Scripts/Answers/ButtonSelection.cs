@@ -16,6 +16,7 @@ namespace Answers
             True
         }
 
+        [SerializeField] private AudioSource answerSound;
         [SerializeField] private Answer answerType;
         [SerializeField] private string buttonTextAnswer;
         [SerializeField] private TextMeshProUGUI buttonText;
@@ -92,7 +93,14 @@ namespace Answers
                 switch (answerType)
                 {
                     case Answer.True:
-                        BusSystem.CallAudioChange(8);
+                        if (answerSound != null)
+                        {
+                            answerSound.Play();
+                        }
+                        else
+                        {
+                            BusSystem.CallAudioChange(8);
+                        }
                         SetButtonImage(3);
                         Debug.Log("True");
                         BusSystem.CallPlayerSetAnim(3);

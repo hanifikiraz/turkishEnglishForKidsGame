@@ -124,7 +124,6 @@ MonoBehaviour:
   - {fileID: 3592133203523369852}
   - {fileID: 5097461062272888297}
   - {fileID: 8219037865188146913}
-  maxAnswerCount: 6
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -553,6 +552,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: HESAP
       objectReference: {fileID: 0}
+    - target: {fileID: 306596537958198176, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9bcc218b506c8ae47989ab5f544d1da1, type: 3}
     - target: {fileID: 432714880681853097, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "KA\u015EIK"
@@ -573,6 +576,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: SILGI
       objectReference: {fileID: 0}
+    - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f19fbe13ea43be428ad8287ef7a6367, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: DEFTER
@@ -597,6 +604,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: CETVEL
       objectReference: {fileID: 0}
+    - target: {fileID: 4210688813104835926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c4307c519ba5e714da4be0d394f0f273, type: 3}
+    - target: {fileID: 4570676474526404796, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d9093a5b731d6824da2be3741af91e8f, type: 3}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -677,6 +692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5147812439162086131, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fbb01bfd57a5a424cb0985bffaef0e97, type: 3}
     - target: {fileID: 6223566271135350015, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 1
@@ -689,6 +708,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: "\u0130\u011ENE"
       objectReference: {fileID: 0}
+    - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c35f411a7d55d584c96c2647e50481d8, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0

@@ -556,6 +556,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: GIVE
       objectReference: {fileID: 0}
+    - target: {fileID: 1100115234975601614, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: eb26e29b4aad55d4289305327fafae24, type: 3}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: MELON
@@ -568,10 +572,18 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: GIVE
       objectReference: {fileID: 0}
+    - target: {fileID: 2622871485046771183, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6980a8498d28dcb469199b1222e3e607, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: EAT
       objectReference: {fileID: 0}
+    - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 798ee9d490e7cc645a668dba357a4bae, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: EAT
@@ -684,6 +696,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: LOVE
       objectReference: {fileID: 0}
+    - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c3499b6160a0cfd4b933d8db9c97b80f, type: 3}
+    - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 04d8b04a1af5d42489e536cdb59b9f4f, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0
@@ -708,6 +728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasSelectionLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 8226651481762496328, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0dbc106620c733545aeb76876c98b0d0, type: 3}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0

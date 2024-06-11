@@ -124,7 +124,6 @@ MonoBehaviour:
   - {fileID: 3592133203523369852}
   - {fileID: 5097461062272888297}
   - {fileID: 8219037865188146913}
-  maxAnswerCount: 6
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -557,6 +556,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: PENCIL
       objectReference: {fileID: 0}
+    - target: {fileID: 1100115234975601614, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f4d69d204b4226e4aa4b15341bcc340c, type: 3}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: WAIT
@@ -565,10 +568,18 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: NEGATIVE
       objectReference: {fileID: 0}
+    - target: {fileID: 2391845994497435994, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d559d928d0a0fa543930c787629b5c44, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: LETTER
       objectReference: {fileID: 0}
+    - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 377bc62af89ed02439763de56117974f, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: YES
@@ -681,6 +692,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: SCHOOL
       objectReference: {fileID: 0}
+    - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4fada86e9d9497f448691b75fade9352, type: 3}
+    - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a13ecf61a52be394a819b868e2fca06f, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0
@@ -697,6 +716,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: BAG
       objectReference: {fileID: 0}
+    - target: {fileID: 7642113876656974926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6aef14b34b504b24dbd319f70d3b0344, type: 3}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: CAR

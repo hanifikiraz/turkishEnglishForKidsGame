@@ -124,7 +124,6 @@ MonoBehaviour:
   - {fileID: 3592133203523369852}
   - {fileID: 5097461062272888297}
   - {fileID: 8219037865188146913}
-  maxAnswerCount: 6
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -569,10 +568,18 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: "G\xD6Z"
       objectReference: {fileID: 0}
+    - target: {fileID: 2391845994497435994, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c62ec7b2ba938944e9fe547aba7ccb3e, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: PARMAK
       objectReference: {fileID: 0}
+    - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f69f0c67052ffd4598ae1df245bbd75, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "G\xD6Z"
@@ -673,6 +680,10 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6061559800092841974, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b8344c40ca556254281186fe00297505, type: 3}
     - target: {fileID: 6223566271135350015, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "KA\u015E"
@@ -681,6 +692,14 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: SAKAL
       objectReference: {fileID: 0}
+    - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9bc42585d0928ba469ad929eb21e2a81, type: 3}
+    - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 44f5f4f1b98566d48afb7aedd80a843a, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0
@@ -697,6 +716,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: "BA\u015E"
       objectReference: {fileID: 0}
+    - target: {fileID: 7642113876656974926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b35264782b86514db926e1aa269ae1c, type: 3}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: BAKMAK
