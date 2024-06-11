@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace LevelScripts.MovementLevel
@@ -16,6 +17,22 @@ namespace LevelScripts.MovementLevel
         private bool playMove;
 
         private void OnEnable()
+        {
+            BusSystem.OnNewLevelStart += LevelStart;
+            BusSystem.OnLevelDone += LevelDone;
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnNewLevelStart -= LevelStart;
+            BusSystem.OnLevelDone -= LevelDone;
+        }
+
+        private void LevelStart()
+        {
+            playMove = true;
+        }
+        private void LevelDone(bool value)
         {
             playMove = false;
         }
