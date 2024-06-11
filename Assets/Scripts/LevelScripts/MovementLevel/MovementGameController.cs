@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -9,6 +10,8 @@ namespace LevelScripts.MovementLevel
         [SerializeField] private GameObject startButton;
         [SerializeField] private GameObject congText;
         [SerializeField] private GameObject failText;
+        [SerializeField] private GameObject particlesToWin;
+        [SerializeField] private List<ParticleSystem> particles;
 
         private void OnEnable()
         {
@@ -29,6 +32,11 @@ namespace LevelScripts.MovementLevel
         {
             if (value)
             {
+                particlesToWin.SetActive(true);
+                foreach (var VARIABLE in particles)
+                {
+                    VARIABLE.Play();
+                }
                 congText.SetActive(true);
                 congText.transform.DOScale(Vector3.zero, 1f).From().OnComplete((() =>
                 {

@@ -1142,14 +1142,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4568813512753785467}
     m_Modifications:
+    - target: {fileID: 815676045444167565, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264738869596401072, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: id
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levelType
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: canvasController
       value: 
       objectReference: {fileID: 1744481870794343566}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[0]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: edd126a3abe74b44cbec8eeb65f9b9f0, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: a5fce9f61b67e0040b6f91ee5d8fa6a4, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: 8cd12dbc032431148a566ca456aef5e8, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[3]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: 393c2aa0d0d2ab4499f82e1357540bf0, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[4]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: 1d0f26e2445c1a74692345f14bd41b22, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[5]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: 7221c26bc3bf5fd4da1dcf3e235b8930, type: 3}
+    - target: {fileID: 4785148075998926540, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
+      propertyPath: levels.Array.data[6]
+      value: 
+      objectReference: {fileID: 5446829101119519743, guid: 3d39b91e9bc7a8e46a14f0b4aa829c6b, type: 3}
     - target: {fileID: 8720991255959418450, guid: a7f5087d3cada454d8c1282e8e64a3ab, type: 3}
       propertyPath: m_Name
       value: GameButton (9)

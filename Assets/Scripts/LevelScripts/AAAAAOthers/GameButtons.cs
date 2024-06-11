@@ -18,6 +18,7 @@ namespace LevelScripts.AAAAAOthers
             Minefield,
             DoubleSides,
             Runner,
+            Movement,
             Empty
         }
         
@@ -120,6 +121,9 @@ namespace LevelScripts.AAAAAOthers
                     break;
                 case LevelType.Runner:
                     SetImage(8);
+                    break;
+                case LevelType.Movement:
+                    SetImage(9);
                     break;
             }
         }
