@@ -26,6 +26,12 @@ namespace LevelScripts.AAGameLevel
             BusSystem.OnAAGameLevelEnd -= LevelEnd;
         }
 
+        private void Start()
+        {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(2);
+        }
+
         private void Update()
         {
             if (levelEnd == false)

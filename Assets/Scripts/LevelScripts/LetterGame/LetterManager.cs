@@ -26,6 +26,8 @@ namespace LevelScripts.LetterGame
         private void Start()
         {
             SetLetter();
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(2);
         }
 
         private void SetLetter()

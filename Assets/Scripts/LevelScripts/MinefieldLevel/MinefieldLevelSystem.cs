@@ -39,6 +39,8 @@ namespace LevelScripts.MinefieldLevel
         private void Start()
         {
             StartCoroutine(StartRotateObjectController());
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(4);
         }
 
         void Update()

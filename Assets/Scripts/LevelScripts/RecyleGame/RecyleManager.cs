@@ -27,6 +27,8 @@ namespace LevelScripts.RecyleGame
         private void Start()
         {
             InAreasController(0);
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(4);
         }
 
         private void LevelEnd()

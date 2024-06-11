@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -13,7 +14,13 @@ namespace Answers
         [SerializeField] private GameObject congText;
         [SerializeField] private List<ParticleSystem> partic;
         [SerializeField] private List<DoubleSideObject> doubleSidesObject;
-    
+
+        private void Start()
+        {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(4);
+        }
+
         private void SetDoubleSidesButtons(DoubleSideObject buttonsObject)
         {
             doubleSidesObject.Add(buttonsObject);

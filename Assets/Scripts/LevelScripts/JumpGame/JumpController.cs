@@ -32,6 +32,8 @@ public class JumpController : MonoBehaviour
    {
       levelDoneText.gameObject.SetActive(false);
       FloatingTweenMaxX();
+      BusSystem.CallAudioChange(10);
+      BusSystem.CallAudioChange(3);
    }
 
    private void JumpLevelDone()

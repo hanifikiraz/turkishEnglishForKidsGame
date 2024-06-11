@@ -23,6 +23,12 @@ namespace LevelScripts.MovementLevel
             BusSystem.OnLevelDone -= LevelEnd;
         }
 
+        private void Start()
+        {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(3);
+        }
+
         public void StartGame()
         {
             startButton.SetActive(false);

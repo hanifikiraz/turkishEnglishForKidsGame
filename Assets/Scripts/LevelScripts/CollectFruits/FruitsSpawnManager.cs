@@ -37,6 +37,8 @@ namespace LevelScripts.CollectFruits
         private void Start()
         {
             SetScore(0);
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(2);
         }
 
         private void SetScore(float value)

@@ -21,6 +21,12 @@ namespace LevelScripts.RunnerGame
             BusSystem.OnLevelDone -= LevelEnd;
         }
 
+        private void Start()
+        {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(4);
+        }
+
         public void LevelStart()
         {
             jumpButton.SetActive(true);

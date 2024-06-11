@@ -24,6 +24,8 @@ namespace LevelScripts.TankLevel
         private void Start()
         {
             currentObjectValue = objectValue;
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(4);
         }
 
         private void MovingObjectSetBomb()
