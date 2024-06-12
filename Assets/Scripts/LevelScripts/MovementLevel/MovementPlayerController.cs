@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace LevelScripts.MovementLevel
@@ -7,7 +8,7 @@ namespace LevelScripts.MovementLevel
         [SerializeField] private Animator playerAnim;
         private bool isDeath;
         private bool isJump;
-
+        
         private void OnEnable()
         {
             BusSystem.OnNewLevelStart += LevelStart;
