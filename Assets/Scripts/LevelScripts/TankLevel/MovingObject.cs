@@ -15,6 +15,7 @@ namespace LevelScripts.TankLevel
         [SerializeField] private GameObject leftObject;
         [SerializeField] private GameObject rightObject;
         [SerializeField] private ParticleSystem partic;
+        [SerializeField] private AudioSource expSound;
         [SerializeField] private Transform particPos;
         [SerializeField] private float movingDuration;
         public MovingSelection movSelect;
@@ -50,7 +51,9 @@ namespace LevelScripts.TankLevel
                 BusSystem.CallMovingObjectBomb();
                 moveTween.Kill();
                 ParticleSystem insPartic = Instantiate(partic, particPos.position, Quaternion.identity);
-                insPartic.Play();
+                insPartic.Play(); 
+                AudioSource insExpSound = Instantiate(expSound, particPos.position, Quaternion.identity);
+                insExpSound.Play();
                 Destroy(gameObject);
             }
         }

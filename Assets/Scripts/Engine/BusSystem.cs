@@ -269,5 +269,12 @@ public static class BusSystem
     {
         OnRunnerPlayerJump?.Invoke();
     }
+    
+    public static Action OnFruitSound;
+
+    public static void CallFruitSound()
+    {
+        OnFruitSound?.Invoke();
+    }
 
 }

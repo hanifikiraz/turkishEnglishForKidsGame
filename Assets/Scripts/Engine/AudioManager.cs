@@ -14,15 +14,18 @@ namespace Engine
         [SerializeField] private AudioSource levelLoseSound;
         [SerializeField] private AudioSource levelPairingWonSound;
         [SerializeField] private AudioSource levelPairingLoseSound;
+        [SerializeField] private AudioSource fruitSound;
 
         private void OnEnable()
         {
             BusSystem.OnAudioChange += MusicSelection;
+            BusSystem.OnFruitSound += FruitSound;
         }
 
         private void OnDisable()
         {
             BusSystem.OnAudioChange -= MusicSelection;
+            BusSystem.OnFruitSound -= FruitSound;
         }
 
         private void MusicSelection(int value)
@@ -119,6 +122,12 @@ namespace Engine
             levelLoseSound.Stop();
             levelPairingWonSound.Stop();
             levelPairingLoseSound.Stop();
+        }
+
+        private void FruitSound()
+        {
+            AudioSource insAudio = Instantiate(fruitSound, gameObject.transform.position, Quaternion.identity);
+            insAudio.Play();
         }
     }
 }

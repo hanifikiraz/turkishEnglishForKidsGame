@@ -30,13 +30,14 @@ namespace Answers
                 if (doubleSidesObject[0].GetComponent<DoubleSideObject>().objectID == doubleSidesObject[1].GetComponent<DoubleSideObject>().objectID )
                 {
                     Debug.Log("TRUE");
+                    BusSystem.CallAudioChange(8);
                     BusSystem.CallPlayerSetAnim(3);
                     StartCoroutine(CollectObject());
                 }
                 else
                 {
                     Debug.Log("FALSE");
-                
+                    BusSystem.CallAudioChange(9);
                     BusSystem.CallPlayerSetAnim(2);
                     StartCoroutine(RotateDefault());
                 
