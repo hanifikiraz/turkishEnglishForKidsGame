@@ -106,6 +106,7 @@ namespace LevelScripts.LetterGame
                 {
                     if (other.gameObject.GetComponent<LetterSelection>().isTaked == false)
                     {
+                        BusSystem.CallFruitSound();
                         letter = other.gameObject;
                         Debug.Log("AAAAAAAAAAAAAAA "+ other.gameObject.name);
                         letter.transform.SetParent(null);
@@ -120,6 +121,7 @@ namespace LevelScripts.LetterGame
                 {
                     if (letter.GetComponent<LetterSelection>().letters == other.gameObject.GetComponent<LetterSelection>().letters)
                     {
+                        BusSystem.CallFruitSound();
                         isTakeLetter = false;
                         letter.transform.position = other.gameObject.transform.position;
                         letter.transform.rotation = other.gameObject.transform.rotation;
@@ -131,6 +133,7 @@ namespace LevelScripts.LetterGame
                         letter.GetComponent<LetterSelection>().isTaked = true;
                         letter.transform.parent = other.gameObject.transform.parent;
                         letter = null;
+                        BusSystem.CallFruitSound();
                         BusSystem.CallMaterialControlLetter();
                     }
                 }

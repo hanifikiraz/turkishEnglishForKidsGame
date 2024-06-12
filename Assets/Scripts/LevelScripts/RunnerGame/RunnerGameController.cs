@@ -37,6 +37,7 @@ namespace LevelScripts.RunnerGame
 
         public void Jump()
         {
+            BusSystem.CallFruitSound();
             BusSystem.CallRunnerPlayerJump();
         }
 

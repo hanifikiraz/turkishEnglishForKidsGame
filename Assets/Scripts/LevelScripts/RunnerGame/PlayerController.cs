@@ -72,7 +72,7 @@ namespace LevelScripts.RunnerGame
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "Obstacle")
+            if (other.gameObject.tag == "Obstacle" && isDeath == false)
             {
                 BusSystem.CallLevelDone(false);
                 playerAnim.SetTrigger("Death");
