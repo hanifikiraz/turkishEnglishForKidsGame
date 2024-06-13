@@ -11,6 +11,8 @@ namespace Engine
         [SerializeField] private GameObject gameWinCanvas;
         [SerializeField] private GameObject gameLoseCanvas;
         [SerializeField] private GameObject gameLoseWinCanvasBG;
+        [SerializeField] private GameObject homeButton;
+        [SerializeField] private GameObject parentLevels;
         private GameObject playingGame;
         private GameObject playingGameForRetry;
         private GameObject lockObject;
@@ -35,15 +37,38 @@ namespace Engine
             BusSystem.OnQuizLevel -= IsQuizLevel;
         }
 
+        public void HomeButtonClick()
+        {
+            DeleteAllChildren(parentLevels);
+            homeButton.SetActive(false);
+            allCanvas.SetActive(true);
+            
+        }
+        void DeleteAllChildren(GameObject parent)
+        {
+            // Child sayısını kaydet
+            int childCount = parent.transform.childCount;
+
+            // Child objeleri sondan başa doğru iterasyonla bul ve sil
+            for (int i = childCount - 1; i >= 0; i--)
+            {
+                GameObject child = parent.transform.GetChild(i).gameObject;
+                Destroy(child);
+            }
+        }
+
         public void InstantiateGame(GameObject gameLevelPrefab)
         {
             SetLevel(gameLevelPrefab);
-            
         }
 
         private void IsQuizLevel(bool value)
         {
             isQuizLevel = value;
+            if (isQuizLevel)
+            {
+                homeButton.SetActive(true);
+            }
         }
 
         private void LevelNumber(int value)
