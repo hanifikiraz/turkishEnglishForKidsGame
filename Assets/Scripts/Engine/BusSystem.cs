@@ -276,5 +276,19 @@ public static class BusSystem
     {
         OnFruitSound?.Invoke();
     }
+    
+    public static Action<int> OnSetLevelNumber;
+
+    public static void CallSetLevelNumber(int value)
+    {
+        OnSetLevelNumber?.Invoke(value);
+    }
+    
+    public static Action<bool> OnQuizLevel;
+
+    public static void CallQuizLevel(bool value)
+    {
+        OnQuizLevel?.Invoke(value);
+    }
 
 }

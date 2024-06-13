@@ -79,6 +79,7 @@ namespace LevelScripts.AAAAAOthers
 
         public void SetGameInstantiate()
         {
+            BusSystem.CallQuizLevel(false);
             canvasController.LevelType = levelType;
             BusSystem.CallSetIncreaseLevel(levels[levelCompleted]);
         }

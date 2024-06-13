@@ -14,12 +14,16 @@ namespace Engine
         private GameObject playingGame;
         private GameObject playingGameForRetry;
         private GameObject lockObject;
+        private bool isQuizLevel;
+        private int level;
 
         private void OnEnable()
         {
             BusSystem.OnLevelWinStatusForCanvas += LevelWinStatusCanvas;
             BusSystem.OnCloseWinOrLoseCanvas += CloseWinOrLoseCanvas;
             BusSystem.OnSetIncreaseLevel += InstantiateGame;
+            BusSystem.OnSetLevelNumber += LevelNumber;
+            BusSystem.OnQuizLevel += IsQuizLevel;
         }
 
         private void OnDisable()
@@ -27,11 +31,34 @@ namespace Engine
             BusSystem.OnLevelWinStatusForCanvas -= LevelWinStatusCanvas;
             BusSystem.OnCloseWinOrLoseCanvas -= CloseWinOrLoseCanvas;
             BusSystem.OnSetIncreaseLevel -= InstantiateGame;
+            BusSystem.OnSetLevelNumber -= LevelNumber;
+            BusSystem.OnQuizLevel -= IsQuizLevel;
         }
 
         public void InstantiateGame(GameObject gameLevelPrefab)
         {
             SetLevel(gameLevelPrefab);
+            
+        }
+
+        private void IsQuizLevel(bool value)
+        {
+            isQuizLevel = value;
+        }
+
+        private void LevelNumber(int value)
+        {
+            level = value;
+            isQuizLevel = true;
+            GameAnalyticInit.LogGameStart(value);
+        }
+
+        private void LevelEnd()
+        {
+            if (isQuizLevel)
+            {
+                GameAnalyticInit.LogGameOver(level,true,0);
+            }
         }
 
         private void SetLevel(GameObject level)
@@ -76,6 +103,7 @@ namespace Engine
             allCanvas.SetActive(true);
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
+            LevelEnd();
         }
         public void RetryLevel()
         {

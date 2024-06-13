@@ -47,6 +47,8 @@ namespace Menu
                     levelReply = 1;
                     SavePrefs();
                 }
+                BusSystem.CallQuizLevel(true);
+                BusSystem.CallSetLevelNumber(classNumber);
                 BusSystem.CallSetIncreaseLevel(level);
             }
         }
