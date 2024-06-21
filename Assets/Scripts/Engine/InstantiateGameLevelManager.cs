@@ -89,8 +89,7 @@ namespace Engine
         private void SetLevel(GameObject level)
         {
             allCanvas.SetActive(false);
-            GameObject game = Instantiate(level, gameLevelPrefabParent.transform.position,
-                Quaternion.identity);
+            GameObject game = Instantiate(level, gameLevelPrefabParent.transform.position, Quaternion.identity);
             game.transform.SetParent(gameLevelPrefabParent.transform);
             playingGame = game;
             playingGameForRetry = level;
@@ -129,12 +128,14 @@ namespace Engine
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
             LevelEnd();
+            BusSystem.CallLevelReply(false);
         }
         public void RetryLevel()
         {
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
             SetLevel(playingGameForRetry);
+            BusSystem.CallLevelReply(true);
         }
     }
 }

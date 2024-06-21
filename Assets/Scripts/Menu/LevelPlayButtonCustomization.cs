@@ -37,16 +37,42 @@ namespace Menu
             LoadLevelCompletion();
         }
 
+        private void OnEnable()
+        {
+            BusSystem.OnLevelReply += LevelReply;
+            BusSystem.OnIncreaseLevel += IsLevelCompleted;
+        }
+
+        private void OnDisable()
+        {
+            BusSystem.OnLevelReply -= LevelReply;
+            BusSystem.OnIncreaseLevel -= IsLevelCompleted;
+        }
+
+        private void LevelReply(bool value)
+        {
+            levelReply = 1;
+            SavePrefs();
+        }
+
+        private void IsLevelCompleted()
+        {
+            if (levelReply == 0)
+            {
+                BusSystem.CallIncreaseCompletedLevelValue(classNumber);
+            }
+        }
+
+        public void LogAAA()
+        {
+            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa");
+        }
         public void SetLevelIncrease()
         {
+            BusSystem.CallCustomazation(gameObject.GetComponent<LevelPlayButtonCustomization>());
             if (LockGameObject.activeSelf == false)
             {
-                if (levelReply == 0)
-                {
-                    BusSystem.CallIncreaseCompletedLevelValue(classNumber);
-                    levelReply = 1;
-                    SavePrefs();
-                }
+                IsLevelCompleted();
                 BusSystem.CallQuizLevel(true);
                 BusSystem.CallSetLevelNumber(classNumber);
                 BusSystem.CallSetIncreaseLevel(level);
