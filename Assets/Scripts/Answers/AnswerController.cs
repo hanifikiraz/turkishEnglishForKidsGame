@@ -129,6 +129,7 @@ namespace Answers
         }
         private IEnumerator TextAnim()
         {
+            BusSystem.CallIncreaseLevel();
             BusSystem.CallButtonClickable(false);
             buttonsBackGround.transform.DOMoveY(-5, 1f);
             yield return new WaitForSecondsRealtime(0.4f);

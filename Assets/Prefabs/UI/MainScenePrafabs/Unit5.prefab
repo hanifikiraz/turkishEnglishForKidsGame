@@ -30905,6 +30905,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
   m_PrefabInstance: {fileID: 1490303844845291141}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9140037042836177348 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+  m_PrefabInstance: {fileID: 1490303844845291141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3face2ee4cde7ce458a8e54fd769549e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1663689939175812253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30925,6 +30936,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton
@@ -31048,6 +31063,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (8)
@@ -31719,6 +31738,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (3)
@@ -32240,6 +32263,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (1)
@@ -32501,6 +32528,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (6)
@@ -32766,6 +32797,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (5)
@@ -33019,6 +33054,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (2)
@@ -33276,6 +33315,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (7)
@@ -33407,6 +33450,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (4)
@@ -33668,6 +33715,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 9140037042836177348}
     - target: {fileID: 6298046721195129678, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_Name
       value: PlayButton (9)

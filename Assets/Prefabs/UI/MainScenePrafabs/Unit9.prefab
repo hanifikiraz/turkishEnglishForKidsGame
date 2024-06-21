@@ -19788,6 +19788,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -20211,6 +20215,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -21024,6 +21032,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -21179,6 +21191,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -21617,6 +21633,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -22308,6 +22328,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -22593,6 +22617,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -22752,6 +22780,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -22911,6 +22943,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -23423,6 +23459,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+--- !u!114 &2033207193689549120 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+  m_PrefabInstance: {fileID: 8524776550697856513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3face2ee4cde7ce458a8e54fd769549e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7551782136308120213 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2198678888465683604, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
@@ -23456,6 +23503,10 @@ PrefabInstance:
       propertyPath: classNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3965064389625908164, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
+      propertyPath: levelController
+      value: 
+      objectReference: {fileID: 2033207193689549120}
     - target: {fileID: 6036109393784276395, guid: bcd740bc3e3b9014b89ef6d38e27f153, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

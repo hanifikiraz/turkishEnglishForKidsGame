@@ -184,6 +184,7 @@ namespace Answers
         }
         private IEnumerator LevelEndAnim()
         {
+            BusSystem.CallIncreaseLevel();
             buttonsBackGround.transform.DOMoveY(-1173, 1f);
             yield return new WaitForSecondsRealtime(0.4f);
             particlesForWin.SetActive(true);

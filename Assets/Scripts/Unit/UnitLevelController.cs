@@ -71,7 +71,7 @@ namespace Unit
             }
         }
 
-        private void IncreaseLevelCompletedCount(int classValue)
+        public void IncreaseLevelCompletedCount(int classValue)
         {
             levelCompletedCount++;
             if (levelCompletedCount == 10)

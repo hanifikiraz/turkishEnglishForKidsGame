@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using TMPro;
+using Unit;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,9 +29,45 @@ namespace Menu
         [SerializeField] private LevelType levelType;
         [SerializeField] private List<GameObject> levelTypeImages;
         [SerializeField] private GameObject level;
-        private int levelReply;
+        [SerializeField] private UnitLevelController levelController;
+        public int levelReply;
         private string key;
+        private void OnEnable()
+        {
+           // BusSystem.OnLevelReply += LevelReply;
+            //BusSystem.OnIncreaseLevel += IsLevelCompleted;
+        }
 
+        private void OnDisable()
+        {
+           // BusSystem.OnLevelReply -= LevelReply;
+           // BusSystem.OnIncreaseLevel -= IsLevelCompleted;
+        }
+
+        public void LevelReply(bool value)
+        {
+            if (value)
+            {
+                levelReply = 1;
+                SavePrefs();
+            }
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                Debug.Log("BBBBBBBBBBBBBBBBBBBBB");
+            }
+        }
+
+        public void IsLevelCompleted()
+        {
+            if (levelReply == 0)
+            {
+                BusSystem.CallIncreaseCompletedLevelValue(classNumber);
+            }
+        }
         private void Awake()
         {
             key = "LevelReply"+ unitName + gameObject.name;
@@ -39,18 +76,28 @@ namespace Menu
 
         public void SetLevelIncrease()
         {
+            BusSystem.CallCustumazationButton(gameObject.GetComponent<LevelPlayButtonCustomization>());
             if (LockGameObject.activeSelf == false)
             {
-                if (levelReply == 0)
-                {
-                    BusSystem.CallIncreaseCompletedLevelValue(classNumber);
-                    levelReply = 1;
-                    SavePrefs();
-                }
+                // if (levelReply == 0)
+                // {
+                //     BusSystem.CallIncreaseCompletedLevelValue(classNumber);
+                //     levelReply = 1;
+                //     SavePrefs();
+                // }
                 BusSystem.CallQuizLevel(true);
                 BusSystem.CallSetLevelNumber(classNumber);
                 BusSystem.CallSetIncreaseLevel(level);
             }
+        }
+
+        public void IncreaseLevel()
+        {
+            if (levelReply == 0)
+            {
+                levelController.IncreaseLevelCompletedCount(classNumber);
+            }
+            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         }
         private void LoadLevelCompletion()
         {

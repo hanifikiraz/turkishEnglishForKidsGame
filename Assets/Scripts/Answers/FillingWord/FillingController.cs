@@ -95,6 +95,7 @@ namespace Answers.FillingWord
         }
         private IEnumerator TextAnim()
         {
+            BusSystem.CallIncreaseLevel();
             yield return new WaitForSecondsRealtime(0.4f);
             particlesForWin.SetActive(true);
             congText.SetActive(true);

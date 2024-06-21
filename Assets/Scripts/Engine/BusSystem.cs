@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Answers;
 using LevelScripts.AAAAAOthers;
+using Menu;
 using UnityEngine;
 
 public static class BusSystem
@@ -289,6 +290,33 @@ public static class BusSystem
     public static void CallQuizLevel(bool value)
     {
         OnQuizLevel?.Invoke(value);
+    }
+
+    public static Action<bool> OnLevelReply;
+    public static void CallLevelReply(bool value)
+    {
+        OnLevelReply?.Invoke(value);
+    }
+    
+    public static Action OnIncreaseLevel;
+    public static void CallIncreaseLevel()
+    {
+        OnIncreaseLevel?.Invoke();
+    }
+    
+    
+    public static Action OnLevelCompleted;
+
+    public static void CallLevelCompleted()
+    {
+        OnLevelCompleted?.Invoke();
+    }
+
+    public static Action<LevelPlayButtonCustomization> OnCustumazationButton;
+
+    public static void CallCustumazationButton(LevelPlayButtonCustomization value)
+    {
+        OnCustumazationButton?.Invoke(value);
     }
 
 }

@@ -129,12 +129,14 @@ namespace Engine
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
             LevelEnd();
+            BusSystem.CallLevelReply(false);
         }
         public void RetryLevel()
         {
             CloseWinOrLoseCanvas();
             Destroy(playingGame);
             SetLevel(playingGameForRetry);
+            BusSystem.CallLevelReply(true);
         }
     }
 }
