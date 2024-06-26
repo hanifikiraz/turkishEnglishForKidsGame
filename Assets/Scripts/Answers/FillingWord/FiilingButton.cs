@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -24,7 +25,17 @@ namespace Answers.FillingWord
         [SerializeField] private Image defaultImage;
         [SerializeField] private List<Sprite> sprites;
         private Tween scaleTween;
-        
+
+        private void OnDestroy()
+        {
+            scaleTween.Kill();
+        }
+
+        private void OnDisable()
+        {
+            scaleTween.Kill();
+        }
+
         private void OnValidate()
         {
             buttonText.text = buttonTextAnswer;

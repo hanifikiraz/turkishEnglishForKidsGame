@@ -35,7 +35,14 @@ namespace Answers
         private void OnDisable()
         {
             BusSystem.OnButtonClickable -= ButtonClickable;
+            scaleTween.Kill();
         }
+
+        private void OnDestroy()
+        {
+            scaleTween.Kill();
+        }
+
         private void Start()
         {
             buttonText.text = buttonTextAnswer;
