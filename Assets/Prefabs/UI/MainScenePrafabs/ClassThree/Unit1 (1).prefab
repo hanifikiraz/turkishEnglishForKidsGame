@@ -2257,7 +2257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8055438918417524712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5903,7 +5903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WORDS - KEL\u0130MELER"
+  m_text: "GREETINGS - SELAMLA\u015EMA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5930,12 +5930,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 98.9
+  m_fontSize: 92.98
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 72.81
-  m_fontSizeMax: 98.9
+  m_fontSizeMax: 92.98
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -22610,7 +22610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 42
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22694,11 +22694,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: ELECTRIC - ELEKTRIK
+      value: SPELL - HECELEMEK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: ELECTRIC
+      value: SPELL
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -22714,7 +22714,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 61b7db59f2f858a48a63fe66df430850, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: ELECTRIC - ELEKTRIK
+      value: SPELL - HECELEMEK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22875,7 +22875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 83.6
+      value: 81.6
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -22959,11 +22959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GARAGE - GARAJ
+      value: COUNT - SAYMAK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GARAGE
+      value: COUNT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -22975,7 +22975,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4dcd638a52b695547963c35b49558009, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GARAGE - GARAJ
+      value: COUNT - SAYMAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23220,7 +23220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: LEMON - LIMON
+      value: "THIRTEEN - ON \xDC\xC7"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -23236,7 +23236,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 24c6502cfafa5e149aa21fc89a1e4f13, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: LEMON - LIMON
+      value: "THIRTEEN - ON \xDC\xC7"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23346,7 +23346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: MUSIC - MUZIK
+      value: "FOURTEEN - ON D\xD6RT"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -23362,7 +23362,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8386127f9d1f84744ac98fa4f494df26, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: MUSIC - MUZIK
+      value: "FOURTEEN - ON D\xD6RT"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23472,7 +23472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: QUIZ - SINAV
+      value: SIXTEEN - ON ALTI
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -23488,7 +23488,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0d6b1f19648591244b500199a65d7f88, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: QUIZ - SINAV
+      value: SIXTEEN - ON ALTI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23850,7 +23850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: NEGATIVE - OLUMSUZ
+      value: " FIFTEEN - ON BE\u015E"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -23866,7 +23866,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4fada86e9d9497f448691b75fade9352, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: NEGATIVE - OLUMSUZ
+      value: " FIFTEEN - ON BE\u015E"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24005,7 +24005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 45.5
+      value: 141.2
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24089,11 +24089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: BROCCOLI - BROKOLI
+      value: HI - SELAM
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: BROCCOLI
+      value: HI
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -24105,7 +24105,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0db5a6eb1d7ff1e41af305bf7c9898cd, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: BROCCOLI - BROKOLI
+      value: HI - SELAM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24131,7 +24131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 66.1
+      value: 130.8
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24215,11 +24215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: DOCTOR - DOKTOR
+      value: "NAME - \u0130S\u0130M"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DOCTOR
+      value: NAME
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -24231,7 +24231,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 3ad84b6975c5d9e4e93c0b5160f0168a, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DOCTOR - DOKTOR
+      value: "NAME - \u0130S\u0130M"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24257,7 +24257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 21
+      value: 72.4
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24341,11 +24341,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: AMBULANCE-AMBULANS
+      value: HELLO - MERHABA
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: AMBULANCE
+      value: HELLO
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -24357,7 +24357,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: b85538d48c06cc4499c590de90e28c09, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: AMBULANCE-AMBULANS
+      value: HELLO - MERHABA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24383,7 +24383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 54.6
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -24467,11 +24467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: FOOTBALL - FUTBOL
+      value: "STUDENT - \xD6\u011ERENC\u0130"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FOOTBALL
+      value: STUDENT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -24483,7 +24483,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: b697853f394d284469d14be990287dee, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FOOTBALL - FUTBOL
+      value: "STUDENT - \xD6\u011ERENC\u0130"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24593,7 +24593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: JACKET - CEKET
+      value: "TWELVE - ON \u0130K\u0130"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -24609,7 +24609,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c8c4001a04f77f24ebd1e54d3e9cc431, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: JACKET - CEKET
+      value: "TWELVE - ON \u0130K\u0130"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25163,7 +25163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 11.1
+      value: 56.6
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25247,11 +25247,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: CAFETERIA - KAFETERYA
+      value: ALPHABET - ALFABE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CAFETERIA
+      value: ALPHABET
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25263,7 +25263,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4b07ec736f626b344b9af1681881cd0d, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CAFETERIA - KAFETERYA
+      value: ALPHABET - ALFABE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25508,7 +25508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: TELEPHONE - TELEFON
+      value: "SEVENTEEN - ON YED\u0130"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -25524,7 +25524,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: eba40430c8c9d4546a26f0ace7a5f627, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: TELEPHONE - TELEFON
+      value: "SEVENTEEN - ON YED\u0130"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25769,7 +25769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: HELICOPTER - HELIKOPTER
+      value: "ELEVEN - ON B\u0130R"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
@@ -25785,7 +25785,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4cd62d5ac8928a54f8850ded74eee167, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HELICOPTER - HELIKOPTER
+      value: "ELEVEN - ON B\u0130R"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
