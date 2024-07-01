@@ -6192,6 +6192,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3041349456328303618, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: myCanvas
+      value: 
+      objectReference: {fileID: 6765737062301677781}
+    - target: {fileID: 3041349456328303618, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitCanvas
+      value: 
+      objectReference: {fileID: 6765737062301677780}
     - target: {fileID: 3164844167886520752, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6405,6 +6413,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c113137b37ae05441a02e1242544067b, type: 3}
+--- !u!1 &6765737062301677780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4914898975864003874, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6765737062301677781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1162803663445556363, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

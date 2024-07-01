@@ -5914,8 +5914,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90.37675}
-  m_SizeDelta: {x: 2639.752, y: 180.7535}
+  m_AnchoredPosition: {x: -3.4911, y: -90.37675}
+  m_SizeDelta: {x: 1963.0737, y: 180.7535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6123860626547230213
 CanvasRenderer:
@@ -5945,7 +5945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLASSROOM - SINIF
+  m_text: "PEOPLE I LOVE - SEVD\u0130\u011E\u0130M \u0130NSANLAR"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5972,7 +5972,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 98.9
+  m_fontSize: 94.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6029,7 +6029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5777194449610425570
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9183,8 +9183,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 6.5652, y: -135.58301}
-  m_SizeDelta: {x: 1462.248, y: 191.4}
+  m_AnchoredPosition: {x: 0.000019073486, y: -137}
+  m_SizeDelta: {x: 2009.1919, y: 191.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8912801609839604702
 CanvasRenderer:
@@ -14943,7 +14943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 84.9
+      value: 127.3
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15027,11 +15027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: SAY - SOYLEMEK
+      value: TALL - UZUN
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: SAY
+      value: TALL
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15043,7 +15043,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: ba921283781a5be4f8513b1a62cda0dc, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: SAY - SOYLEMEK
+      value: TALL - UZUN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15069,7 +15069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55.1
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15153,11 +15153,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: COLOUR - BOYAMAK
+      value: "FAT -\u015E\u0130\u015EMAN"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: COLOUR
+      value: FAT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15169,7 +15169,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: d5a1080e65502954eb6c97e000f4d9bf, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: COLOUR - BOYAMAK
+      value: "FAT -\u015E\u0130\u015EMAN"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15195,7 +15195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.2
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15279,11 +15279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: STICK - YAPISTIRMAK
+      value: SHORT - KISA
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: STICK
+      value: SHORT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15295,7 +15295,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: cc2d0978cd8b184429aa907885c9259b, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: STICK - YAPISTIRMAK
+      value: SHORT - KISA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15444,7 +15444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 58.3
+      value: 127.2
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15528,11 +15528,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: CLASSROOM - SINIF
+      value: "BIG - B\xDCY\xDCK"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLASSROOM
+      value: BIG
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15544,7 +15544,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5f1670daeea853742b6ecc2668022919, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLASSROOM - SINIF
+      value: "BIG - B\xDCY\xDCK"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15570,7 +15570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -12.2
+      value: 24.099998
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15654,11 +15654,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: TURN LEFT - SOLA DONMEK
+      value: COOK - YEMEK YAPMAK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: TURN LEFT
+      value: COOK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15670,7 +15670,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 803acdad296bc3c4d8e2c744ce51ec61, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: TURN LEFT - SOLA DONMEK
+      value: COOK - YEMEK YAPMAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15831,7 +15831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.4
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -15915,11 +15915,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: TURN RIGHT - SAGA DONMEK
+      value: "CARRY - TA\u015EIMAK"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: TURN RIGHT
+      value: CARRY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -15931,7 +15931,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 2a0dff2d0f28e4644a0773445f850ffb, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: TURN RIGHT - SAGA DONMEK
+      value: "CARRY - TA\u015EIMAK"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16092,7 +16092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 125
+      value: 39.5
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -16176,11 +16176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: DOOR - KAPI
+      value: "HEAVY - A\u011EIR/\u015E\u0130\u015EMAN"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DOOR
+      value: HEAVY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -16192,7 +16192,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5b173a82c5b12d74bbb81a8068c8e7c3, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DOOR - KAPI
+      value: "HEAVY - A\u011EIR/\u015E\u0130\u015EMAN"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16353,7 +16353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 108.2
+      value: 97.7
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -16437,11 +16437,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: CUT - KESMEK
+      value: HAPPY - MUTLU
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CUT
+      value: HAPPY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -16453,7 +16453,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: bd5b8a745806a4d4d8cb540ead82a001, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CUT - KESMEK
+      value: HAPPY - MUTLU
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16479,7 +16479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 81.4
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -16563,11 +16563,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: JUMP - ZIPLAMAK
+      value: "SLOW - YAVA\u015E"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: JUMP
+      value: SLOW
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -16579,7 +16579,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0c53a6157bd05804bb87b05bbf1dfb49, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: JUMP - ZIPLAMAK
+      value: "SLOW - YAVA\u015E"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16740,7 +16740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 60.9
+      value: 128.6
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -16824,11 +16824,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: CLOSE - KAPATMAK
+      value: FAST - HIZLI
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLOSE
+      value: FAST
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -16840,7 +16840,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c36d57d826c8e8845b157bf220ba6a1f, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLOSE - KAPATMAK
+      value: FAST - HIZLI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17073,11 +17073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: CLAP - ALKISLAMAK
+      value: "BEAUTIFUL - G\xDCZEL"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLAP
+      value: BEAUTIFUL
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -17089,7 +17089,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: d621dcc63c0e18343954ccb705132304, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: CLAP - ALKISLAMAK
+      value: "BEAUTIFUL - G\xDCZEL"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17373,7 +17373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 75.6
+      value: 119.7
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -17457,11 +17457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: FOLD - KATLAMAK
+      value: "SAD - \xDCZG\xDCN"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FOLD
+      value: SAD
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -17473,7 +17473,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 30317894946008e47bd966db353f9472, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FOLD - KATLAMAK
+      value: "SAD - \xDCZG\xDCN"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17499,11 +17499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 10.5
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 19
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -17587,11 +17587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: YOU'RE WELCOME - RICA EDERIM
+      value: "FLY - U\xC7MAK"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: YOU'RE WELCOME
+      value: FLY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -17603,7 +17603,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: cf6015fbe6967aa43bef46baeb8ddabd, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: YOU'RE WELCOME - RICA EDERIM
+      value: "FLY - U\xC7MAK"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17629,7 +17629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -24.2
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -17713,11 +17713,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: STAND UP - AYAGA KALKMAK
+      value: "YOUNG - GEN\xC7"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: STAND UP
+      value: YOUNG
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -17729,7 +17729,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: caea12d5ca3334b49943c1521099be16, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: STAND UP - AYAGA KALKMAK
+      value: "YOUNG - GEN\xC7"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17876,7 +17876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 77.6
+      value: 81.5
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -17964,11 +17964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: PAINT - BOYAMAK
+      value: "STRONG - G\xDC\xC7L\xDC"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: PAINT
+      value: STRONG
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -17980,7 +17980,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 757d352082ed6584688f3b0d6b0a6cd5, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: PAINT - BOYAMAK
+      value: "STRONG - G\xDC\xC7L\xDC"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18006,7 +18006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 97.2
+      value: 131.9
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -18090,11 +18090,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: DRAW - CIZMEK
+      value: "OLD - YA\u015ELI"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DRAW
+      value: OLD
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -18106,7 +18106,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: ff9c7caf75a908a4096de65fc5cf7120, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: DRAW - CIZMEK
+      value: "OLD - YA\u015ELI"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18132,7 +18132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105.9
+      value: 98.8
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -18216,11 +18216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: OPEN - ACMAK
+      value: "SMALL - K\xDC\xC7\xDCK"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: OPEN
+      value: SMALL
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -18232,7 +18232,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 30f4f389afdbf0446a223a7b701edf48, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: OPEN - ACMAK
+      value: "SMALL - K\xDC\xC7\xDCK"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18258,7 +18258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 39.7
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -18342,11 +18342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: SIT DOWN - OTURMAK
+      value: "WEAK - G\xDC\xC7S\xDCZ"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: SIT DOWN
+      value: WEAK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -18358,7 +18358,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 49ef50d2a84981140843bc04ee7ac1fd, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: SIT DOWN - OTURMAK
+      value: "WEAK - G\xDC\xC7S\xDCZ"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
