@@ -22,19 +22,30 @@ namespace Menu.ClassMenuController
             Nature
             
         }
-          
+        public GameObject LockGameObject;
         [SerializeField] private UnitType unitType;
         [SerializeField] private List<Sprite> unitImages;
         [SerializeField] private Image defaultImage;
         [SerializeField] private TextMeshProUGUI unitText;
+        [SerializeField] private TextMeshProUGUI lockText;
         [SerializeField] private string unitTextString;
+        [SerializeField] private GameObject myCanvas;
+        [SerializeField] private GameObject unitCanvas;
    
         private void OnValidate()
         {
             UnitSelection();
             unitText.text = unitTextString;
+            lockText.text = unitTextString;
         }
-   
+        public void OpenUnit()
+        {
+            if (LockGameObject.activeSelf == false)
+            {
+                unitCanvas.SetActive(true);
+                myCanvas.SetActive(false);
+            }
+        }
         private void SpriteSelection(int value)
         {
             defaultImage.sprite = unitImages[value];

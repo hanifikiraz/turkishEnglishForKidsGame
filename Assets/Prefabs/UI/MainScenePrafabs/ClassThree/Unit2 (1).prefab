@@ -17324,7 +17324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FRIENDS - ARKADASLAR
+  m_text: "MY FAMILY - A\u0130LEM"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22325,7 +22325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5099434142942384117
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25012,7 +25012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 130.8
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25096,11 +25096,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: NAME - ISIM
+      value: FATHER/DAD - BABA
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: NAME
+      value: 'FATHER/DAD '
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25112,7 +25112,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: bb8d6e0b41aed704ea827918fa8ef15e, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: NAME - ISIM
+      value: FATHER/DAD - BABA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25138,7 +25138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 144.5
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25222,11 +25222,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: YOU - SEN
+      value: UNCLE - AMCA,DAYI
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: YOU
+      value: UNCLE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25238,7 +25238,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: ab1dea32006931d4cbf4246404680df7, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: YOU - SEN
+      value: UNCLE - AMCA,DAYI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25258,17 +25258,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2538130853184622548}
     m_Modifications:
+    - target: {fileID: 10282162123986967, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 561.9979
+      objectReference: {fileID: 0}
+    - target: {fileID: 10282162123986967, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -36.3021
+      objectReference: {fileID: 0}
     - target: {fileID: 2593857290265513663, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Name
       value: Words (14)
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17.7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25356,7 +25364,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: THANK YOU
+      value: GRANDMOTHER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25369,6 +25385,14 @@ PrefabInstance:
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
       value: THANK YOU - TESEKKUR EDERIM
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25394,7 +25418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105.6
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25478,11 +25502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: OKEY - TAMAM
+      value: SHE - O(KIZ)
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: OKEY
+      value: SHE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25494,7 +25518,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: e20a1128887cca245a566243eaacc8fb, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: OKEY - TAMAM
+      value: SHE - O(KIZ)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25643,7 +25667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 91
+      value: -27.1
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25727,11 +25751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: "GREAT - HAR\u0130KA"
+      value: GRANDFATHER - DEDE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GREAT
+      value: GRANDFATHER
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25743,7 +25767,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5a294aa7a67f9ea4fba7b2d7901000d2, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: "GREAT - HAR\u0130KA"
+      value: GRANDFATHER - DEDE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25769,7 +25793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 103.65
+      value: 57.9
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25853,11 +25877,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: HOW? - NASIL?
+      value: SON - ERKEK EVLAT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HOW?
+      value: SON
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25869,7 +25893,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: f469a939647fa8740810bcc1cf106e5a, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HOW? - NASIL?
+      value: SON - ERKEK EVLAT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25895,7 +25919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.7
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -25979,11 +26003,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: THANKS - TESEKKURLER
+      value: HE - O(ERKEK)
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: THANKS
+      value: HE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -25995,7 +26019,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 6fd12e09448d0ce4594664991da392dc, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: THANKS - TESEKKURLER
+      value: HE - O(ERKEK)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26021,7 +26045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155.3
+      value: 45.09
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -26105,11 +26129,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: FINE - IYI
+      value: MOTHER/MUM - ANNE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FINE
+      value: MOTHER/MUM
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -26121,7 +26145,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c22d066c99f336f4a81ae5c5d488b059, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: FINE - IYI
+      value: MOTHER/MUM - ANNE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26273,11 +26297,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55.4
+      value: 89.1
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.9
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -26361,11 +26385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GOOD EVENING - IYI AKSAMLAR
+      value: COUSIN - KUZEN
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD EVENING
+      value: COUSIN
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -26377,7 +26401,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1f5b04fa7c3ff3c4d8deba53a9bf30d8, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD EVENING - IYI AKSAMLAR
+      value: COUSIN - KUZEN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26403,7 +26427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 72
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -26487,11 +26511,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: HELLO - MERHABA
+      value: "FAMILY - A\u0130LE"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HELLO
+      value: FAMILY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -26503,7 +26527,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 0f1f3dd763221714b92de4f8a4c3fd75, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HELLO - MERHABA
+      value: "FAMILY - A\u0130LE"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26664,11 +26688,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 53
+      value: -14.3
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.9
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -26752,11 +26776,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GOOD AFTERNOON - TUNAYDIN
+      value: "BROTHER - ERKEK  KARDE\u015E"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD AFTERNOON
+      value: BROTHER
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -26768,7 +26792,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 98ae512af570c1b4887e17789c26a6fc, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD AFTERNOON - TUNAYDIN
+      value: "BROTHER - ERKEK  KARDE\u015E"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27187,7 +27211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 25.7
+      value: 27.6
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -27271,11 +27295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GOODBYE - HOSCA KAL
+      value: DAUGHTER - KIZ EVLAT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOODBYE
+      value: DAUGHTER
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -27287,7 +27311,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 7201e77f85d79374993ab18bf2932ddf, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOODBYE - HOSCA KAL
+      value: DAUGHTER - KIZ EVLAT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27448,7 +27472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11.8
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -27532,11 +27556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GOOD NIGHT - IYI GECELER
+      value: AUNT - HALA,TEYZE
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD NIGHT
+      value: AUNT
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -27548,7 +27572,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 3a272eec4342d5f4b95895b342490033, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD NIGHT - IYI GECELER
+      value: AUNT - HALA,TEYZE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27574,7 +27598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -22
+      value: 45.4
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -27658,11 +27682,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: GOOD MORNING - GUNAYDIN
+      value: "SISTER - KIZ KARDE\u015E"
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD MORNING
+      value: SISTER
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -27674,7 +27698,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 71c0e303b2e51e7419540f0257907ecc, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: GOOD MORNING - GUNAYDIN
+      value: "SISTER - KIZ KARDE\u015E"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27700,7 +27724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3300818422884697884, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 140.5
+      value: 112.5
       objectReference: {fileID: 0}
     - target: {fileID: 5679038661819484530, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_Pivot.x
@@ -27784,11 +27808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847117727389466337, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: wordTextStr
-      value: HI - SELAM
+      value: BABY - BEBEK
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HI
+      value: BABY
       objectReference: {fileID: 0}
     - target: {fileID: 5875478893049850534, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -27800,7 +27824,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: dc4bd30f1c303964da77810decc89b7c, type: 3}
     - target: {fileID: 7955207808167989857, guid: 09bdb8b61c647e340b672006460c411c, type: 3}
       propertyPath: m_text
-      value: HI - SELAM
+      value: BABY - BEBEK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
