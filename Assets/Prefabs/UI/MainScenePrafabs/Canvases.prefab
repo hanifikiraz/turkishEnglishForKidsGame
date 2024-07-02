@@ -3157,6 +3157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unit3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3228507530271944510, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5777194449610425570, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3237,11 +3241,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8873666457125132222, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
+      propertyPath: backMenuObject
+      value: 
+      objectReference: {fileID: 1162803663445556363}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
+--- !u!1 &3857228987602343541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3228507530271944510, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
+  m_PrefabInstance: {fileID: 1822364853095430475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5289161736514682281 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5777194449610425570, guid: 1f09902bb0380fa44832a7fb1de77bce, type: 3}
@@ -3742,6 +3755,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5659266117055499025}
     m_Modifications:
+    - target: {fileID: 257373565499845778, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
+      propertyPath: myCanvas
+      value: 
+      objectReference: {fileID: 1162803663445556363}
+    - target: {fileID: 257373565499845778, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
+      propertyPath: unitCanvas
+      value: 
+      objectReference: {fileID: 4914898975864003874}
     - target: {fileID: 1056039615125507432, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
       propertyPath: myCanvas
       value: 
@@ -3750,6 +3771,14 @@ PrefabInstance:
       propertyPath: unitCanvas
       value: 
       objectReference: {fileID: 61963971712997091}
+    - target: {fileID: 1789490358592820974, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
+      propertyPath: myCanvas
+      value: 
+      objectReference: {fileID: 1162803663445556363}
+    - target: {fileID: 1789490358592820974, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
+      propertyPath: unitCanvas
+      value: 
+      objectReference: {fileID: 3857228987602343541}
     - target: {fileID: 2214375440174073950, guid: 0dbdab19ad13fc946b9bd516dfcc2bd9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3962,6 +3991,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6ff81ff00040e04da0f572c5910ae6d, type: 3}
+--- !u!1 &4914898975864003874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8391563593485503692, guid: a6ff81ff00040e04da0f572c5910ae6d, type: 3}
+  m_PrefabInstance: {fileID: 3477315700304105966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8540298657651990043 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5099434142942384117, guid: a6ff81ff00040e04da0f572c5910ae6d, type: 3}
