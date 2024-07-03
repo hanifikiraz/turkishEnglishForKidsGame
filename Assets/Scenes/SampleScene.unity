@@ -128,6 +128,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2548871098073044875, guid: c113137b37ae05441a02e1242544067b, type: 3}
   m_PrefabInstance: {fileID: 6765737062301677779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &12718504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3137028434001722212, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &14352315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 211672709899357311, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &36856643 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7069504792971831516, guid: c113137b37ae05441a02e1242544067b, type: 3}
@@ -1054,6 +1064,11 @@ MonoBehaviour:
   gameLoseWinCanvasBG: {fileID: 2055973616}
   homeButton: {fileID: 1916566456}
   parentLevels: {fileID: 1357675906}
+--- !u!1 &380290147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2563805369119096225, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &414733153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3476731261965955911, guid: c113137b37ae05441a02e1242544067b, type: 3}
@@ -1265,6 +1280,11 @@ Transform:
 --- !u!1 &510687010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3447772925152295711, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &516842729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5303734743035204196, guid: c113137b37ae05441a02e1242544067b, type: 3}
   m_PrefabInstance: {fileID: 6765737062301677779}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &521414525
@@ -4840,6 +4860,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3367227033659329098, guid: c113137b37ae05441a02e1242544067b, type: 3}
   m_PrefabInstance: {fileID: 6765737062301677779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1800765022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1845880069575565918, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1831946019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 554689410575120768, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1834906037
 GameObject:
   m_ObjectHideFlags: 0
@@ -5124,6 +5154,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849211719}
   m_CullTransparentMesh: 1
+--- !u!1 &1854241967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 205531435310684194, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1886760172
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,6 +5319,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898647094}
   m_CullTransparentMesh: 1
+--- !u!1 &1905269505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5070311011165226570, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1906054137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5637332177336510188, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1913229290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1488566872562205604, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1916566456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5912,6 +5962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2058825444}
+  - component: {fileID: 2058825445}
   m_Layer: 0
   m_Name: Class2
   m_TagString: Untagged
@@ -5934,6 +5985,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1271243966}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2058825445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058825443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e4474293b325f4681cdc39c6901626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 1913229290}
+  - {fileID: 1800765022}
+  - {fileID: 1854241967}
+  - {fileID: 516842729}
+  - {fileID: 1906054137}
+  - {fileID: 12718504}
+  - {fileID: 14352315}
+  - {fileID: 1905269505}
+  - {fileID: 380290147}
+  - {fileID: 1831946019}
+  buttonsGame:
+  - {fileID: 1717919196}
+  - {fileID: 1622612192}
+  - {fileID: 282148012}
+  - {fileID: 162925513}
+  - {fileID: 1044885575}
+  - {fileID: 193665885}
+  - {fileID: 1783247998}
+  - {fileID: 1298039111}
+  - {fileID: 1449921775}
+  - {fileID: 1234573448}
+  unitType: 3
+  unitName: ClassThree
+  totalLevelCount: 10
+  gameUnlockedCanvas: {fileID: 1345783713}
 --- !u!1 &2080443989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2604097818278108658, guid: c113137b37ae05441a02e1242544067b, type: 3}
@@ -6080,6 +6169,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 32779130717693242, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
+    - target: {fileID: 606004256668165119, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 717811859858973097, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6131,6 +6228,14 @@ PrefabInstance:
     - target: {fileID: 1126238567176441150, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169984230719355901, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738424291465641272, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1858499809346446246, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6192,6 +6297,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2957881966599574049, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
+    - target: {fileID: 2965254282604906108, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 2978645951412654368, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -6200,6 +6313,10 @@ PrefabInstance:
       propertyPath: myCanvas
       value: 
       objectReference: {fileID: 6765737062301677781}
+    - target: {fileID: 3041349456328303618, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3041349456328303618, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: unitCanvas
       value: 
@@ -6236,6 +6353,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -275
       objectReference: {fileID: 0}
+    - target: {fileID: 3192530808757921758, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 3447772925152295711, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6244,6 +6365,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3555849356910447139, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563148658446589566, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630289340787588096, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 3727690423882380018, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: openCanvas
       value: 
@@ -6252,6 +6385,10 @@ PrefabInstance:
       propertyPath: mainMenuCanvas
       value: 
       objectReference: {fileID: 510687010}
+    - target: {fileID: 3754399034379403228, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4372524939293155911, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6372,6 +6509,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Menu.MenuSelectController, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 7090394703526579258, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
+    - target: {fileID: 7333920060739958962, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 7483998236676261884, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: openCanvas
       value: 
@@ -6380,6 +6525,10 @@ PrefabInstance:
       propertyPath: mainMenuCanvas
       value: 
       objectReference: {fileID: 510687010}
+    - target: {fileID: 7899841302236289044, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0885891997b3686419401fc7e0b1a041, type: 3}
     - target: {fileID: 7926602929020703658, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6391,6 +6540,18 @@ PrefabInstance:
     - target: {fileID: 7930781357271962816, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499897867744411670, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8805187865484071992, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9048640589348036784, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: unitType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9157091008049517228, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
