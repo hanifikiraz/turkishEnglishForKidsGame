@@ -16899,7 +16899,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
       propertyPath: unitName
-      value: Pets
+      value: Myclothes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
+      propertyPath: unitType
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7672286795342448449, guid: 604f8de4b8ec16b418363b20e316fca5, type: 3}
       propertyPath: buttons.Array.size
