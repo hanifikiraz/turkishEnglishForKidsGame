@@ -134,12 +134,12 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - PAPER
-  - RULER
-  - ERASER
-  - BOARD
-  - NOTEBOOK
-  - PENCIL
+  - SAD
+  - DANCE
+  - LISTEN
+  - RUN
+  - LOOK
+  - SING
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21121749760584848, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: DEFTER
+      value: BAKMAK
       objectReference: {fileID: 0}
     - target: {fileID: 432714880681853097, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -562,7 +562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: SILGI
+      value: MUTLU
       objectReference: {fileID: 0}
     - target: {fileID: 2320862949547698199, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -574,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c33aea4b84b06334dbddd0720418fc0f, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KITAP
+      value: BAKMAK
       objectReference: {fileID: 0}
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5594ad97e768b0e4082cc3dfaac3a5d1, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "S\u0130LG\u0130"
+      value: "\xDCZG\xDCN"
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -590,15 +590,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KALEM
+      value: "M\xDCZ\u0130K"
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KAGIT
+      value: "\xDCZG\xDCN"
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KALEM
+      value: "\u015EARKI"
       objectReference: {fileID: 0}
     - target: {fileID: 4210688813104835926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -698,7 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6727207532314772625, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: TAHTA
+      value: "D\u0130NLEMEK"
       objectReference: {fileID: 0}
     - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -710,11 +710,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: CETVEL
+      value: "G\u0130TMEK"
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: YAZI TAHTASI
+      value: "KO\u015EMAK"
       objectReference: {fileID: 0}
     - target: {fileID: 7642113876656974926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -734,7 +734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: SILGI
+      value: "M\xDCZ\u0130K"
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -742,11 +742,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: CETVEL
+      value: DANS
       objectReference: {fileID: 0}
     - target: {fileID: 8848963819851474577, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: DEFTER
+      value: MUTSUZ
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -754,7 +754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: SILGI
+      value: "D\u0130NLEMEK"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -134,12 +134,12 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - DURMAK
+  - "\xD6\u011ERENC\u0130"
   - TREN
   - KELIME
   - OKUL
-  - OLUMSUZ
-  - OLUMLU
+  - "ON \u0130K\u0130"
+  - BU
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,19 +582,19 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 377bc62af89ed02439763de56117974f, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: YES
+      value: TWENTY
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: NEGATIVE
+      value: TWELVE
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: STOP
+      value: STUDENT
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: POZITIVE
+      value: THIS
       objectReference: {fileID: 0}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
@@ -695,11 +695,11 @@ PrefabInstance:
     - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4fada86e9d9497f448691b75fade9352, type: 3}
+      objectReference: {fileID: 8300000, guid: 85b6d8a2c5a6d954da11890962aa7b32, type: 3}
     - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a13ecf61a52be394a819b868e2fca06f, type: 3}
+      objectReference: {fileID: 8300000, guid: a635b77253b09984bbe146c431481bd2, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0
@@ -719,7 +719,7 @@ PrefabInstance:
     - target: {fileID: 7642113876656974926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6aef14b34b504b24dbd319f70d3b0344, type: 3}
+      objectReference: {fileID: 8300000, guid: 3baa18ea5be8ac844a247879dc5de2bd, type: 3}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: CAR

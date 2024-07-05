@@ -134,12 +134,12 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - MERHABA
-  - SELAM
-  - ISIM
-  - "\u0130Y\u0130"
+  - BEBEK
+  - ANNE
+  - BABA
+  - TEYZE
+  - AMCA
   - "BEN\u0130M"
-  - NASIL?
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,11 +562,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c11a7de8e2038b94bb707a4122318fa8, type: 3}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HI
+      value: CHILD
       objectReference: {fileID: 0}
     - target: {fileID: 2320862949547698199, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: WHY?
+      value: I
       objectReference: {fileID: 0}
     - target: {fileID: 2622871485046771183, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -574,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: dc4bd30f1c303964da77810decc89b7c, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: YES
+      value: MOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -586,15 +586,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: MY
+      value: UNCLE
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HELLO
+      value: BABY
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HOW?
+      value: MY
       objectReference: {fileID: 0}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
@@ -678,7 +678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223566271135350015, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: WHAT?
+      value: YOUR
       objectReference: {fileID: 0}
     - target: {fileID: 6727207532314772625, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -686,7 +686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6727207532314772625, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD
+      value: AUNT
       objectReference: {fileID: 0}
     - target: {fileID: 7038781018112508473, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -702,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: THINK
+      value: COUSIN
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -710,7 +710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: NO
+      value: MY
       objectReference: {fileID: 0}
     - target: {fileID: 7642113876656974926, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -718,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: f469a939647fa8740810bcc1cf106e5a, type: 3}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: NO
+      value: AUNT
       objectReference: {fileID: 0}
     - target: {fileID: 8127449302367834200, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Name
@@ -730,7 +730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: GOOD
+      value: FATHER
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -738,11 +738,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HI
+      value: MOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 8848963819851474577, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: COME
+      value: AUNT
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -750,7 +750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: NAME
+      value: FATHER
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -134,12 +134,12 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - KOL
-  - PARMAK
-  - AYAK
-  - EL
-  - "A\u011EIZ"
-  - "BA\u015E"
+  - "S\u0130NEMA"
+  - HASTANE
+  - "M\xDCZE"
+  - KASABA
+  - "\u015EEH\u0130R"
+  - OKUL
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21121749760584848, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: MOUTH
+      value: CITY
       objectReference: {fileID: 0}
     - target: {fileID: 306596537958198176, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -562,7 +562,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: d355abf52236802448c286095876ffc7, type: 3}
     - target: {fileID: 432714880681853097, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: BEARD
+      value: SCHOOL
       objectReference: {fileID: 0}
     - target: {fileID: 1100115234975601614, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -570,11 +570,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 45e1008f9dde608499f0797d612137da, type: 3}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: EAR
+      value: LIBRARY
       objectReference: {fileID: 0}
     - target: {fileID: 2320862949547698199, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAIR
+      value: CINEMA
       objectReference: {fileID: 0}
     - target: {fileID: 2391845994497435994, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: fe026d78119527349a7dfa4ac9f6cf3f, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: EAR
+      value: HOTEL
       objectReference: {fileID: 0}
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -590,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 2121e9a2cffe0b84d93e24305faa5f6b, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: FINGER
+      value: MUSQUE
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -598,11 +598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3724887469252466022, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: SHOULDER
+      value: HOSPITAL
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: ARM
+      value: CINEMA
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -706,7 +706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223566271135350015, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HEAD
+      value: SCHOOL
       objectReference: {fileID: 0}
     - target: {fileID: 6727207532314772625, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -714,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6727207532314772625, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAND
+      value: TOWN
       objectReference: {fileID: 0}
     - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -726,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: LEG
+      value: TOWN
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -734,11 +734,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KNEE
+      value: CITY
       objectReference: {fileID: 0}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAIR
+      value: MUSEUM
       objectReference: {fileID: 0}
     - target: {fileID: 8127449302367834200, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Name
@@ -746,7 +746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: FINGER
+      value: HOSPITAL
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -762,7 +762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: FOOT
+      value: MUSEUM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
