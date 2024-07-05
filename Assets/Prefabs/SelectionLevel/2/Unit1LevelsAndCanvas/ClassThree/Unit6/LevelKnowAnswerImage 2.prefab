@@ -50,8 +50,6 @@ MonoBehaviour:
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
   - {fileID: 4688070856209642182}
-  - {fileID: 1903628696243993434}
-  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,12 +60,10 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: 28dbe29ec755e884e8cc125569b852e7, type: 3}
-  - {fileID: 21300000, guid: 8415deff826de054ba4b11a6ae02fb8c, type: 3}
-  - {fileID: 21300000, guid: 5d89ce1470290d64d8a44fdf68f9dc5e, type: 3}
-  - {fileID: 21300000, guid: 6e765188a540e13449a13afc45b4bcc9, type: 3}
-  - {fileID: 21300000, guid: ace8fc99dc888bc40a4d03ab73909cf2, type: 3}
-  - {fileID: 21300000, guid: 3bbb392df94ae4c4193c1ee2f52bbe2c, type: 3}
+  - {fileID: 21300000, guid: a804b7d5eb4b90249a15223f71e3f98c, type: 3}
+  - {fileID: 21300000, guid: e680a8f15aabd614999e3b8c622f4a8c, type: 3}
+  - {fileID: 21300000, guid: 08e143a8e1fc7e842b46973dcf690461, type: 3}
+  - {fileID: 21300000, guid: 9d1e38e870569fe4eaff2666e94a7067, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -338,7 +334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: DANCE
+      value: CUP
       objectReference: {fileID: 0}
     - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -362,7 +358,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: eeb49280029ca1247b3a093cbae0a741, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: SWING
+      value: LAMP
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -374,11 +370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: RUN
+      value: CHAIR
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: FOOTBALL
+      value: LAMP
       objectReference: {fileID: 0}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
@@ -462,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: SKIP ROPE
+      value: CUP
       objectReference: {fileID: 0}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -482,15 +478,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: PLAYGROUND
+      value: BATHROOM
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: JUMP
+      value: LEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: TENNIS
+      value: HOUSE
       objectReference: {fileID: 0}
     - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -542,11 +538,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1903628696243993434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646695495395040614, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
@@ -593,11 +584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9064555107309578565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0

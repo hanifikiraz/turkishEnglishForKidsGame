@@ -61,9 +61,9 @@ MonoBehaviour:
   - {fileID: 8323603139107687706}
   objectSprites:
   - {fileID: 21300000, guid: 7e5a26a882401ed49bf15e9b5565f913, type: 3}
-  - {fileID: 21300000, guid: 7644c9b55e0bdcc439a8062c63b9ed50, type: 3}
-  - {fileID: 21300000, guid: 5af5aa99c887cc04c8111748903fda35, type: 3}
-  - {fileID: 21300000, guid: f12e9c275d577dd4ea9849da916ca151, type: 3}
+  - {fileID: 21300000, guid: 09b064b7487db7c4b979bcb4751ff4a7, type: 3}
+  - {fileID: 21300000, guid: f8e01814d67b2c34da56eb1b376169b7, type: 3}
+  - {fileID: 21300000, guid: 53522d757af557f4e893a4624b9cf0a7, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -334,7 +334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: NO
+      value: SISTER
       objectReference: {fileID: 0}
     - target: {fileID: 3935261437835875766, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -342,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 3a033b4fd90ee3b478992f4bc4df17be, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HI!
+      value: GRANDMOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -358,7 +358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: YES
+      value: GRANDMOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
@@ -442,7 +442,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GREAT
+      value: GRANDFATHER
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: FATHER
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -450,15 +454,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HELLO
+      value: MOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: YOU
+      value: SISTER
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: BYE
+      value: MOTHER
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -478,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: dc4bd30f1c303964da77810decc89b7c, type: 3}
     - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: LIKE
+      value: THANK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

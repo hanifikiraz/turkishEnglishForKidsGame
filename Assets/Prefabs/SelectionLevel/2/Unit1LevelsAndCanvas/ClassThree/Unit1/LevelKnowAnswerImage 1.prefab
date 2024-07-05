@@ -62,12 +62,12 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: ec35d7b13e69a4544a482c31e3640035, type: 3}
-  - {fileID: 21300000, guid: b9d76c8bbbbeed4449d32bf872d3023c, type: 3}
-  - {fileID: 21300000, guid: 7be5499130daa8f45a692f4a0202ef40, type: 3}
-  - {fileID: 21300000, guid: b4e9015dc4ba6c34b907c88d6c3a7473, type: 3}
-  - {fileID: 21300000, guid: 6b7309abc43f4a741ab8e23a8edf39dc, type: 3}
-  - {fileID: 21300000, guid: 1e582c6f8949e204ba077c570c7ba839, type: 3}
+  - {fileID: 21300000, guid: e77b22e46663efd4996ee33c3640bde3, type: 3}
+  - {fileID: 21300000, guid: e078005c9700cb04e827113013aef034, type: 3}
+  - {fileID: 21300000, guid: caf13a1578ecafe4bbd69c9ff3c35f79, type: 3}
+  - {fileID: 21300000, guid: b8a2b63af6aef584fba66d039cf51e36, type: 3}
+  - {fileID: 21300000, guid: 21c5834ec1527d74a83fd5f295d3d703, type: 3}
+  - {fileID: 21300000, guid: df262386ea3ecd04db8101a2119858bc, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -324,21 +324,25 @@ PrefabInstance:
       propertyPath: answerType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: NINETEEN
+      objectReference: {fileID: 0}
     - target: {fileID: 436212167869640632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 436212167869640632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: ALPHABET
+      value: FIFTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: AMBULANCE
+      value: ELEVEN
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: DOCTOR
+      value: THIRTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 2666908743190445030, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -346,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8386127f9d1f84744ac98fa4f494df26, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: JACKET
+      value: FOURTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -354,11 +358,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CAR
+      value: TWELVE
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MAN
+      value: TWENTY
       objectReference: {fileID: 0}
     - target: {fileID: 5109498802562071460, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -450,31 +454,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CAKE
+      value: TWELVE
       objectReference: {fileID: 0}
     - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3ad84b6975c5d9e4e93c0b5160f0168a, type: 3}
+    - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: NINETEEN
+      objectReference: {fileID: 0}
     - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: SCHOOL
+      value: TWELVE
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HUMAN
+      value: SIXTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MUSIC
+      value: ELEVEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: SEVENTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CUT
+      value: TWELVE
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: TRAIN
+      value: SIXTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -482,7 +494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MUSIC
+      value: SIXTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -494,11 +506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: NUMBERS
+      value: FOURTEEN
       objectReference: {fileID: 0}
     - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MELON
+      value: EIGHTEEN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

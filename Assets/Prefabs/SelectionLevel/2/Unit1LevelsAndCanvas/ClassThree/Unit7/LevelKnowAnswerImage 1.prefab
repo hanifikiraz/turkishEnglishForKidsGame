@@ -50,8 +50,6 @@ MonoBehaviour:
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
   - {fileID: 4688070856209642182}
-  - {fileID: 1903628696243993434}
-  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,12 +60,10 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: 8400ce69a83debf4fbe10d3db1daac61, type: 3}
-  - {fileID: 21300000, guid: 08688f215f02c46489574b8aefdf21b3, type: 3}
-  - {fileID: 21300000, guid: 5ac3ca61ccb529243b973cb961dc376e, type: 3}
-  - {fileID: 21300000, guid: 3d0bffdf8e215094a933216d16c9fd21, type: 3}
-  - {fileID: 21300000, guid: ac50c46356c87074dbaf2b57fa8e3430, type: 3}
-  - {fileID: 21300000, guid: c830c7437f1e1f448a14bba6634b5cb9, type: 3}
+  - {fileID: 21300000, guid: 99a5e40fd27b0dd48a8650e0acff8de8, type: 3}
+  - {fileID: 21300000, guid: 81c5efd48603b114784f4604884edad2, type: 3}
+  - {fileID: 21300000, guid: 43a51fb39f53ad941ade699877faabf0, type: 3}
+  - {fileID: 21300000, guid: 4161076617aae7a489f3bf4887d4e90a, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -334,7 +330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: FOOT
+      value: STADIUM
       objectReference: {fileID: 0}
     - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -346,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAND
+      value: CINEMA
       objectReference: {fileID: 0}
     - target: {fileID: 3008664804948046203, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -358,7 +354,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8b35264782b86514db926e1aa269ae1c, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: EAR
+      value: MOSQUE
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -374,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HEAD
+      value: VILLAGE
       objectReference: {fileID: 0}
     - target: {fileID: 5440620946889807360, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -474,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: fe026d78119527349a7dfa4ac9f6cf3f, type: 3}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAIR
+      value: MOSQUE
       objectReference: {fileID: 0}
     - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -486,11 +482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: ARM
+      value: POLICE STATION
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: FOOT
+      value: BAKERY
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -498,7 +494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MOUTH
+      value: RESTAURANT
       objectReference: {fileID: 0}
     - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -510,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: EYE
+      value: SCHOOL
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -530,7 +526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAND
+      value: POSTAL
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -540,11 +536,6 @@ PrefabInstance:
 --- !u!1 &239003717861500938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1903628696243993434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
@@ -593,11 +584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9064555107309578565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0
