@@ -50,8 +50,6 @@ MonoBehaviour:
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
   - {fileID: 4688070856209642182}
-  - {fileID: 1903628696243993434}
-  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,12 +60,10 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: ec35d7b13e69a4544a482c31e3640035, type: 3}
-  - {fileID: 21300000, guid: b9d76c8bbbbeed4449d32bf872d3023c, type: 3}
-  - {fileID: 21300000, guid: 7be5499130daa8f45a692f4a0202ef40, type: 3}
-  - {fileID: 21300000, guid: b4e9015dc4ba6c34b907c88d6c3a7473, type: 3}
-  - {fileID: 21300000, guid: 6b7309abc43f4a741ab8e23a8edf39dc, type: 3}
-  - {fileID: 21300000, guid: 1e582c6f8949e204ba077c570c7ba839, type: 3}
+  - {fileID: 21300000, guid: fb052a8700657dc4f95bc78c4678be42, type: 3}
+  - {fileID: 21300000, guid: cf50a053617baae4085706121b6a9fe7, type: 3}
+  - {fileID: 21300000, guid: 6c227be51e2a95845bfe129c85e4240c, type: 3}
+  - {fileID: 21300000, guid: a0350d90826b3c24b9a2644be4c9b9f7, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -319,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 063854246afaf3848a6ab21cb4c4cda6, type: 3}
+      objectReference: {fileID: 8300000, guid: fbb01bfd57a5a424cb0985bffaef0e97, type: 3}
     - target: {fileID: 212770914024330272, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -334,11 +330,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: AMBULANCE
+      value: DESK
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: DOCTOR
+      value: PENCIL
       objectReference: {fileID: 0}
     - target: {fileID: 2666908743190445030, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -346,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8386127f9d1f84744ac98fa4f494df26, type: 3}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: JACKET
+      value: CRAYON
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -354,16 +350,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CAR
+      value: PENCIL
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: MAN
+      value: CRAYON
       objectReference: {fileID: 0}
     - target: {fileID: 5109498802562071460, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b85538d48c06cc4499c590de90e28c09, type: 3}
+      objectReference: {fileID: 8300000, guid: 5f19fbe13ea43be428ad8287ef7a6367, type: 3}
     - target: {fileID: 5440620946889807360, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -450,19 +446,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CAKE
+      value: BOOK
       objectReference: {fileID: 0}
     - target: {fileID: 5878205162912972834, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3ad84b6975c5d9e4e93c0b5160f0168a, type: 3}
+      objectReference: {fileID: 8300000, guid: 322dd256c5e8147488f8990aea3630f0, type: 3}
+    - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: NOTEBOOK
+      objectReference: {fileID: 0}
     - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
       value: SCHOOL
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HUMAN
+      value: COLOR
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -474,7 +474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: TRAIN
+      value: BOARD
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -487,7 +487,7 @@ PrefabInstance:
     - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c8c4001a04f77f24ebd1e54d3e9cc431, type: 3}
+      objectReference: {fileID: 8300000, guid: 21dedcf47c6b0f440a362b613f5ef5e9, type: 3}
     - target: {fileID: 8868027636920101902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -508,11 +508,6 @@ PrefabInstance:
 --- !u!1 &239003717861500938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1903628696243993434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
@@ -561,11 +556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9064555107309578565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0

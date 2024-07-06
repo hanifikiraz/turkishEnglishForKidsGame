@@ -49,9 +49,6 @@ MonoBehaviour:
   - {fileID: 1998959043364198968}
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
-  - {fileID: 4688070856209642182}
-  - {fileID: 1903628696243993434}
-  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,12 +59,9 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: 59dc3616edab1604fbc47e961830a0ce, type: 3}
-  - {fileID: 21300000, guid: c0812314ef815e142a6968bd1a864c34, type: 3}
-  - {fileID: 21300000, guid: 61a12a6cd094e584fa96673491a12a29, type: 3}
-  - {fileID: 21300000, guid: f91a6bcb5a0776342af50eaac96ab16d, type: 3}
-  - {fileID: 21300000, guid: 2f6ab798c665bae4081d0a61acd24c54, type: 3}
-  - {fileID: 21300000, guid: 7e96acc6ef9243d499e7e6b1e9cb7701, type: 3}
+  - {fileID: 21300000, guid: 75d8ef5dc3b354ca0afa5df573ced0ec, type: 3}
+  - {fileID: 21300000, guid: e680a8f15aabd614999e3b8c622f4a8c, type: 3}
+  - {fileID: 21300000, guid: 61eabd556fa1336439243089c30c0d5f, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -343,23 +337,23 @@ PrefabInstance:
     - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: acdd46e77a19eed42b295fa195474be9, type: 3}
+      objectReference: {fileID: 8300000, guid: 24c6502cfafa5e149aa21fc89a1e4f13, type: 3}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: TIGER
+      value: APPLE
       objectReference: {fileID: 0}
     - target: {fileID: 3008664804948046203, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c42aa8f2eaa20944e9d8dcaa3787d5c6, type: 3}
+      objectReference: {fileID: 8300000, guid: 5701c44d0d5216941a9dd2164afa8ec5, type: 3}
     - target: {fileID: 3229192842540429345, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 77b1c24b5e8c985469ea10c445745281, type: 3}
+      objectReference: {fileID: 8300000, guid: c3bdf9b84efd63448970a8f4c440d949, type: 3}
     - target: {fileID: 3905717227491525229, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -478,7 +472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: SNAKE
+      value: MAKE
       objectReference: {fileID: 0}
     - target: {fileID: 5728193140973415832, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -486,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 58b4a44d1e65dae4a80fecd8b166e560, type: 3}
     - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: ELEPHANT
+      value: TEA
       objectReference: {fileID: 0}
     - target: {fileID: 6157307341770616605, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -498,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: SNAKE
+      value: LEMON
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -510,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: LION
+      value: COFFEA
       objectReference: {fileID: 0}
     - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -526,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HORSE
+      value: FISH
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -558,11 +552,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1903628696243993434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646695495395040614, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
@@ -581,11 +570,6 @@ GameObject:
 --- !u!224 &4629753135536573675 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4688070856209642182 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5505890127907026328, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4939662043687401163 stripped
@@ -609,11 +593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9064555107309578565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -49,7 +49,6 @@ MonoBehaviour:
   - {fileID: 1998959043364198968}
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
-  - {fileID: 4688070856209642182}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -60,10 +59,9 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: 7e5a26a882401ed49bf15e9b5565f913, type: 3}
-  - {fileID: 21300000, guid: 7644c9b55e0bdcc439a8062c63b9ed50, type: 3}
-  - {fileID: 21300000, guid: 5af5aa99c887cc04c8111748903fda35, type: 3}
-  - {fileID: 21300000, guid: f12e9c275d577dd4ea9849da916ca151, type: 3}
+  - {fileID: 21300000, guid: fa7d9422be2eef842893cc363e0d5b58, type: 3}
+  - {fileID: 21300000, guid: 991b5b16cdd2d6047a6837389ae8a7d3, type: 3}
+  - {fileID: 21300000, guid: 866841b40e251234496f6854d600e17f, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
 GameObject:
@@ -315,26 +313,26 @@ PrefabInstance:
     - target: {fileID: 58650045709475691, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 5a294aa7a67f9ea4fba7b2d7901000d2, type: 3}
+      objectReference: {fileID: 8300000, guid: 964055f1d76d7024c8959c7a728da4f1, type: 3}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: OKEY
+      value: SPAIN
       objectReference: {fileID: 0}
     - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0f1f3dd763221714b92de4f8a4c3fd75, type: 3}
+      objectReference: {fileID: 8300000, guid: df09b2536f2985043a49ae58660e386e, type: 3}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: NO
+      value: ITALY
       objectReference: {fileID: 0}
     - target: {fileID: 3935261437835875766, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -354,11 +352,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4297252095115520189, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: THANKS
+      value: GERMANY
       objectReference: {fileID: 0}
     - target: {fileID: 4405428248388356516, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: YES
+      value: SPAIN
       objectReference: {fileID: 0}
     - target: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Pivot.x
@@ -442,7 +440,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: GREAT
+      value: JAPAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131345824286960823, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: buttonTextAnswer
+      value: USA
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -450,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: HELLO
+      value: USA
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -458,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: BYE
+      value: FRANCE
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
@@ -466,12 +468,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: NO
+      value: USA
       objectReference: {fileID: 0}
     - target: {fileID: 8516204950547714309, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6fd12e09448d0ce4594664991da392dc, type: 3}
+      objectReference: {fileID: 8300000, guid: a7fd1cc0deba7554096e2767d98cb133, type: 3}
     - target: {fileID: 8821379987476869921, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -508,11 +510,6 @@ GameObject:
 --- !u!224 &4629753135536573675 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559598693124819893, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4688070856209642182 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5505890127907026328, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4939662043687401163 stripped

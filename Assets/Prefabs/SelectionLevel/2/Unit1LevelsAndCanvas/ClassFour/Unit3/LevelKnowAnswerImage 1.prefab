@@ -50,8 +50,6 @@ MonoBehaviour:
   - {fileID: 4118426186241141564}
   - {fileID: 4939662043687401163}
   - {fileID: 4688070856209642182}
-  - {fileID: 1903628696243993434}
-  - {fileID: 9064555107309578565}
   buttonsBackGround: {fileID: 3602260465321711100}
   congText: {fileID: 6199368785857869557}
   particlesForWin: {fileID: 9157423434850124869}
@@ -62,11 +60,9 @@ MonoBehaviour:
   - {fileID: 3968302513349645622}
   - {fileID: 8323603139107687706}
   objectSprites:
-  - {fileID: 21300000, guid: 9d0d08acce29c644cb7660bbf998685a, type: 3}
-  - {fileID: 21300000, guid: b3ad31f4448e2c84898c06bd4fc1789e, type: 3}
-  - {fileID: 21300000, guid: bd0ca0ff91f6cef479bbc197a80932b5, type: 3}
-  - {fileID: 21300000, guid: 30952213a2445ef499e14f722d65d759, type: 3}
-  - {fileID: 21300000, guid: 8955e8b4b24bf7b4da5501d65b3ca9c4, type: 3}
+  - {fileID: 21300000, guid: ace8fc99dc888bc40a4d03ab73909cf2, type: 3}
+  - {fileID: 21300000, guid: b92f570b72d031745bb61c343159bc24, type: 3}
+  - {fileID: 21300000, guid: 81b798518a26de14cad1709fdd6dfd04, type: 3}
   - {fileID: 21300000, guid: 8415deff826de054ba4b11a6ae02fb8c, type: 3}
   defaultImage: {fileID: 6356888425141890626}
 --- !u!1 &2812620568053835912
@@ -330,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 821305902098727452, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: WINDOW
+      value: DANCE
       objectReference: {fileID: 0}
     - target: {fileID: 1258524387387400632, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -339,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 1551982575124583025, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: bd5b8a745806a4d4d8cb540ead82a001, type: 3}
+      objectReference: {fileID: 8300000, guid: c717c66ce3a6ec54d8ff4a07651486de, type: 3}
     - target: {fileID: 2026302317131970970, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
       value: 0
@@ -351,11 +347,15 @@ PrefabInstance:
     - target: {fileID: 3008664804948046203, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 5b173a82c5b12d74bbb81a8068c8e7c3, type: 3}
+      objectReference: {fileID: 8300000, guid: c20cdf7358f33e640a004194f4bb05c9, type: 3}
     - target: {fileID: 3229192842540429345, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: fbb01bfd57a5a424cb0985bffaef0e97, type: 3}
+      objectReference: {fileID: 8300000, guid: 2ac82986650d34c49ab2580106f756ae, type: 3}
+    - target: {fileID: 3905717227491525229, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0c53a6157bd05804bb87b05bbf1dfb49, type: 3}
     - target: {fileID: 3935261437835875766, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -366,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4028079640017128089, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: DOOR
+      value: DANCE
       objectReference: {fileID: 0}
     - target: {fileID: 4260311402563810092, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_Name
@@ -470,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5574636845048456915, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CLASS
+      value: HOME
       objectReference: {fileID: 0}
     - target: {fileID: 5728193140973415832, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: m_audioClip
@@ -490,11 +490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6342463172395248585, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: CUT
+      value: COOK
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: answerType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6699779580399212544, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -506,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7015814935269804441, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: BOOK
+      value: BUILDING
       objectReference: {fileID: 0}
     - target: {fileID: 7084189750998997335, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -518,7 +518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227617661455026371, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: DOOR
+      value: SING
       objectReference: {fileID: 0}
     - target: {fileID: 7534390321602871902, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
@@ -529,8 +529,12 @@ PrefabInstance:
       value: CLASSROOM
       objectReference: {fileID: 0}
     - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
+      propertyPath: answerType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916756087390714837, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
       propertyPath: buttonTextAnswer
-      value: PAINT
+      value: JUMP
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -540,11 +544,6 @@ PrefabInstance:
 --- !u!1 &239003717861500938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1024176260108463956, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1903628696243993434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660854413895023620, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
   m_PrefabInstance: {fileID: 965888515114452830}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998959043364198968 stripped
@@ -593,11 +592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9064555107309578565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8118937503574339099, guid: 0cb04d277199bf44cb3a9ce350bbbff7, type: 3}
-  m_PrefabInstance: {fileID: 965888515114452830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3136643281106195399
 PrefabInstance:
   m_ObjectHideFlags: 0
