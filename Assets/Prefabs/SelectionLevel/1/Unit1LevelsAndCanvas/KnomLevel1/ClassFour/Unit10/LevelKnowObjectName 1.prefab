@@ -121,9 +121,6 @@ MonoBehaviour:
   - {fileID: 38277598965887009}
   - {fileID: 682606178719951503}
   - {fileID: 3044003183802754955}
-  - {fileID: 3592133203523369852}
-  - {fileID: 5097461062272888297}
-  - {fileID: 8219037865188146913}
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -134,12 +131,9 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - CHICKEN
-  - SHEEP
-  - ELEPHANT
-  - DUCK
-  - MONKEY
-  - DONKEY
+  - FISH
+  - COKE
+  - JAM
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: TAVUK
+      value: BALIK
       objectReference: {fileID: 0}
     - target: {fileID: 2320862949547698199, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -574,12 +568,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: ASLAN
+      value: KAYISI
       objectReference: {fileID: 0}
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2992e3c9f75e9814d8b3cdbc222307d6, type: 3}
+      objectReference: {fileID: 8300000, guid: e6d121984cc2cc348a0133872fb04e4e, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: AT
@@ -611,7 +605,7 @@ PrefabInstance:
     - target: {fileID: 4570676474526404796, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 055f285d2aa6ed149a0df00964219748, type: 3}
+      objectReference: {fileID: 8300000, guid: ea684ec4e1c40d640bf889e4123bdee4, type: 3}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -695,7 +689,7 @@ PrefabInstance:
     - target: {fileID: 5147812439162086131, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 69e713125d5ebf049a7e31b7160b7d08, type: 3}
+      objectReference: {fileID: 8300000, guid: 5701c44d0d5216941a9dd2164afa8ec5, type: 3}
     - target: {fileID: 5932570566056786895, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -714,7 +708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: AT
+      value: "\xC7\u0130LEK"
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -730,7 +724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: KOYUN
+      value: KOLA
       objectReference: {fileID: 0}
     - target: {fileID: 8127449302367834200, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Name
@@ -742,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: FARE
+      value: SU
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -758,7 +752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: FIL
+      value: "RE\xC7EL"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -790,11 +784,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8140008945957165694, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3592133203523369852 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7714866115768911497, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4022373753820745813 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7861930732034780576, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
@@ -809,16 +798,6 @@ MonoBehaviour:
 --- !u!1 &4803321005994504288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1756884097206488469, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5097461062272888297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2050463921148973084, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219037865188146913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2938181642318627604, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7572661860588031972

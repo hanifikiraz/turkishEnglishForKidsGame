@@ -121,9 +121,6 @@ MonoBehaviour:
   - {fileID: 38277598965887009}
   - {fileID: 682606178719951503}
   - {fileID: 3044003183802754955}
-  - {fileID: 3592133203523369852}
-  - {fileID: 5097461062272888297}
-  - {fileID: 8219037865188146913}
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -134,12 +131,9 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - THANK YOU
-  - OKAY
-  - HELLO
-  - I
-  - GREAT
-  - YOUR
+  - USA
+  - GERMANY
+  - BRITISH
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: TESEKKUR EDERIM
+      value: ABD
       objectReference: {fileID: 0}
     - target: {fileID: 2320862949547698199, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -578,12 +572,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: MESAJ
+      value: ALMAN
       objectReference: {fileID: 0}
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0f1f3dd763221714b92de4f8a4c3fd75, type: 3}
+      objectReference: {fileID: 8300000, guid: 6611481e22442e14bbea9909c83f5f4e, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "K\xD6T\xDC"
@@ -602,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAYDI
+      value: ALMANYA
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -619,7 +613,7 @@ PrefabInstance:
     - target: {fileID: 4570676474526404796, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: e20a1128887cca245a566243eaacc8fb, type: 3}
+      objectReference: {fileID: 8300000, guid: a7fd1cc0deba7554096e2767d98cb133, type: 3}
     - target: {fileID: 5015027763914569756, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -703,7 +697,7 @@ PrefabInstance:
     - target: {fileID: 5147812439162086131, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: ccea1ea581b9e034d860723d42cb8ba7, type: 3}
+      objectReference: {fileID: 8300000, guid: df09b2536f2985043a49ae58660e386e, type: 3}
     - target: {fileID: 5295767517348417748, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -726,7 +720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: GEL
+      value: "BEL\xC7\u0130KA"
       objectReference: {fileID: 0}
     - target: {fileID: 7525774785973860873, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -738,7 +732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886363047804176355, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: TAMAM
+      value: ALMANYA
       objectReference: {fileID: 0}
     - target: {fileID: 8127449302367834200, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_Name
@@ -754,15 +748,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: HAYIR
+      value: "\u0130SPANYA"
       objectReference: {fileID: 0}
     - target: {fileID: 8537132581504015024, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: EVET
+      value: KUVEYT
       objectReference: {fileID: 0}
     - target: {fileID: 8848963819851474577, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: MERHABA
+      value: "T\xDCRK\u0130YE"
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -770,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: MERHABA
+      value: "\u0130NG\u0130L\u0130Z"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -802,11 +796,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8140008945957165694, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3592133203523369852 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7714866115768911497, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4022373753820745813 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7861930732034780576, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
@@ -821,16 +810,6 @@ MonoBehaviour:
 --- !u!1 &4803321005994504288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1756884097206488469, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5097461062272888297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2050463921148973084, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219037865188146913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2938181642318627604, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7572661860588031972

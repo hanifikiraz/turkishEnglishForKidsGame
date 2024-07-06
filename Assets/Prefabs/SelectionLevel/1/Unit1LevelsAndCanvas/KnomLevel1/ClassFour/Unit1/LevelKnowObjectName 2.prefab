@@ -121,9 +121,6 @@ MonoBehaviour:
   - {fileID: 38277598965887009}
   - {fileID: 682606178719951503}
   - {fileID: 3044003183802754955}
-  - {fileID: 3592133203523369852}
-  - {fileID: 5097461062272888297}
-  - {fileID: 8219037865188146913}
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -134,12 +131,9 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - BROCCOLI
-  - MUSIC
-  - TELEPHONE
-  - JACKET
-  - FOOTBALL
-  - GARAGE
+  - MAP
+  - RULER
+  - NOTEBOOK
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +558,10 @@ PrefabInstance:
       propertyPath: buttonTextAnswer
       value: CEKET
       objectReference: {fileID: 0}
+    - target: {fileID: 1544461178935506348, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
+      propertyPath: buttonTextAnswer
+      value: KALEM
+      objectReference: {fileID: 0}
     - target: {fileID: 2050463921148973084, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -575,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 2391845994497435994, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8386127f9d1f84744ac98fa4f494df26, type: 3}
+      objectReference: {fileID: 8300000, guid: c33aea4b84b06334dbddd0720418fc0f, type: 3}
     - target: {fileID: 2867958480864236462, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
       value: "B\u0130LG\u0130SAYAR"
@@ -583,7 +581,7 @@ PrefabInstance:
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: eba40430c8c9d4546a26f0ace7a5f627, type: 3}
+      objectReference: {fileID: 8300000, guid: 448baacb49f40734b982f610d4bd3733, type: 3}
     - target: {fileID: 2938181642318627604, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -598,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "BROKOL\u0130"
+      value: "HAR\u0130TA"
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -715,7 +713,7 @@ PrefabInstance:
     - target: {fileID: 7320385116741685078, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0db5a6eb1d7ff1e41af305bf7c9898cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 1cb0f15881a76704e971877a1b265923, type: 3}
     - target: {fileID: 7507288797240858734, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 0
@@ -746,11 +744,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299632888785600005, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "M\xDCZ\u0130K"
+      value: CETVEL
       objectReference: {fileID: 0}
     - target: {fileID: 8848963819851474577, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: DOMATES
+      value: DEFTER
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -758,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: TELEFON
+      value: DEFTER
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -790,11 +788,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8140008945957165694, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3592133203523369852 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7714866115768911497, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4022373753820745813 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7861930732034780576, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
@@ -809,16 +802,6 @@ MonoBehaviour:
 --- !u!1 &4803321005994504288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1756884097206488469, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5097461062272888297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2050463921148973084, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219037865188146913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2938181642318627604, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7572661860588031972

@@ -121,9 +121,6 @@ MonoBehaviour:
   - {fileID: 38277598965887009}
   - {fileID: 682606178719951503}
   - {fileID: 3044003183802754955}
-  - {fileID: 3592133203523369852}
-  - {fileID: 5097461062272888297}
-  - {fileID: 8219037865188146913}
   buttonsBackGround: {fileID: 1211449367431892182}
   congText: {fileID: 4803321005994504288}
   particlesForWin: {fileID: 1133280749992276273}
@@ -134,12 +131,9 @@ MonoBehaviour:
   - {fileID: 4531053833284994257}
   - {fileID: 8433827122087251243}
   objectNames:
-  - CHESS
+  - FLOWER
   - DANCE
-  - RUN
-  - SING
-  - GO
-  - TENNIS
+  - BOX
 --- !u!1 &5819906594493133082
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,11 +573,11 @@ PrefabInstance:
     - target: {fileID: 2936820935845270593, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f9d80e6e79c288b49a31a9b232c348ac, type: 3}
+      objectReference: {fileID: 8300000, guid: 0889652371a1fdd4aa9c10015636708f, type: 3}
     - target: {fileID: 2941526567979119054, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: fff4427a17d623b48b8201f13411cc4d, type: 3}
+      objectReference: {fileID: 8300000, guid: efe6f6c7336562f49a51c8a76839d12c, type: 3}
     - target: {fileID: 3285022887809210114, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
       value: 1
@@ -606,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4001597920531109897, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "KO\u015EMAK"
+      value: KAHVE
       objectReference: {fileID: 0}
     - target: {fileID: 4040165875359939345, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
@@ -758,7 +752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8848963819851474577, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "SANTRAN\xC7"
+      value: "\xC7\u0130\xC7EK"
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: answerType
@@ -766,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8853545207178707742, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: buttonTextAnswer
-      value: "KO\u015EMAK"
+      value: KUTU
       objectReference: {fileID: 0}
     - target: {fileID: 9189891395071393885, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
       propertyPath: m_audioClip
@@ -802,11 +796,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8140008945957165694, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3592133203523369852 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7714866115768911497, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4022373753820745813 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7861930732034780576, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
@@ -821,16 +810,6 @@ MonoBehaviour:
 --- !u!1 &4803321005994504288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1756884097206488469, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5097461062272888297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2050463921148973084, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
-  m_PrefabInstance: {fileID: 6541874036752776693}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219037865188146913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2938181642318627604, guid: d64230002ebdbc842b4f21d3cab84c2c, type: 3}
   m_PrefabInstance: {fileID: 6541874036752776693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7572661860588031972
