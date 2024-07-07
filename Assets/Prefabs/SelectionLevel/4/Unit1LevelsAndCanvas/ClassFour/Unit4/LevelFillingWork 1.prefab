@@ -287,12 +287,10 @@ MonoBehaviour:
   - {fileID: 6055010534158920541}
   - {fileID: 9127441898049450852}
   - {fileID: 6236669169387106772}
-  - {fileID: 4867284033914851484}
   answerButtons:
   - {fileID: 8742014384861639176}
   - {fileID: 81980434354537273}
   - {fileID: 600845990182715961}
-  - {fileID: 3304844009086319103}
   congText: {fileID: 1155537865913267325}
   particlesForWin: {fileID: 1953507976518617312}
   partic:
@@ -944,7 +942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: ",pencils? - Ka\xE7 tane kalem var?"
+      value: I       play football. (Ben, futbol oynayabilirim.)
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -972,7 +970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.608
+      value: -1.399
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -984,11 +982,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: How
+      value: get
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: How many
+      value: can
       objectReference: {fileID: 0}
     - target: {fileID: 2123036521023040114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -996,7 +994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: How often
+      value: set
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1108,11 +1106,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0837
+      value: -0.621
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0010000058
+      value: 0.042
       objectReference: {fileID: 0}
     - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -1136,7 +1134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: How many
+      value: can
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1164,7 +1162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: How often
+      value: set
       objectReference: {fileID: 0}
     - target: {fileID: 5596585818492312099, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
@@ -1268,11 +1266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.3983
+      value: 3.3986
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.187
+      value: -0.449
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1312,7 +1310,7 @@ PrefabInstance:
       objectReference: {fileID: 49375967121073512}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: How many
+      value: can
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: myObjects.Array.size
@@ -1340,7 +1338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8865368445925010961, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: How
+      value: get
       objectReference: {fileID: 0}
     - target: {fileID: 8931860019968601865, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -1438,19 +1436,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7440344374312727893, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3304844009086319103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6809406894262195407, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4002145855569308004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4911332693950612564, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4867284033914851484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3471963505297341868, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6055010534158920541 stripped

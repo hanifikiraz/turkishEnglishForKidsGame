@@ -287,12 +287,10 @@ MonoBehaviour:
   - {fileID: 6055010534158920541}
   - {fileID: 9127441898049450852}
   - {fileID: 6236669169387106772}
-  - {fileID: 4867284033914851484}
   answerButtons:
   - {fileID: 8742014384861639176}
   - {fileID: 81980434354537273}
   - {fileID: 600845990182715961}
-  - {fileID: 3304844009086319103}
   congText: {fileID: 1155537865913267325}
   particlesForWin: {fileID: 1953507976518617312}
   partic:
@@ -774,6 +772,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3347114185799240252}
     m_Modifications:
+    - target: {fileID: 23187290558608630, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 23187290558608630, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 56453620516914853, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -854,6 +860,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 118498429291527027, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: liked
+      objectReference: {fileID: 0}
     - target: {fileID: 491412008423926485, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
       value: CanvasSelectionLevel
@@ -876,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.66
+      value: -0.548
       objectReference: {fileID: 0}
     - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -900,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: says
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_margin.x
@@ -922,9 +932,21 @@ PrefabInstance:
       propertyPath: m_text
       value: An
       objectReference: {fileID: 0}
+    - target: {fileID: 1314849037287935438, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: like
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314849037287935438, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 1314849037287935438, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: ",close the door! - l\xFCtfen kap\u0131y\u0131 kapat\u0131n\u0131z!"
+      value: 'I don''t like cola. (Ben, kola sevmem.) '
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -956,11 +978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.267
+      value: -0.932
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.038000006
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -968,11 +990,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Yes
+      value: did
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: No
+      value: no
       objectReference: {fileID: 0}
     - target: {fileID: 2145173058889943161, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
@@ -992,7 +1014,7 @@ PrefabInstance:
       objectReference: {fileID: 49375967121073512}
     - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Please
+      value: don't
       objectReference: {fileID: 0}
     - target: {fileID: 2343909007519294807, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: myObjects.Array.size
@@ -1036,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.53187
+      value: -0.539
       objectReference: {fileID: 0}
     - target: {fileID: 2454432428594758397, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1050,17 +1072,25 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2679620832514284772, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Says
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 3158579081917390400, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
       value: FalseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221556106432602279, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 4007344505241404676, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -1084,11 +1114,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.776
+      value: -0.324
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603415359153055215, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.944
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603415359153055215, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695790132153138648, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_LocalScale.x
@@ -1104,15 +1146,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.4783901
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.038000006
       objectReference: {fileID: 0}
+    - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_text
+      value: 'Do you like football? (Sen, futbol sever misin?) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
+    - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Please
+      value: don't
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1132,11 +1186,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Says
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Please
+      value: don't
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276312061572748184, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276312061572748184, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.182
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -1164,7 +1226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.027
+      value: -0.444
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1174,9 +1236,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: FalseButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7798956624357271052, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: buttonTextAnswer
+      value: liked
+      objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: "Cenk          turn right - Cenk sa\u011Fa d\xF6n diyor."
+      value: I       football. (Ben, futbolu severim.)
       objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1196,15 +1262,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: No
+      value: no
       objectReference: {fileID: 0}
     - target: {fileID: 8591500576422134902, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
       value: TrueButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8716271966176955833, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8865368445925010961, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Yes
+      value: did
+      objectReference: {fileID: 0}
+    - target: {fileID: 8931860019968601865, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.4126
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.306
       objectReference: {fileID: 0}
     - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
@@ -1240,19 +1322,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7182043980827662669, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3304844009086319103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6809406894262195407, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4194407133554689581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5302832926626851613, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4867284033914851484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3471963505297341868, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6055010534158920541 stripped

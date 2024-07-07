@@ -287,12 +287,10 @@ MonoBehaviour:
   - {fileID: 6055010534158920541}
   - {fileID: 9127441898049450852}
   - {fileID: 6236669169387106772}
-  - {fileID: 4867284033914851484}
   answerButtons:
   - {fileID: 8742014384861639176}
   - {fileID: 81980434354537273}
   - {fileID: 600845990182715961}
-  - {fileID: 3304844009086319103}
   congText: {fileID: 1155537865913267325}
   particlesForWin: {fileID: 1953507976518617312}
   partic:
@@ -887,8 +885,20 @@ PrefabInstance:
       value: 0.8101
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.6098
+      value: -1.8117001
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1003,8 +1013,20 @@ PrefabInstance:
       value: This are
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.28739998
+      value: -0.60154986
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1081,11 +1103,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.6295
+      value: 2.9988
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.91515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.91515
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.099
+      value: -0.079
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1326,7 +1360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: "a lion - \u015Eu bir aslan."
+      value: "a orange  - \u015Eu bir portakal."
       objectReference: {fileID: 0}
     - target: {fileID: 8136036935800993549, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -1484,19 +1518,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7440344374312727893, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3304844009086319103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6809406894262195407, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4002145855569308004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4911332693950612564, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4867284033914851484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3471963505297341868, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6055010534158920541 stripped

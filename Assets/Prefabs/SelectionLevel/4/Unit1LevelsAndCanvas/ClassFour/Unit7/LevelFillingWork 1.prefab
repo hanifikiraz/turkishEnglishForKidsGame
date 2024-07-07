@@ -287,12 +287,10 @@ MonoBehaviour:
   - {fileID: 6055010534158920541}
   - {fileID: 9127441898049450852}
   - {fileID: 6236669169387106772}
-  - {fileID: 4867284033914851484}
   answerButtons:
   - {fileID: 8742014384861639176}
   - {fileID: 81980434354537273}
   - {fileID: 600845990182715961}
-  - {fileID: 3304844009086319103}
   congText: {fileID: 1155537865913267325}
   particlesForWin: {fileID: 1953507976518617312}
   partic:
@@ -860,7 +858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 118498429291527027, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: These
+      value: liked
       objectReference: {fileID: 0}
     - target: {fileID: 227566869125407240, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -880,15 +878,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0.8101
+      value: 0.8978
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.62600005
+      value: -0.79800004
       objectReference: {fileID: 0}
     - target: {fileID: 705057697788572947, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.029999983
+      value: 0.255
       objectReference: {fileID: 0}
     - target: {fileID: 789021260078817080, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -912,15 +910,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131982014944233581, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: eyes
+      value: teacher
       objectReference: {fileID: 0}
     - target: {fileID: 1241816613156607901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: See
+      value: student
       objectReference: {fileID: 0}
     - target: {fileID: 1314849037287935438, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: These are
+      value: likes
       objectReference: {fileID: 0}
     - target: {fileID: 1314849037287935438, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_sharedMaterial
@@ -932,7 +930,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: "my ears - Kulaklar\u0131m\u0131 g\xF6ster."
+      value: "A vet works at a veterinary clinic. (Veteriner, veteriner klini\u011Finde
+        \xE7al\u0131\u015F\u0131r.)"
       objectReference: {fileID: 0}
     - target: {fileID: 1339895483700526835, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -968,11 +967,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.6862
+      value: -1.133
       objectReference: {fileID: 0}
     - target: {fileID: 1610691168035878145, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.051138014
+      value: 0.185
       objectReference: {fileID: 0}
     - target: {fileID: 1627934348826342254, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -984,7 +983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1822525334351633228, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Point to
+      value: vet
       objectReference: {fileID: 0}
     - target: {fileID: 1945901803328518781, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
@@ -1000,11 +999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.553
+      value: 0.33719993
       objectReference: {fileID: 0}
     - target: {fileID: 2379723504618126984, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.029999983
+      value: 0.255
       objectReference: {fileID: 0}
     - target: {fileID: 2621343576362312727, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
@@ -1020,7 +1019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2757091633784231763, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: These are
+      value: likes
       objectReference: {fileID: 0}
     - target: {fileID: 2856762777089377901, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -1028,7 +1027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2875195491787732007, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Eye
+      value: doctor
       objectReference: {fileID: 0}
     - target: {fileID: 3158579081917390400, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
@@ -1040,7 +1039,7 @@ PrefabInstance:
       objectReference: {fileID: -6435265457563308282, guid: 2b62f4025bd29b64d96390b86fd012e7, type: 2}
     - target: {fileID: 3221556106432602279, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: A
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 3471963505297341868, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_IsActive
@@ -1060,7 +1059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4007344505241404676, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Eyes
+      value: teacher
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1068,7 +1067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.467
+      value: -0.218
       objectReference: {fileID: 0}
     - target: {fileID: 4374826362127956160, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1092,11 +1091,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603415359153055215, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.7775
+      value: -1.04
       objectReference: {fileID: 0}
     - target: {fileID: 4603415359153055215, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.014999967
+      value: 0.103
       objectReference: {fileID: 0}
     - target: {fileID: 4695790132153138648, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -1104,7 +1103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4695790132153138648, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: A
+      value: like
       objectReference: {fileID: 0}
     - target: {fileID: 4748565254002943948, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_Name
@@ -1124,15 +1123,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.63611996
+      value: -0.497
       objectReference: {fileID: 0}
     - target: {fileID: 4937210080262007085, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.059515014
+      value: 0.176623
       objectReference: {fileID: 0}
     - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: fingers - Bunlar parmaklar.
+      value: "She         teaching children. (O, \xE7ocuklara \xF6\u011Fretmeni sever.)"
       objectReference: {fileID: 0}
     - target: {fileID: 5239993941746423111, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_sharedMaterial
@@ -1152,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: Point to
+      value: 'vet '
       objectReference: {fileID: 0}
     - target: {fileID: 5365087286587793668, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_fontAsset
@@ -1172,11 +1171,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5366381023429765464, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Eye
+      value: doctor
       objectReference: {fileID: 0}
     - target: {fileID: 5466420178051615276, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: These are
+      value: likes
       objectReference: {fileID: 0}
     - target: {fileID: 5555388988189374504, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -1240,11 +1239,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6276312061572748184, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.47305
+      value: -0.32005006
       objectReference: {fileID: 0}
     - target: {fileID: 6276312061572748184, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.014999967
+      value: 0.10299997
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: answerType
@@ -1252,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Eyes
+      value: teacher
       objectReference: {fileID: 0}
     - target: {fileID: 6486162661240559739, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: myObjects.Array.size
@@ -1316,7 +1315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.092
+      value: -0.491
       objectReference: {fileID: 0}
     - target: {fileID: 7416951272581451114, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1328,11 +1327,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7798956624357271052, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: These
+      value: liked
       objectReference: {fileID: 0}
     - target: {fileID: 7935223974941573522, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
-      value: "These are          - Bunlar g\xF6zler."
+      value: "I am a            . I work at a school. (Ben, \xF6\u011Fretmenim. Okulda
+        \xE7al\u0131\u015F\u0131yorum.) "
       objectReference: {fileID: 0}
     - target: {fileID: 8136036935800993549, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
@@ -1356,7 +1356,7 @@ PrefabInstance:
       objectReference: {fileID: 49375967121073512}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: Point to
+      value: vet
       objectReference: {fileID: 0}
     - target: {fileID: 8418741909594277427, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: myObjects.Array.size
@@ -1388,7 +1388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 3.0444
+      value: 3.9181
       objectReference: {fileID: 0}
     - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_LocalScale.x
@@ -1404,7 +1404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.030897
+      value: -0.3399
       objectReference: {fileID: 0}
     - target: {fileID: 8934774284781044456, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1420,7 +1420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8981402145345669858, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: buttonTextAnswer
-      value: See
+      value: student
       objectReference: {fileID: 0}
     - target: {fileID: 9146771198817542477, guid: f597a97751a7c6d499c32d898b243647, type: 3}
       propertyPath: m_text
@@ -1461,11 +1461,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7182043980827662669, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3304844009086319103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6809406894262195407, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3622230639965195004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4748565254002943948, guid: f597a97751a7c6d499c32d898b243647, type: 3}
@@ -1474,11 +1469,6 @@ GameObject:
 --- !u!1 &4002145855569308004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4911332693950612564, guid: f597a97751a7c6d499c32d898b243647, type: 3}
-  m_PrefabInstance: {fileID: 8332492069766622512}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4867284033914851484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3471963505297341868, guid: f597a97751a7c6d499c32d898b243647, type: 3}
   m_PrefabInstance: {fileID: 8332492069766622512}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6055010534158920541 stripped
