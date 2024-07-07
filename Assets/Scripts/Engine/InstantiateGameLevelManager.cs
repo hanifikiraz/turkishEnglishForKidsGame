@@ -39,6 +39,8 @@ namespace Engine
 
         public void HomeButtonClick()
         {
+            BusSystem.CallAudioChange(10);
+            BusSystem.CallAudioChange(1);
             DeleteAllChildren(parentLevels);
             homeButton.SetActive(false);
             allCanvas.SetActive(true);

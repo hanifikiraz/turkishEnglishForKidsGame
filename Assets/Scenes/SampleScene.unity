@@ -618,6 +618,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 785074419111001771, guid: c113137b37ae05441a02e1242544067b, type: 3}
   m_PrefabInstance: {fileID: 6765737062301677779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &278499015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5655465687843778679, guid: c113137b37ae05441a02e1242544067b, type: 3}
+  m_PrefabInstance: {fileID: 6765737062301677779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &278534520
 GameObject:
   m_ObjectHideFlags: 0
@@ -6231,7 +6236,7 @@ PrefabInstance:
     - target: {fileID: 600821004919104968, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 229faffae6c76874395d8ade5587b29e, type: 3}
     - target: {fileID: 606004256668165119, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6255,7 +6260,7 @@ PrefabInstance:
     - target: {fileID: 873587562341848430, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 04e25b9b521f3784ea6316f62fbe7115, type: 3}
     - target: {fileID: 902455845401070975, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6299,11 +6304,11 @@ PrefabInstance:
     - target: {fileID: 1180844844994838529, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 4137a3959ce20a140991e73807fa2300, type: 3}
     - target: {fileID: 1286541692083807623, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: e3f7adc96e974724baad865989a8af92, type: 3}
     - target: {fileID: 1607821320495297984, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: myCanvas
       value: 
@@ -6316,6 +6321,14 @@ PrefabInstance:
       propertyPath: unitCanvas
       value: 
       objectReference: {fileID: 6765737062301677790}
+    - target: {fileID: 1701267668770271460, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: openCanvas
+      value: 
+      objectReference: {fileID: 414733153}
+    - target: {fileID: 1701267668770271460, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: mainMenuCanvas
+      value: 
+      objectReference: {fileID: 6765737062301677781}
     - target: {fileID: 1738424291465641272, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: unitType
       value: 5
@@ -6443,7 +6456,7 @@ PrefabInstance:
     - target: {fileID: 3081634502572704402, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: d5e1ee23df6353649b515644e440dc21, type: 3}
     - target: {fileID: 3164844167886520752, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6507,7 +6520,7 @@ PrefabInstance:
     - target: {fileID: 3727690423882380018, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: mainMenuCanvas
       value: 
-      objectReference: {fileID: 510687010}
+      objectReference: {fileID: 278499015}
     - target: {fileID: 3754399034379403228, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: unitType
       value: 9
@@ -6515,11 +6528,19 @@ PrefabInstance:
     - target: {fileID: 3997066404623031555, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 187f953eb2e294543859f2c3f33df64b, type: 3}
     - target: {fileID: 4080898141135237230, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 6cbc36285d2326f4d9fa9177c29d80e6, type: 3}
+    - target: {fileID: 4364312443083918798, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenStudentCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364312443083918798, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Menu.MenuSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4372524939293155911, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6536,6 +6557,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -275
       objectReference: {fileID: 0}
+    - target: {fileID: 4420420943251767414, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: openCanvas
+      value: 
+      objectReference: {fileID: 414733153}
+    - target: {fileID: 4420420943251767414, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: mainMenuCanvas
+      value: 
+      objectReference: {fileID: 6765737062301677782}
     - target: {fileID: 4508481344581780911, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: myCanvas
       value: 
@@ -6575,7 +6604,7 @@ PrefabInstance:
     - target: {fileID: 4862415432585209845, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 69fc0f518daeebe4bb13fba761f46a55, type: 3}
     - target: {fileID: 4879132709095736775, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6636,6 +6665,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5165372597479498132, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenStudentCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165372597479498132, guid: c113137b37ae05441a02e1242544067b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Menu.MenuSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5374012437774923113, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6655,7 +6692,7 @@ PrefabInstance:
     - target: {fileID: 5396436380270962774, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 520af2d6308c5b1488d0aae2a1a763c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 60f5c23e61030aa429e86ce127a90f5f, type: 3}
     - target: {fileID: 5655465687843778679, guid: c113137b37ae05441a02e1242544067b, type: 3}
       propertyPath: m_IsActive
       value: 1
